@@ -1,0 +1,21 @@
+{
+  "required_manifest": "frontend/public/assets/digital-twin/ktr1_colored_step_hero_manifest.json",
+  "required_fields": [
+    "source_asset",
+    "output_asset",
+    "conversion_method",
+    "material_preserved",
+    "color_count",
+    "part_count",
+    "mesh_count",
+    "triangle_count",
+    "bounding_box",
+    "camera_anchor",
+    "launcher_anchor",
+    "base_anchor",
+    "target_projection_anchor",
+    "fallback_used",
+    "no_physical_command_generated"
+  ],
+  "no_physical_command_generated": true
+}

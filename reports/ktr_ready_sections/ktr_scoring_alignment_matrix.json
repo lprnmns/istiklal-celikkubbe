@@ -1,0 +1,71 @@
+{
+  "phase": 43,
+  "matrix_name": "ktr_scoring_alignment_matrix",
+  "no_physical_command_generated": true,
+  "rows": [
+    {
+      "ktr_row": "Project Summary",
+      "existing_evidence": ["Phase 42 screenshots", "00_executive_summary_digital_twin.md"],
+      "digital_twin_contribution": "Explains the system as a C2 cockpit, not only a camera view.",
+      "safety_evidence_contribution": "NO PHYSICAL COMMAND GENERATED is visible.",
+      "missing": "Final field test result set",
+      "suggested_figure": "Full cockpit screenshot"
+    },
+    {
+      "ktr_row": "System Block Diagram",
+      "existing_evidence": ["reports/061_phase31_32_digital_twin_foundation.md", "reports/065_phase36_serial_protocol_v1.md"],
+      "digital_twin_contribution": "Camera, perception, state mapping and operator scene are connected.",
+      "safety_evidence_contribution": "Telemetry-first read-only boundary.",
+      "missing": "Live telemetry acceptance",
+      "suggested_figure": "Data flow diagram"
+    },
+    {
+      "ktr_row": "Mechanical Design",
+      "existing_evidence": ["reports/074_phase40_real_asset_digital_twin_integration.md", "reports/077_phase41_digital_twin_asset_transform_calibration.md"],
+      "digital_twin_contribution": "STL-derived device model and 30 mm offset shown in UI.",
+      "safety_evidence_contribution": "Offset is visualization-only.",
+      "missing": "Measured camera/launcher anchor verification",
+      "suggested_figure": "STL digital twin with offset marker"
+    },
+    {
+      "ktr_row": "Hardware Design",
+      "existing_evidence": ["reports/065_phase36_serial_protocol_v1.md"],
+      "digital_twin_contribution": "Ready to ingest Pico pose telemetry.",
+      "safety_evidence_contribution": "serial_tx_enabled=false by default.",
+      "missing": "Real Pico telemetry acceptance",
+      "suggested_figure": "Telemetry protocol status table"
+    },
+    {
+      "ktr_row": "Software Design",
+      "existing_evidence": ["reports/cockpit_projection_explainability_contract.json", "reports/digital_twin_ktr_story_contract.json"],
+      "digital_twin_contribution": "2D bbox to 3D projection and operator explainability.",
+      "safety_evidence_contribution": "Fixture/live truth labels and person safety gate.",
+      "missing": "Competition class model verification",
+      "suggested_figure": "Projection mapping micro-panel"
+    },
+    {
+      "ktr_row": "Method",
+      "existing_evidence": ["reports/064_phase35_digital_twin_spatial_projection.md", "reports/ktr_ready_sections/05_ktr_demo_senaryosu.md"],
+      "digital_twin_contribution": "FOV, optical axis, launcher reference axis and relative depth are explained.",
+      "safety_evidence_contribution": "No metric range overclaim.",
+      "missing": "Calibrated range evidence if required",
+      "suggested_figure": "Camera HUD plus 3D scene comparison"
+    },
+    {
+      "ktr_row": "Time/Budget/Risk",
+      "existing_evidence": ["reports/082_phase42_scene_truth_and_safety_boundary.md"],
+      "digital_twin_contribution": "Supports development without hardware present.",
+      "safety_evidence_contribution": "OFFLINE_EXPECTED and dry-run boundary reduce risk.",
+      "missing": "Field acceptance timeline",
+      "suggested_figure": "Risk/acceptance checklist"
+    },
+    {
+      "ktr_row": "Organization and References",
+      "existing_evidence": ["reports/ktr_ready_sections/evidence_index.md", "reports/ktr_ready_sections/figure_captions.md"],
+      "digital_twin_contribution": "Report-ready narrative and captions.",
+      "safety_evidence_contribution": "Truth and safety mode attached to each evidence item.",
+      "missing": "Final video/log archive",
+      "suggested_figure": "Evidence index table"
+    }
+  ]
+}

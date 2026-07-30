@@ -1,0 +1,17 @@
+{
+  "panel_title": "REAL KTR DIGITAL TWIN",
+  "subtitle": "Interactive colored STEP twin + tactical projection overlay",
+  "default_tab": "Real STEP Model",
+  "tabs": ["Real STEP Model", "Tactical Overlay", "Top-down", "CAD Debug"],
+  "features": [
+    "colored_step_model",
+    "orbit_controls",
+    "camera_fov_volume",
+    "camera_axis",
+    "launcher_axis",
+    "30mm_offset",
+    "target_projection",
+    "range_grid"
+  ],
+  "no_physical_command_generated": true
+}

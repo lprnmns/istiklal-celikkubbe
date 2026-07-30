@@ -1,0 +1,11 @@
+{
+  "phase": 53,
+  "screenshots": "reports/screenshots/phase53_3d_world_layout_priority/",
+  "cockpit_allowed_to_scroll": true,
+  "three_d_model_is_primary_visual": true,
+  "world_route_is_primary_3d_route": true,
+  "camera_moved_below_3d": true,
+  "geometry_details_optional": true,
+  "acceptance_status": "implemented_with_runtime_screenshot_evidence",
+  "no_physical_command_generated": true
+}

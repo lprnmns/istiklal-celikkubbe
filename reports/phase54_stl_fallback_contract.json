@@ -1,0 +1,10 @@
+{
+  "phase": 54,
+  "source_asset": "ktr1.stl",
+  "output_asset": "/assets/digital-twin/ktr1_stl_geometry_phase54.glb",
+  "triangle_count": 200512,
+  "mesh_count": 1,
+  "material_status": "geometry_only",
+  "default_selected": false,
+  "fallback_role": "geometry comparison and weapon inspection"
+}

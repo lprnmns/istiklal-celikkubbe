@@ -1,0 +1,27 @@
+{
+  "evidence_id": "real_camera_evidence_20260515_131550_9d3601",
+  "status": "partial",
+  "created_at": 1778840150.0919502,
+  "camera_source": "frame_capture_failed",
+  "camera_device_path": null,
+  "frame_origin": "real_camera_frame_unavailable",
+  "detector": "legacy_opencv_perception_evidence",
+  "preset_id": "legacy_hsv_red_pink_balanced",
+  "frame_width": null,
+  "frame_height": null,
+  "fps_estimate": null,
+  "detections_count": 0,
+  "target_center_metadata": {
+    "frame_hash": null,
+    "camera_acceptance_status": "partial",
+    "blocker_reason": "opencv_not_available",
+    "advisory_only": true,
+    "no_physical_command_generated": true
+  },
+  "warnings": [
+    "opencv_not_available"
+  ],
+  "advisory_only": true,
+  "no_physical_command_generated": true,
+  "physical_command_enabled": false
+}

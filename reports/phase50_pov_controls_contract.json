@@ -1,0 +1,18 @@
+{
+  "orbit_controls": true,
+  "drag_rotate": true,
+  "wheel_zoom": true,
+  "pan_supported": true,
+  "double_click_reset": true,
+  "presets": [
+    "Operator View",
+    "Front",
+    "Side",
+    "Top",
+    "Chase / Launcher Axis",
+    "Target POV",
+    "Reset View"
+  ],
+  "control_scope": "rendered_viewpoint_only",
+  "no_physical_command_generated": true
+}

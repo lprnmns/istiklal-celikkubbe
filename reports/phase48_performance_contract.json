@@ -1,0 +1,15 @@
+{
+  "phase": 48,
+  "fps_caps": {
+    "low": 10,
+    "ktr_demo": 10,
+    "balanced": 15
+  },
+  "metadata_polling": "2 Hz digital twin metadata",
+  "postprocessing": false,
+  "runtime_stl_parser": false,
+  "threejs_loading": "dynamic import inside cockpit panel",
+  "camera_feed_protection": "no full-rate React rerender from 3D scene",
+  "no_physical_command_generated": true
+}
+

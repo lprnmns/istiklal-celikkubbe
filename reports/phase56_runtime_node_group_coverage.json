@@ -1,0 +1,39 @@
+{
+  "schema": "phase56_runtime_node_group_coverage",
+  "glbPath": "/assets/digital-twin/ktr1_kinematic_world_phase55.glb",
+  "kinematicsPath": "/assets/digital-twin/ktr1_kinematics.json",
+  "nodeCount": 136,
+  "coveredNodeCount": 136,
+  "coverageRatio": 1.0,
+  "groupCountsFromGlbNodes": {
+    "yaw_group": 118,
+    "pitch_group": 14,
+    "static_root": 2,
+    "camera_group": 1,
+    "launcher_group": 1
+  },
+  "missingNodes": [],
+  "extraKinematicLabels": [],
+  "duplicateAssignments": {
+    "Bileşen13": [
+      "launcher_group",
+      "pitch_group"
+    ],
+    "kamera v3": [
+      "camera_group",
+      "pitch_group"
+    ]
+  },
+  "keyNodeCoverage": {
+    "kamera v3": "camera_group",
+    "Bileşen13": "launcher_group",
+    "Axel": "pitch_group",
+    "alt gövde": "static_root",
+    "tabla": "static_root"
+  },
+  "safety": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "phase": "28",
+  "contract": "pico_readonly_hardware_discovery",
+  "endpoints": [
+    "GET /api/pico/discovery/ports",
+    "POST /api/pico/read-only/connect",
+    "POST /api/pico/read-only/disconnect",
+    "GET /api/pico/read-only/status",
+    "GET /api/pico/read-only/latest-telemetry",
+    "POST /api/pico/read-only/capture-evidence",
+    "GET /api/pico/read-only/latest-evidence"
+  ],
+  "allowed_operations": [
+    "serial port list",
+    "read-only serial open",
+    "RX-only telemetry read",
+    "heartbeat parsing",
+    "firmware/version parsing",
+    "not_available evidence",
+    "Data Lab export",
+    "KTR/report export",
+    "logs"
+  ],
+  "forbidden_operations": [
+    "serial write",
+    "Pico command TX",
+    "motor jog",
+    "step pulse",
+    "DIR pin change",
+    "PWM/GPIO output",
+    "TMC current write",
+    "hardware enable",
+    "fire/trigger/shoot",
+    "physical_command_enabled=true"
+  ],
+  "status_fields": {
+    "rx_only": true,
+    "tx_disabled": true,
+    "physical_command_enabled": false,
+    "no_physical_command_generated": true
+  },
+  "safety_invariant": "DISARMED + NO_FIRE + dry_run=true + hardware_enabled=false + physical_command_enabled=false",
+  "no_physical_command_generated": true
+}

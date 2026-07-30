@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-05-14T19:08:35.704744",
+  "analysis_only": true,
+  "no_physical_command_generated": true,
+  "read_only_candidates": [
+    {
+      "name": "baudrate_fast",
+      "source": "python/config.py SerialConfig; pico_arduino optimized firmware",
+      "value": 460800,
+      "target_module": "Pico/Serial read-only telemetry profile",
+      "risk": "medium",
+      "guard": "do not enable command TX"
+    },
+    {
+      "name": "status_lines",
+      "source": "pico_arduino/motor_control_pico/motor_control_pico.ino",
+      "value": [
+        "OK,PICO_READY",
+        "OK,PICO_READY_V2",
+        "STS,READY",
+        "STS,MOVING",
+        "TMC_X,mode,CS",
+        "TMC_Y,mode,CS",
+        "JOY,x_raw,y_raw,speed_x,speed_y"
+      ],
+      "target_module": "Read-only parser candidates",
+      "risk": "medium",
+      "guard": "read-only only"
+    },
+    {
+      "name": "ping_response",
+      "source": "serial docs and firmware",
+      "value": {
+        "PING": "OK,PONG"
+      },
+      "target_module": "diagnostic-only mock/readonly handshake candidate",
+      "risk": "medium",
+      "guard": "must not send to physical device automatically in current safety phase"
+    },
+    {
+      "name": "tmc_status_format",
+      "source": "pico_arduino/motor_control_v2_optimized/motor_control_v2_optimized.ino",
+      "value": [
+        "TMC_X,SpreadCycle,CS=n",
+        "TMC_Y,StealthChop,CS=n"
+      ],
+      "target_module": "future read-only telemetry display",
+      "risk": "medium"
+    },
+    {
+      "name": "joystick_telemetry",
+      "source": "pico_arduino/motor_control_v2_optimized/motor_control_v2_optimized.ino",
+      "value": "JOY,joy_x_raw,joy_y_raw,speed_x,speed_y",
+      "target_module": "Pico page telemetry fields",
+      "risk": "medium"
+    }
+  ],
+  "do_not_auto_port_commands": [
+    {
+      "command": "SPD,x,y",
+      "reason": "motor movement speed command",
+      "risk": "critical"
+    },
+    {
+      "command": "LZR,0/1",
+      "reason": "laser/servo trigger command",
+      "risk": "critical"
+    },
+    {
+      "command": "STP",
+      "reason": "physical controller stop command; safe intent but physical TX still prohibited",
+      "risk": "high"
+    },
+    {
+      "command": "HOM",
+      "reason": "home/physical motion boundary",
+      "risk": "high"
+    },
+    {
+      "command": "TMC_CURRENT,n",
+      "reason": "changes driver current/hardware state",
+      "risk": "critical"
+    },
+    {
+      "command": "MODE,MANUAL/AUTO",
+      "reason": "changes controller behavior",
+      "risk": "high"
+    }
+  ]
+}

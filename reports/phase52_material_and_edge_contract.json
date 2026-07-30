@@ -1,0 +1,11 @@
+{
+  "phase": 52,
+  "cad_edges_enabled_default": true,
+  "edge_method": "THREE.EdgesGeometry per mesh",
+  "freecad_edge_color": "dark gray",
+  "tactical_edge_color": "subtle cyan",
+  "material_debug_table": true,
+  "visible_color_classes": ["red", "light_gray_white", "dark_gray_black", "metallic_gray", "cyan_blue", "yellow"],
+  "no_physical_command_generated": true
+}
+

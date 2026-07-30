@@ -1,0 +1,14 @@
+{
+  "phase": 52,
+  "browser_matches_freecad_reference": "major silhouette and color classes match; exact STEP face colors remain reconstructed",
+  "model_large": true,
+  "model_clipped": false,
+  "cad_edges_visible": true,
+  "freecad_match_mode": true,
+  "showcase_world_mode": true,
+  "tactical_overlay_mode": true,
+  "procedural_fallback_default": false,
+  "screenshots": "reports/screenshots/phase52_freecad_match_world/",
+  "no_physical_command_generated": true
+}
+

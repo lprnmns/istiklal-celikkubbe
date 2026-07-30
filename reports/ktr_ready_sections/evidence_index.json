@@ -1,0 +1,91 @@
+{
+  "phase": 43,
+  "index_name": "ktr_digital_twin_evidence_index",
+  "no_physical_command_generated": true,
+  "items": [
+    {
+      "path": "reports/061_phase31_32_digital_twin_foundation.md",
+      "purpose": "Digital twin read-only foundation",
+      "ktr_section": "Software Design / System Block Diagram",
+      "truth_mode": "fixture_replay",
+      "safety_note": "No physical command path"
+    },
+    {
+      "path": "reports/062_phase33_digital_twin_live_state_mapping.md",
+      "purpose": "Read-only backend state mapping",
+      "ktr_section": "Software Design / Method",
+      "truth_mode": "read_only_state",
+      "safety_note": "Telemetry is not claimed when unavailable"
+    },
+    {
+      "path": "reports/063_phase34_person_safety_gate.md",
+      "purpose": "Person safety gate evidence",
+      "ktr_section": "Safety Architecture",
+      "truth_mode": "software_safety",
+      "safety_note": "Additional software gate, not replacement for supervision"
+    },
+    {
+      "path": "reports/064_phase35_digital_twin_spatial_projection.md",
+      "purpose": "2D bbox to 3D scene projection",
+      "ktr_section": "Method / Software Design",
+      "truth_mode": "projection_estimate",
+      "safety_note": "Relative depth only unless calibrated"
+    },
+    {
+      "path": "reports/074_phase40_real_asset_digital_twin_integration.md",
+      "purpose": "Real STL asset integration",
+      "ktr_section": "Mechanical Design / Software Design",
+      "truth_mode": "stl_derived_visualization",
+      "safety_note": "Visualization only"
+    },
+    {
+      "path": "reports/077_phase41_digital_twin_asset_transform_calibration.md",
+      "purpose": "Asset transform and 30 mm offset evidence",
+      "ktr_section": "Mechanical Design / Method",
+      "truth_mode": "calibration_visualization",
+      "safety_note": "Offset is not used for physical command generation"
+    },
+    {
+      "path": "reports/080_phase42_ktr_digital_twin_presentation.md",
+      "purpose": "KTR-grade digital twin presentation",
+      "ktr_section": "Project Summary / Software Design",
+      "truth_mode": "fixture",
+      "safety_note": "no_physical_command_generated=true"
+    },
+    {
+      "path": "reports/081_phase42_operator_cockpit_explainability.md",
+      "purpose": "Operator explainability narrative",
+      "ktr_section": "Software Design / Organization",
+      "truth_mode": "fixture_read_only",
+      "safety_note": "Operator sees blocked/no-command state"
+    },
+    {
+      "path": "reports/082_phase42_scene_truth_and_safety_boundary.md",
+      "purpose": "Scene truth and safety boundary",
+      "ktr_section": "Safety / Risk",
+      "truth_mode": "fixture",
+      "safety_note": "USB and Pico offline expected in current environment"
+    },
+    {
+      "path": "reports/digital_twin_ktr_story_contract.json",
+      "purpose": "Digital twin story contract",
+      "ktr_section": "Software Design / Evidence",
+      "truth_mode": "fixture_read_only",
+      "safety_note": "physical_command_enabled=false"
+    },
+    {
+      "path": "reports/cockpit_projection_explainability_contract.json",
+      "purpose": "Projection explainability contract",
+      "ktr_section": "Method / Software Design",
+      "truth_mode": "projection_estimate",
+      "safety_note": "Not a fire solution"
+    },
+    {
+      "path": "reports/screenshots/phase42_ktr_digital_twin_presentation/",
+      "purpose": "KTR demo screenshots",
+      "ktr_section": "Project Summary / Interface / Evidence",
+      "truth_mode": "fixture",
+      "safety_note": "Screenshots show no physical command generated"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "phase": 54,
+  "selected_asset_type": "REAL_STL_GEOMETRY_GLB",
+  "selected_asset_path": "/assets/digital-twin/ktr1_stl_geometry_phase54.glb",
+  "preferred_browser_asset": "/assets/digital-twin/ktr1_stl_geometry_phase54.glb",
+  "source_asset": "ktr1.stl",
+  "output_asset": "/assets/digital-twin/ktr1_stl_geometry_phase54.glb",
+  "conversion_method": "ascii_or_binary_stl_to_glb_geometry_only_phase54",
+  "stl_format": "ascii",
+  "material_preserved": false,
+  "materials_reconstructed": false,
+  "material_preservation_status": "geometry_only",
+  "color_count": 1,
+  "material_count": 1,
+  "part_count": 1,
+  "mesh_count": 1,
+  "triangle_count": 200512,
+  "triangle_count_before": 200512,
+  "triangle_count_after": 200512,
+  "bounding_box": {
+    "min": [
+      -1.875,
+      -0.42,
+      -1.0377362252466131
+    ],
+    "max": [
+      1.875,
+      2.8945190592141703,
+      1.0377362252466131
+    ]
+  },
+  "scale": 0.006636571299259516,
+  "camera_anchor": {
+    "x": 0.5,
+    "y": 0.72,
+    "z": 1.03,
+    "source": "estimated_phase54_stl_geometry"
+  },
+  "launcher_anchor": {
+    "x": -0.3,
+    "y": 0.68,
+    "z": 1.26,
+    "source": "estimated_phase54_stl_geometry"
+  },
+  "base_anchor": {
+    "x": 0,
+    "y": -0.42,
+    "z": 0,
+    "source": "normalized_stl_floor"
+  },
+  "target_projection_anchor": {
+    "x": 0.5,
+    "y": 0.72,
+    "z": 0.03,
+    "source": "camera_anchor_forward_projection"
+  },
+  "weapon_visibility_status": "candidate_geometry_preserved_no_materials",
+  "fallback_used": false,
+  "physical_command_enabled": false,
+  "serial_tx_enabled": false,
+  "no_physical_command_generated": true
+}

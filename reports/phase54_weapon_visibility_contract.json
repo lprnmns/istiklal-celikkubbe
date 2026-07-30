@@ -1,0 +1,14 @@
+{
+  "phase": 54,
+  "front_weapon_launcher_visible": true,
+  "inner_dark_components_visible": true,
+  "red_side_armor_visible": true,
+  "gray_circular_body_visible": true,
+  "white_gray_structure_visible": true,
+  "cad_edges_visible": true,
+  "primary_screenshots": [
+    "front_weapon_closeup.png",
+    "weapon_focus_closeup.png",
+    "selected_default_model_same_angle.png"
+  ]
+}

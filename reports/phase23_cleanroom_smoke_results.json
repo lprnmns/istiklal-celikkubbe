@@ -1,0 +1,85 @@
+{
+  "run_id": "cleanroom_20260715_184806",
+  "package_id": "istiklal_c2_release_20260715_184744",
+  "zip_path": "/home/alperen/teknofest/exports/release/istiklal_c2_release_20260715_184744.zip",
+  "extract_path": "/tmp/istiklal_c2_cleanroom_20260715_184806/istiklal_c2_release_20260715_184744",
+  "launch_command": "bash release/linux/start_istiklal_c2.sh",
+  "smoke_status": "passed",
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/dashboard",
+      "status_code": 200,
+      "ok": true
+    },
+    {
+      "method": "GET",
+      "path": "/demo",
+      "status_code": 200,
+      "ok": true
+    },
+    {
+      "method": "GET",
+      "path": "/reports",
+      "status_code": 200,
+      "ok": true
+    },
+    {
+      "method": "GET",
+      "path": "/interfaces",
+      "status_code": 200,
+      "ok": true
+    },
+    {
+      "method": "GET",
+      "path": "/logs",
+      "status_code": 200,
+      "ok": true
+    },
+    {
+      "method": "GET",
+      "path": "/data-lab",
+      "status_code": 200,
+      "ok": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/demo/readiness",
+      "status_code": 200,
+      "ok": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/demo/latest",
+      "status_code": 200,
+      "ok": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/release/package/latest",
+      "status_code": 200,
+      "ok": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "status_code": 200,
+      "ok": true
+    }
+  ],
+  "endpoints_passed": 10,
+  "endpoints_total": 10,
+  "frontend_dist_present": true,
+  "backend_present": true,
+  "forbidden_entries": [],
+  "secrets_or_tokens": [],
+  "launcher_hardcoded_repo_path": false,
+  "release_demo_ready": true,
+  "competition_ready": false,
+  "no_physical_command_generated": true,
+  "report_paths": {
+    "release_portability_audit.md": "/home/alperen/teknofest/reports/phase23_cleanroom_smoke_summary.md",
+    "cleanroom_smoke_results.json": "/home/alperen/teknofest/reports/phase23_cleanroom_smoke_results.json"
+  },
+  "created_at": 1784130493.2082045
+}

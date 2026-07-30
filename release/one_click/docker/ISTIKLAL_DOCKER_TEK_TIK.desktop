@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=ISTIKLAL Docker TEST Ac/Kapat
+Comment=Docker TEST profilini bos portta baslatir veya durdurur
+Exec=sh -c 'd=$(dirname "$1"); exec "$d/ISTIKLAL_DOCKER_TEK_TIK.sh"' sh %k
+Icon=docker
+Terminal=false
+Categories=Development;

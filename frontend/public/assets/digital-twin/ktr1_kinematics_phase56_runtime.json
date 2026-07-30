@@ -1,0 +1,418 @@
+{
+  "assetVersion": "phase55",
+  "phase56Refinement": {
+    "enabled": true,
+    "sourceContracts": [
+      "/assets/digital-twin/ktr1_device_frame.json",
+      "/assets/digital-twin/ktr1_mechanical_groups.json",
+      "/assets/digital-twin/ktr1_joint_calibration.json"
+    ],
+    "status": "draft_manual_validation_required"
+  },
+  "visualizationOnly": true,
+  "safety": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true
+  },
+  "source": {
+    "cadPath": "work/ktr1.step",
+    "cadSizeBytes": 27237470,
+    "glbPath": "/assets/digital-twin/ktr1_kinematic_world_phase55.glb",
+    "kinematicsPath": "/assets/digital-twin/ktr1_kinematics.json",
+    "unitsSource": "mm",
+    "unitsRuntime": "m"
+  },
+  "coordinateSystems": {
+    "sourceCad": {
+      "up": "+Z",
+      "front": "-Y",
+      "right": "+X"
+    },
+    "runtimeWorld": {
+      "up": "+Y",
+      "front": "+Z",
+      "right": "+X"
+    },
+    "rootCorrectionEulerDeg": [
+      -90,
+      0,
+      0
+    ],
+    "conversionNote": "Runtime GLB coordinates use X=CAD X, Y=CAD Z, Z=-CAD Y; this contract makes front +Z explicit."
+  },
+  "nodes": {
+    "root": "ktr1_root",
+    "staticRoot": "static_root",
+    "yawPivot": "yaw_pivot",
+    "yawGroup": "yaw_group",
+    "pitchPivot": "pitch_pivot",
+    "pitchGroup": "pitch_group",
+    "cameraOrigin": "camera_origin",
+    "cameraAxis": "camera_axis",
+    "launcherOrigin": "launcher_origin",
+    "launcherAxis": "launcher_axis",
+    "targetProjectionAnchor": "target_projection_anchor",
+    "noGoZoneAnchor": "no_go_zone_anchor"
+  },
+  "groups": {
+    "static_root": [
+      "alt gövde",
+      "tabla",
+      "yan gövde1",
+      "yan gövde 3"
+    ],
+    "yaw_group": [
+      "üst sol",
+      "608zz rulman v040",
+      "608zz rulman v041",
+      "608zz rulman v042",
+      "608zz rulman v043",
+      "608zz rulman v044",
+      "608zz rulman v045",
+      "608zz rulman v046",
+      "608zz rulman v047",
+      "608zz rulman v048",
+      "608zz rulman v080",
+      "608zz rulman v081",
+      "608zz rulman v082",
+      "608zz rulman v083",
+      "608zz rulman v084",
+      "608zz rulman v085",
+      "608zz rulman v086",
+      "608zz rulman v087",
+      "608zz rulman v088",
+      "sağ üst",
+      "Bileşen14",
+      "sağ üst kapak",
+      "Bileşen18",
+      "Bileşen19",
+      "Bileşen20",
+      "SOLID001",
+      "COMPOUND",
+      "COMPOUND003",
+      "COMPOUND005",
+      "COMPOUND006",
+      "COMPOUND007",
+      "COMPOUND008",
+      "COMPOUND009",
+      "COMPOUND010",
+      "COMPOUND011",
+      "608zz rulman v1",
+      "608zz rulman v001",
+      "608zz rulman v002",
+      "608zz rulman v003",
+      "608zz rulman v004",
+      "608zz rulman v005",
+      "608zz rulman v006",
+      "608zz rulman v007",
+      "608zz rulman v008",
+      "608zz rulman v010",
+      "608zz rulman v011",
+      "608zz rulman v012",
+      "608zz rulman v013",
+      "608zz rulman v014",
+      "608zz rulman v015",
+      "608zz rulman v016",
+      "608zz rulman v017",
+      "608zz rulman v018",
+      "608zz rulman v020",
+      "608zz rulman v021",
+      "608zz rulman v022",
+      "608zz rulman v023",
+      "608zz rulman v024",
+      "608zz rulman v025",
+      "608zz rulman v026",
+      "608zz rulman v027",
+      "608zz rulman v028",
+      "608zz rulman v030",
+      "608zz rulman v031",
+      "608zz rulman v032",
+      "608zz rulman v033",
+      "608zz rulman v034",
+      "608zz rulman v035",
+      "608zz rulman v036",
+      "608zz rulman v037",
+      "608zz rulman v038",
+      "608zz rulman v050",
+      "608zz rulman v051",
+      "608zz rulman v052",
+      "608zz rulman v053",
+      "608zz rulman v054",
+      "608zz rulman v055",
+      "608zz rulman v056",
+      "608zz rulman v057",
+      "608zz rulman v058",
+      "608zz rulman v060",
+      "608zz rulman v061",
+      "608zz rulman v062",
+      "608zz rulman v063",
+      "608zz rulman v064",
+      "608zz rulman v065",
+      "608zz rulman v066",
+      "608zz rulman v067",
+      "608zz rulman v068",
+      "608zz rulman v070",
+      "608zz rulman v071",
+      "608zz rulman v072",
+      "608zz rulman v073",
+      "608zz rulman v074",
+      "608zz rulman v075",
+      "608zz rulman v076",
+      "608zz rulman v077",
+      "608zz rulman v078",
+      "608zz rulman v090",
+      "608zz rulman v091",
+      "608zz rulman v092",
+      "608zz rulman v093",
+      "608zz rulman v094",
+      "608zz rulman v095",
+      "608zz rulman v096",
+      "608zz rulman v097",
+      "608zz rulman v098",
+      "608zz rulman v100",
+      "608zz rulman v101",
+      "608zz rulman v102",
+      "608zz rulman v103",
+      "608zz rulman v104",
+      "608zz rulman v105",
+      "608zz rulman v106",
+      "608zz rulman v107",
+      "608zz rulman v108"
+    ],
+    "pitch_group": [
+      "üst dişli kutusu",
+      "üst sonsuz dişl",
+      "üst dişli 20",
+      "üst nema17",
+      "SOLID",
+      "Grand Fulffy (1)",
+      "Axel",
+      "Wires",
+      "Wires001",
+      "Wires002",
+      "Wires003",
+      "Bileşen5(Ayna)",
+      "COMPOUND001",
+      "COMPOUND002",
+      "Bileşen13",
+      "kamera v3"
+    ],
+    "camera_group": [
+      "kamera v3"
+    ],
+    "launcher_group": [
+      "Bileşen13"
+    ],
+    "decorative_static_covers": []
+  },
+  "manualOverrideMap": {
+    "notes": "Phase 56 refined from FreeCAD labels and bbox diagnostics. Candidate bearings/fasteners default to yaw_group for preview but remain manually reviewable in ktr1_mechanical_groups.json.",
+    "cameraKeywords": [
+      "kamera",
+      "camera"
+    ],
+    "launcherKeywords": [
+      "namlu",
+      "launcher",
+      "barrel",
+      "bileşen13",
+      "bilesen13"
+    ],
+    "staticKeywords": [
+      "tabla",
+      "base",
+      "alt gövde",
+      "alt govde",
+      "leg",
+      "ayak"
+    ],
+    "pitchKeywords": [
+      "üst dişli",
+      "ust disli",
+      "sonsuz",
+      "nema17",
+      "grand fulffy",
+      "axel",
+      "ayna",
+      "wire"
+    ]
+  },
+  "pivots": {
+    "yaw_pivot": {
+      "position": [
+        0.02299,
+        0.0,
+        0.02735
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "source": "base/table part `tabla` X/Z center with Y normalized to yaw axis"
+    },
+    "pitch_pivot": {
+      "position": [
+        0.0,
+        0.52293,
+        0.63688
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "source": "candidate shaft/axis part `Axel` bbox Y/Z with X normalized to centerline"
+    }
+  },
+  "anchors": {
+    "camera_origin": {
+      "position": [
+        0.49905,
+        0.73257,
+        1.03336
+      ],
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "source": "camera part bbox center draft"
+    },
+    "camera_axis": {
+      "originNode": "camera_origin",
+      "direction": [
+        0,
+        0,
+        1
+      ]
+    },
+    "launcher_origin": {
+      "position": [
+        -0.30522,
+        0.68434,
+        1.26404
+      ],
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "source": "launcher part bbox center draft"
+    },
+    "launcher_axis": {
+      "originNode": "launcher_origin",
+      "direction": [
+        0,
+        0,
+        1
+      ]
+    },
+    "target_projection_anchor": {
+      "position": [
+        0.49905,
+        0.73257,
+        2.03336
+      ],
+      "source": "front-axis camera ray draft"
+    },
+    "no_go_zone_anchor": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "source": "not calibrated"
+    }
+  },
+  "joints": {
+    "yaw_joint": {
+      "type": "revolute",
+      "pivotNode": "yaw_pivot",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "limitsDeg": [
+        -180,
+        180
+      ],
+      "defaultDeg": 0,
+      "previewRangeDeg": [
+        -45,
+        45
+      ],
+      "visualizationOnly": true
+    },
+    "pitch_joint": {
+      "type": "revolute",
+      "pivotNode": "pitch_pivot",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limitsDeg": [
+        -10,
+        75
+      ],
+      "defaultDeg": 0,
+      "previewRangeDeg": [
+        -10,
+        45
+      ],
+      "visualizationOnly": true
+    }
+  },
+  "offsets": {
+    "camera_to_launcher_mm": [
+      30,
+      0,
+      0
+    ],
+    "source": "Phase 56 projection contract; visualization-only annotation"
+  },
+  "viewPresets": {
+    "freecadMatch": {
+      "view": "freecad"
+    },
+    "operator": {
+      "view": "operator"
+    },
+    "frontWeaponCloseup": {
+      "view": "weaponCloseup"
+    },
+    "side": {
+      "view": "side"
+    },
+    "topDown": {
+      "view": "top"
+    },
+    "cameraPOV": {
+      "view": "camera"
+    },
+    "launcherAxisPOV": {
+      "view": "chase"
+    },
+    "targetPOV": {
+      "view": "target"
+    },
+    "reset": {
+      "view": "freecad"
+    }
+  },
+  "validation": {
+    "exact_step_hierarchy_preserved": false,
+    "hierarchy_preservation_note": "FreeCAD provided stable Part::Feature labels but no validated revolute assembly hierarchy.",
+    "yaw_preview_available": true,
+    "pitch_preview_available": true,
+    "front_weapon_inspection_presets": [
+      "weapon",
+      "weaponCloseup"
+    ],
+    "visualization_only_preview_controls": true,
+    "phase56_candidate_review_required_count": 81
+  }
+}

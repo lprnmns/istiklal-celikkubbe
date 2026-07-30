@@ -1,0 +1,10 @@
+{
+  "phase": 53,
+  "cockpit_scroll_enabled": true,
+  "layout_priority": ["header", "real_ktr_3d_world_hero", "camera_hud", "mission_cards", "safety_strip"],
+  "three_d_hero_min_height_px": 720,
+  "three_d_hero_preferred_height": "82vh",
+  "camera_secondary_below_3d": true,
+  "bottom_cards_crush_3d": false,
+  "no_physical_command_generated": true
+}

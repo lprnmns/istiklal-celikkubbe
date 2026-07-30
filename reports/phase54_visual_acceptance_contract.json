@@ -1,0 +1,14 @@
+{
+  "phase": 54,
+  "default_asset": "STEP HiFi",
+  "default_asset_path": "/assets/digital-twin/ktr1_step_hifi_phase54.glb",
+  "browser_model_matches_freecad_reference": "substantially improved; material colors reconstructed, geometry high-fidelity",
+  "previous_glb_lost_or_hid_details": true,
+  "asset_compare_selector": true,
+  "wireframe": true,
+  "xray": true,
+  "exploded_view": true,
+  "weapon_focus": true,
+  "labels_cover_model": false,
+  "screenshots_folder": "reports/screenshots/phase54_model_fidelity_fix"
+}

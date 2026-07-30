@@ -1,0 +1,21 @@
+{
+  "connected": false,
+  "selected_port": "/dev/ttyACM0",
+  "baudrate": 115200,
+  "rx_only": true,
+  "tx_disabled": true,
+  "serial_write_enabled": false,
+  "command_tx_enabled": false,
+  "last_seen_at": null,
+  "heartbeat_seen": false,
+  "firmware_version": null,
+  "telemetry_frames": 0,
+  "parse_errors": 0,
+  "dtr_rts_reset_risk": "reported_not_used_for_commands",
+  "warnings": [
+    "DTR/RTS reset behavior may reboot microcontroller on some adapters; no command bytes are sent.",
+    "pyserial_not_available"
+  ],
+  "physical_command_enabled": false,
+  "no_physical_command_generated": true
+}

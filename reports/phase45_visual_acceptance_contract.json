@@ -1,0 +1,35 @@
+{
+  "phase": 45,
+  "scope": "frontend_ui_explainability_performance_only",
+  "actual_routes_changed": ["/cockpit", "/cockpit?ktr_demo=1"],
+  "phase44_before_after": [
+    {
+      "phase44_issue": "Header cards could truncate long raw model/camera strings.",
+      "phase45_fix": "Header uses short operator labels and moves technical detail to panels."
+    },
+    {
+      "phase44_issue": "Fixture/live/dev truth separation was present but not visually authoritative.",
+      "phase45_fix": "Truth mode is a first-class card: fixture, real_frame_dev, or live_system."
+    },
+    {
+      "phase44_issue": "Person safety could read as clear even when detector availability was uncertain.",
+      "phase45_fix": "Header and logs show Person Check N/A unless the gate is enabled and clear."
+    },
+    {
+      "phase44_issue": "FOV and labels were still visually heavy.",
+      "phase45_fix": "FOV fill opacity reduced, no-go zone made subtle, target label compacted."
+    },
+    {
+      "phase44_issue": "Operator Log showed a visible scrollbar in screenshots.",
+      "phase45_fix": "Operator Log now displays only the latest four events with no screenshot scrollbar."
+    }
+  ],
+  "screenshot_evidence": "reports/screenshots/phase45_ktr_cockpit_refinement/",
+  "truth_modes": ["KTR_DEMO_FIXTURE", "DEV_REAL_CAMERA", "LIVE_SYSTEM", "OFFLINE_FIXTURE"],
+  "safety": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true,
+    "physical_command_paths_added": false
+  }
+}

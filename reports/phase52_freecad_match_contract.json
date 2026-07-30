@@ -1,0 +1,13 @@
+{
+  "phase": 52,
+  "mode": "freecad_match",
+  "source_step": "work/ktr1.step",
+  "browser_asset": "/assets/digital-twin/ktr1_freecad_fidelity.glb",
+  "camera": "OrthographicCamera",
+  "default_world_mode": "FreeCAD Match",
+  "model_fit": "Box3 center/radius with margin",
+  "model_clipped": false,
+  "viewport_occupancy_estimate": "65-80%",
+  "no_physical_command_generated": true
+}
+

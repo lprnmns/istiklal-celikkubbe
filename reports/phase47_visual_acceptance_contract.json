@@ -1,0 +1,22 @@
+{
+  "phase": 47,
+  "title": "Tactical Engagement Geometry View",
+  "actual_cockpit_route_changed": true,
+  "actual_ktr_demo_route_changed": true,
+  "toy_like_primary_model_removed": true,
+  "right_panel_label": "TACTICAL ENGAGEMENT VIEW",
+  "visual_requirements": {
+    "turret_launcher_recognizable": true,
+    "camera_module_separate": true,
+    "camera_fov_wireframe": true,
+    "launcher_axis_visible": true,
+    "target_inside_fov_for_x_norm_0_76": true,
+    "depth_changes_with_bbox_area": true,
+    "top_down_minimap_added": true,
+    "camera_launcher_offset_visible": "30 mm bracket",
+    "ktr_fixture_truth_explicit": true
+  },
+  "screenshot_evidence": "reports/screenshots/phase47_tactical_engagement_geometry/",
+  "no_physical_command_generated": true
+}
+

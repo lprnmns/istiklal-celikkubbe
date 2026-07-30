@@ -1,0 +1,94 @@
+{
+  "schema_version": "phase49.ktr_operator_hero.v1",
+  "selected_asset_type": "REAL_GLB",
+  "selected_asset_path": "/assets/digital-twin/ktr1_operator_hero.glb",
+  "preferred_browser_asset": "/assets/digital-twin/ktr1_operator_hero.glb",
+  "source_asset": "/home/alperen/teknofest/frontend/public/assets/digital-twin/ktr1_binary.stl",
+  "source_asset_sha256": "e3e5ca0d11edb27f7a1ca8c9479fcdcf46ada1b2a61aa77a891ef2b520fcf393",
+  "source_asset_size_bytes": 10025684,
+  "converted_asset": "/home/alperen/teknofest/frontend/public/assets/digital-twin/ktr1_operator_hero.glb",
+  "converted_asset_size_bytes": 14438560,
+  "triangle_count_before": 200512,
+  "triangle_count_after": 200512,
+  "conversion_method": "dependency_free_binary_stl_to_glb",
+  "conversion_status": "converted_real_stl_to_glb",
+  "scale": 0.004335893248849551,
+  "rotation": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "estimated_camera_anchor": {
+    "x": -0.34,
+    "y": 0.98,
+    "z": 0.12,
+    "source": "estimated_from_operator_mount_reference"
+  },
+  "estimated_launcher_anchor": {
+    "x": 0.0,
+    "y": 0.74,
+    "z": -0.34,
+    "source": "estimated_from_launcher_axis_reference"
+  },
+  "estimated_base_anchor": {
+    "x": 0.0,
+    "y": -0.38,
+    "z": 0.0,
+    "source": "normalized_stl_bounds_center"
+  },
+  "normalization": {
+    "raw_bounds": {
+      "min": [
+        -186.46624755859375,
+        -2.84985613822937,
+        -102.26240539550781
+      ],
+      "max": [
+        378.5845642089844,
+        309.8827819824219,
+        397.1700439453125
+      ],
+      "extents": [
+        565.0508117675781,
+        312.73263812065125,
+        499.4324493408203
+      ]
+    },
+    "normalized_bounds": {
+      "min": [
+        -1.225,
+        -0.6779876671611207,
+        -1.082742892676629
+      ],
+      "max": [
+        1.225,
+        0.6779876671611207,
+        1.082742892676629
+      ],
+      "extents": [
+        2.45,
+        1.3559753343222414,
+        2.165485785353258
+      ]
+    },
+    "normalization_center": [
+      96.05915832519531,
+      153.51646292209625,
+      147.45381927490234
+    ],
+    "normalization_scale": 0.004335893248849551,
+    "scene_max_extent": 2.45
+  },
+  "scale_units": "normalized_scene_units_from_stl",
+  "coordinate_notes": "Binary STL coordinates are normalized and centered for browser operator visualization; anchors are estimated overlays, not physical command references.",
+  "camera_mount_reference_available": true,
+  "launcher_axis_reference_available": true,
+  "no_physical_command_generated": true,
+  "physical_command_enabled": false,
+  "serial_tx_enabled": false
+}

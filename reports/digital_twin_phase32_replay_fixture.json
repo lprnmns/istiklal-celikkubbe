@@ -1,0 +1,255 @@
+{
+  "run_id": "phase32_fixture_balloon_tracking_001",
+  "source": "fixture_deterministic_mock",
+  "duration_ms": 1000,
+  "event_count": 5,
+  "events": [
+    {
+      "t_ms": 0,
+      "target": {
+        "detected": true,
+        "track_id": 1,
+        "class_id": "balloon_fallback",
+        "class_label": "Balloon fallback fixture",
+        "confidence": 0.72,
+        "bbox": {
+          "x": 390,
+          "y": 130,
+          "w": 56,
+          "h": 70,
+          "format": "pixel"
+        },
+        "center_px": {
+          "x": 418.0,
+          "y": 165.0,
+          "z": 0.0
+        },
+        "estimated_scene_position_m": {
+          "x": -0.4,
+          "y": -0.14,
+          "z": -5.0
+        },
+        "source": "fixture"
+      },
+      "device_pose": {
+        "pan_deg": -8.0,
+        "tilt_deg": 2.0,
+        "servo_angle_deg": 0.0,
+        "pose_quality": "fixture",
+        "pan_steps": -1066,
+        "tilt_steps": 177,
+        "source": "fixture"
+      },
+      "tracker": {
+        "tracking_enabled": true,
+        "state": "TRACKING",
+        "error_x_px": -40.0,
+        "error_y_px": 14.0,
+        "latency_ms": 18.0,
+        "command_rate_hz": 10.0,
+        "max_speed": 1000,
+        "source": "fixture"
+      },
+      "note": "Phase 32 deterministic replay fixture",
+      "no_physical_command_generated": true
+    },
+    {
+      "t_ms": 250,
+      "target": {
+        "detected": true,
+        "track_id": 1,
+        "class_id": "balloon_fallback",
+        "class_label": "Balloon fallback fixture",
+        "confidence": 0.72,
+        "bbox": {
+          "x": 402,
+          "y": 130,
+          "w": 56,
+          "h": 70,
+          "format": "pixel"
+        },
+        "center_px": {
+          "x": 430.0,
+          "y": 165.0,
+          "z": 0.0
+        },
+        "estimated_scene_position_m": {
+          "x": -0.22,
+          "y": -0.08,
+          "z": -5.0
+        },
+        "source": "fixture"
+      },
+      "device_pose": {
+        "pan_deg": -4.0,
+        "tilt_deg": 1.0,
+        "servo_angle_deg": 0.0,
+        "pose_quality": "fixture",
+        "pan_steps": -533,
+        "tilt_steps": 88,
+        "source": "fixture"
+      },
+      "tracker": {
+        "tracking_enabled": true,
+        "state": "TRACKING",
+        "error_x_px": -22.0,
+        "error_y_px": 8.0,
+        "latency_ms": 18.0,
+        "command_rate_hz": 10.0,
+        "max_speed": 1000,
+        "source": "fixture"
+      },
+      "note": "Phase 32 deterministic replay fixture",
+      "no_physical_command_generated": true
+    },
+    {
+      "t_ms": 500,
+      "target": {
+        "detected": true,
+        "track_id": 1,
+        "class_id": "balloon_fallback",
+        "class_label": "Balloon fallback fixture",
+        "confidence": 0.72,
+        "bbox": {
+          "x": 415,
+          "y": 130,
+          "w": 56,
+          "h": 70,
+          "format": "pixel"
+        },
+        "center_px": {
+          "x": 443.0,
+          "y": 165.0,
+          "z": 0.0
+        },
+        "estimated_scene_position_m": {
+          "x": -0.06,
+          "y": -0.02,
+          "z": -5.0
+        },
+        "source": "fixture"
+      },
+      "device_pose": {
+        "pan_deg": 0.0,
+        "tilt_deg": 0.0,
+        "servo_angle_deg": 0.0,
+        "pose_quality": "fixture",
+        "pan_steps": 0,
+        "tilt_steps": 0,
+        "source": "fixture"
+      },
+      "tracker": {
+        "tracking_enabled": true,
+        "state": "TRACKING",
+        "error_x_px": -6.0,
+        "error_y_px": 2.0,
+        "latency_ms": 18.0,
+        "command_rate_hz": 10.0,
+        "max_speed": 1000,
+        "source": "fixture"
+      },
+      "note": "Phase 32 deterministic replay fixture",
+      "no_physical_command_generated": true
+    },
+    {
+      "t_ms": 750,
+      "target": {
+        "detected": true,
+        "track_id": 1,
+        "class_id": "balloon_fallback",
+        "class_label": "Balloon fallback fixture",
+        "confidence": 0.72,
+        "bbox": {
+          "x": 427,
+          "y": 130,
+          "w": 56,
+          "h": 70,
+          "format": "pixel"
+        },
+        "center_px": {
+          "x": 455.0,
+          "y": 165.0,
+          "z": 0.0
+        },
+        "estimated_scene_position_m": {
+          "x": 0.12,
+          "y": 0.04,
+          "z": -5.0
+        },
+        "source": "fixture"
+      },
+      "device_pose": {
+        "pan_deg": 3.5,
+        "tilt_deg": -1.2,
+        "servo_angle_deg": 0.0,
+        "pose_quality": "fixture",
+        "pan_steps": 466,
+        "tilt_steps": -106,
+        "source": "fixture"
+      },
+      "tracker": {
+        "tracking_enabled": true,
+        "state": "TRACKING",
+        "error_x_px": 12.0,
+        "error_y_px": -4.0,
+        "latency_ms": 18.0,
+        "command_rate_hz": 10.0,
+        "max_speed": 1000,
+        "source": "fixture"
+      },
+      "note": "Phase 32 deterministic replay fixture",
+      "no_physical_command_generated": true
+    },
+    {
+      "t_ms": 1000,
+      "target": {
+        "detected": true,
+        "track_id": 1,
+        "class_id": "balloon_fallback",
+        "class_label": "Balloon fallback fixture",
+        "confidence": 0.72,
+        "bbox": {
+          "x": 440,
+          "y": 130,
+          "w": 56,
+          "h": 70,
+          "format": "pixel"
+        },
+        "center_px": {
+          "x": 468.0,
+          "y": 165.0,
+          "z": 0.0
+        },
+        "estimated_scene_position_m": {
+          "x": 0.18,
+          "y": 0.06,
+          "z": -5.0
+        },
+        "source": "fixture"
+      },
+      "device_pose": {
+        "pan_deg": 5.0,
+        "tilt_deg": -2.0,
+        "servo_angle_deg": 0.0,
+        "pose_quality": "fixture",
+        "pan_steps": 666,
+        "tilt_steps": -177,
+        "source": "fixture"
+      },
+      "tracker": {
+        "tracking_enabled": true,
+        "state": "TRACKING",
+        "error_x_px": 18.0,
+        "error_y_px": -6.0,
+        "latency_ms": 18.0,
+        "command_rate_hz": 10.0,
+        "max_speed": 1000,
+        "source": "fixture"
+      },
+      "note": "Phase 32 deterministic replay fixture",
+      "no_physical_command_generated": true
+    }
+  ],
+  "no_physical_command_generated": true,
+  "digital_twin_read_only": true
+}

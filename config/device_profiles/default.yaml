@@ -1,0 +1,20 @@
+profile_id: default
+selected_camera_id: null
+selected_camera_stable_path: null
+selected_camera_name: mock
+selected_camera_backend: mock
+selected_pico_port: null
+selected_pico_usb_vid_pid: null
+selected_pico_serial_number: null
+selected_model_id: opencv-circle-test-adapter
+selected_runtime_profile: opencv_circle_test
+last_verified_at: null
+verification_status: not_verified
+verification_level: hardware_pending
+camera_binding_status: mock/demo only
+pico_binding_status: pico_pending
+model_binding_status: test_adapter_only
+competition_status: competition_not_verified
+warnings:
+  - "Template only. Save and verify active field profile from /devices before field use."
+no_physical_command_generated: true

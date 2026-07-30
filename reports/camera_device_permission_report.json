@@ -1,0 +1,21 @@
+{
+  "user_in_video_group": false,
+  "dev_video_entries": [
+    "/dev/video0",
+    "/dev/video1",
+    "/dev/video2",
+    "/dev/video3"
+  ],
+  "blocker_reason": "camera device exists; frame capture not attempted yet",
+  "suggested_actions": [
+    "Check BIOS/privacy camera switch and physical cable.",
+    "Confirm /dev/video* exists outside sandboxed camera applications.",
+    "Install v4l-utils if v4l2-ctl is missing.",
+    "Check user permissions for video group without changing them automatically.",
+    "Review dmesg uvcvideo/v4l2 messages for driver errors.",
+    "If using Snap/Flatpak camera apps, check sandbox camera permissions manually."
+  ],
+  "advisory_only": true,
+  "physical_command_enabled": false,
+  "no_physical_command_generated": true
+}

@@ -1,0 +1,93 @@
+{
+  "schema": "phase56_device_frame",
+  "sourceCadPath": "work/ktr1.step",
+  "createdAt": "2026-05-25T10:46:49.797015+00:00",
+  "status": "draft_requires_freecad_and_physical_validation",
+  "visualizationOnly": true,
+  "sourceCad": {
+    "units": "mm",
+    "up": "+Z",
+    "front": "-Y",
+    "right": "+X",
+    "frontDecision": "Camera/launcher candidates are at negative CAD Y; user FreeCAD screenshots show weapon/front in that direction."
+  },
+  "runtimeWorld": {
+    "units": "m_normalized",
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X",
+    "transform": "runtimeX=CAD X, runtimeY=CAD Z, runtimeZ=-CAD Y"
+  },
+  "canonicalViews": {
+    "frontWeapon": {
+      "lookDirectionRuntime": [
+        0,
+        0,
+        -1
+      ],
+      "description": "Camera looking toward the device from runtime +Z/front side."
+    },
+    "rear": {
+      "lookDirectionRuntime": [
+        0,
+        0,
+        1
+      ]
+    },
+    "left": {
+      "lookDirectionRuntime": [
+        1,
+        0,
+        0
+      ]
+    },
+    "right": {
+      "lookDirectionRuntime": [
+        -1,
+        0,
+        0
+      ]
+    },
+    "top": {
+      "lookDirectionRuntime": [
+        0,
+        -1,
+        0
+      ]
+    },
+    "operator": {
+      "lookDirectionRuntime": [
+        -0.25,
+        -0.35,
+        -1
+      ]
+    }
+  },
+  "sourceBoundingBoxMm": {
+    "min": [
+      -186.47207463459347,
+      -95.9091223955155,
+      -102.72112950575327
+    ],
+    "max": [
+      379.5322891993573,
+      308.664292166462,
+      397.17047447124656
+    ],
+    "center": [
+      96.53010728238192,
+      106.37758488547325,
+      147.22467248274666
+    ],
+    "size": [
+      566.0043638339507,
+      404.57341456197753,
+      499.8916039769998
+    ]
+  },
+  "safety": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true
+  }
+}

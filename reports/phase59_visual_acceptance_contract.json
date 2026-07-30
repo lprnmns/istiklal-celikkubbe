@@ -1,0 +1,30 @@
+{
+  "phase": "59",
+  "operator_mode_route": "/cockpit?ui=operator",
+  "engineer_mode_route": "/cockpit?ui=engineer",
+  "operator_mode": {
+    "debug_controls_hidden": true,
+    "pid_hidden": true,
+    "threshold_hidden": true,
+    "asset_selector_hidden": true,
+    "yaw_pitch_sliders_hidden": true,
+    "developer_drawer_hidden": true,
+    "main_panels": ["Live Camera", "3D Digital Twin", "Operation Strip", "Scene Radar", "Operator Log", "System Health"]
+  },
+  "engineer_mode": {
+    "technical_controls_tabbed": true,
+    "tabs": ["Kamera Ayarları", "Algılama Modeli", "Motor / PID", "3D Kalibrasyon", "Loglar / Evidence"]
+  },
+  "three_d_operator_view": {
+    "single_operator_toolbar": true,
+    "developer_badges_hidden": true,
+    "selected_target_required_for_marker": true,
+    "selected_target_required_for_primary_ray": true
+  },
+  "safety": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true,
+    "physical_command_paths_added": false
+  }
+}

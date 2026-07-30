@@ -1,0 +1,13 @@
+{
+  "phase": 50,
+  "scope": "frontend_ui_visualization_only",
+  "physical_command_enabled": false,
+  "serial_tx_enabled": false,
+  "no_physical_command_generated": true,
+  "forbidden_paths_added": false,
+  "motor_command_path_added": false,
+  "fire_command_path_added": false,
+  "servo_command_path_added": false,
+  "gpio_pwm_step_dir_path_added": false,
+  "hardware_enable_path_added": false
+}

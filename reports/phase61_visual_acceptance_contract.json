@@ -1,0 +1,22 @@
+{
+  "phase": 61,
+  "scene_direction": "tactical_digital_operation_scene",
+  "operator_title": "TAKTİK DİJİTAL SAHNE",
+  "engineer_title": "3D KALİBRASYON SAHNESİ",
+  "realistic_desert_world_removed": true,
+  "dark_tactical_grid_floor": true,
+  "radar_rings": true,
+  "forward_scan_sector": true,
+  "tactical_pedestal": true,
+  "operator_debug_controls_hidden": true,
+  "operator_target_meshes_hidden": true,
+  "single_camera_fov": true,
+  "single_selected_target_engagement_beam": true,
+  "blocked_fire_gate_ray_style": "amber_dashed",
+  "ready_fire_gate_ray_style": "green_solid",
+  "safety": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true
+  }
+}

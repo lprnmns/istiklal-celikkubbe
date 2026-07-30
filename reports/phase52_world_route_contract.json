@@ -1,0 +1,14 @@
+{
+  "phase": 52,
+  "primary_route": "/cockpit/world",
+  "routes": [
+    "/cockpit/world?quality=ultra&mode=freecad",
+    "/cockpit/world?quality=ultra&mode=showcase",
+    "/cockpit/world?quality=ultra&mode=tactical"
+  ],
+  "camera_feed_default": "hidden in world route",
+  "bottom_cards_default": "hidden in world route",
+  "orbit_controls": true,
+  "no_physical_command_generated": true
+}
+

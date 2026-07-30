@@ -1,0 +1,384 @@
+{
+  "generated_at": "2026-05-14T19:08:35.704744",
+  "legacy_root": "/home/alperen/teknofest/eski_sistem_arayüz",
+  "analysis_only": true,
+  "no_physical_command_generated": true,
+  "safety_invariant_target": "DISARMED + NO_FIRE + dry_run=true + hardware_enabled=false + physical_command_enabled=false",
+  "directories": [
+    {
+      "path": "arduino/",
+      "purpose": "Arduino/CNC shield motor-control firmware and OLED test artifacts",
+      "risk": "critical_do_not_auto_port"
+    },
+    {
+      "path": "pico/",
+      "purpose": "MicroPython Pico 2 motor/TMC/serial prototypes and wiring docs",
+      "risk": "critical_do_not_auto_port_for_actuation"
+    },
+    {
+      "path": "pico_arduino/",
+      "purpose": "Arduino IDE Pico 2 firmware variants, TMC2209 optimized firmware, setup docs",
+      "risk": "critical_do_not_auto_port_for_actuation"
+    },
+    {
+      "path": "python/",
+      "purpose": "Legacy desktop tracking UI, camera pipeline, YOLO/OpenCV detector, PID, serial bridge, safety manager",
+      "risk": "mixed_perception_safe_actuation_unsafe"
+    },
+    {
+      "path": "models/",
+      "purpose": "Legacy YOLO model binaries best.pt/yolo/best.pt/yolo2/best.pt",
+      "risk": "do_not_treat_as_valid_new_production_without_model_package_metadata"
+    }
+  ],
+  "important_files": [
+    {
+      "path": "python/config.py",
+      "purpose": "Core constants for camera, detection, PID, serial, hardware pins, limits",
+      "risk": "mixed"
+    },
+    {
+      "path": "python/main.py",
+      "purpose": "Legacy runtime loop: camera read, detector queue, target selection, PID, serial motor/laser TX",
+      "risk": "critical_actuation_paths_present"
+    },
+    {
+      "path": "python/yolo_detector.py",
+      "purpose": "YOLO detector plus OpenCV HSV red/pink contour fallback",
+      "risk": "perception_safe_if_decoupled"
+    },
+    {
+      "path": "python/threaded_camera.py",
+      "purpose": "Low-latency threaded OpenCV camera reader",
+      "risk": "perception_safe"
+    },
+    {
+      "path": "python/threaded_pipeline.py",
+      "purpose": "Detection thread and serial command thread",
+      "risk": "mixed; serial thread is do_not_auto_port"
+    },
+    {
+      "path": "python/pid_controller.py",
+      "purpose": "Dual-axis PID with anti-windup and output clamp",
+      "risk": "control_config_only_do_not_auto_port_to_hardware"
+    },
+    {
+      "path": "python/kalman_filter.py",
+      "purpose": "OpenCV constant velocity Kalman filter for target loss/prediction",
+      "risk": "perception_tracking_safe"
+    },
+    {
+      "path": "python/serial_comm.py",
+      "purpose": "NO-ACK serial command sender using SPD/LZR/STP/HOM",
+      "risk": "critical_do_not_auto_port"
+    },
+    {
+      "path": "python/safety_manager.py",
+      "purpose": "Legacy angle limit, forbidden fire zone, emergency stop, laser timeout logic",
+      "risk": "document_only; not sufficient for new safety"
+    },
+    {
+      "path": "pico_arduino/motor_control_pico/motor_control_pico.ino",
+      "purpose": "Pico 2 Arduino firmware: TMC2209 UART, STEP/DIR, laser, serial status",
+      "risk": "critical_do_not_auto_port"
+    },
+    {
+      "path": "pico_arduino/motor_control_v2_optimized/motor_control_v2_optimized.ino",
+      "purpose": "Optimized Pico 2 firmware: TMC, servo trigger, joystick, STEP/DIR, telemetry-like status",
+      "risk": "critical_do_not_auto_port"
+    },
+    {
+      "path": "arduino/motor_control/motor_control.ino",
+      "purpose": "High-performance Arduino motor firmware with STEP/DIR and laser serial commands",
+      "risk": "critical_do_not_auto_port"
+    },
+    {
+      "path": "CAMERA_IMAGE_ADJUSTMENT_GUIDE.md",
+      "purpose": "Camera brightness/contrast/saturation/preprocess notes",
+      "risk": "perception_safe"
+    },
+    {
+      "path": "COLOR_TUNING_GUIDE.md",
+      "purpose": "HSV color tuning and fallback detector tuning",
+      "risk": "perception_safe"
+    },
+    {
+      "path": "CONFIG_PY_NOTES_TMC_UART.md",
+      "purpose": "TMC microstepping vs config synchronization notes",
+      "risk": "document_only_for_future_bench"
+    },
+    {
+      "path": "HARDWARE_CONFIG.md",
+      "purpose": "Legacy hardware, camera, YOLO, PID, Kalman, safety constants",
+      "risk": "mixed"
+    },
+    {
+      "path": "MICROSTEPPING_SETUP.md",
+      "purpose": "Microstepping and steps/degree calibration notes",
+      "risk": "document_only_for_future_bench"
+    },
+    {
+      "path": "PID_TUNING_GUIDE.md",
+      "purpose": "PID stabilization guidance: KP/KD/KI tuning, lost target persistence",
+      "risk": "document_only_for_control"
+    },
+    {
+      "path": "PID_TUNING_OPTIMAL.md",
+      "purpose": "Candidate PID presets",
+      "risk": "document_only_for_control"
+    },
+    {
+      "path": "PID_X_8_Y_32_TUNING.md",
+      "purpose": "PID notes for X 1/8 and Y 1/32 microstepping",
+      "risk": "document_only_for_control"
+    },
+    {
+      "path": "TMC2209_OPTIMIZATION_GUIDE.md",
+      "purpose": "TMC current, CoolStep, interpolation, SpreadCycle/StealthChop guidance",
+      "risk": "document_only_do_not_auto_port"
+    }
+  ],
+  "settings": {
+    "python_settings_json": {
+      "source": "python/settings.json",
+      "values": {
+        "model_type": "YOLO",
+        "model_path": "C:/Users/mehme/Desktop/HavaSavunma-Teknofest-Final-main/HavaSavunma-Teknofest-Final-main/models/yolo2/best.pt",
+        "camera_index": 1,
+        "resolution": "640x480",
+        "fps": 60,
+        "port": "COM11",
+        "motor_speed": "Fast",
+        "startup_mode": "MANUAL",
+        "stabilization": "Normal"
+      },
+      "classification": "mixed"
+    },
+    "root_settings_json": {
+      "source": "settings.json",
+      "values": {
+        "model_type": "YOLO",
+        "model_path": "D:/HavaSavunma-Teknofest-Final/models/yolo2/best.pt",
+        "camera_index": 1,
+        "resolution": "1280x720",
+        "fps": 50,
+        "port": "COM5",
+        "motor_speed": "Fast",
+        "startup_mode": "AUTO"
+      },
+      "classification": "mixed"
+    },
+    "pid_settings_json": {
+      "source": "python/pid_settings.json",
+      "values": {
+        "KP_X": 20.0,
+        "KI_X": 0.01,
+        "KD_X": 0.0,
+        "KP_Y": 20.0,
+        "KI_Y": 0.01,
+        "KD_Y": 1.0
+      },
+      "classification": "control_document_only"
+    },
+    "camera_settings_json": {
+      "source": "python/camera_settings.json",
+      "values": {
+        "auto_exposure": 1,
+        "autofocus": true
+      },
+      "classification": "perception_safe"
+    }
+  },
+  "config_entries": [
+    {
+      "key": "camera_index",
+      "value": 1,
+      "source": "python/settings.json",
+      "class": "A_perception",
+      "risk": "low",
+      "decision": "candidate_for_manual_import_to_camera_runtime"
+    },
+    {
+      "key": "resolution",
+      "value": "640x480",
+      "source": "python/settings.json",
+      "class": "A_perception",
+      "risk": "low",
+      "decision": "candidate_for_camera_profile"
+    },
+    {
+      "key": "fps",
+      "value": 60,
+      "source": "python/settings.json",
+      "class": "A_perception",
+      "risk": "low",
+      "decision": "candidate_for_camera_profile"
+    },
+    {
+      "key": "model_type",
+      "value": "YOLO",
+      "source": "python/settings.json",
+      "class": "A_perception",
+      "risk": "medium",
+      "decision": "do_not_mark_production_without_new_model_package_metadata"
+    },
+    {
+      "key": "model_path",
+      "value": "C:/Users/mehme/Desktop/HavaSavunma-Teknofest-Final-main/HavaSavunma-Teknofest-Final-main/models/yolo2/best.pt",
+      "source": "python/settings.json",
+      "class": "A_perception",
+      "risk": "medium",
+      "decision": "model package handoff only; path is legacy host-specific"
+    },
+    {
+      "key": "serial_port",
+      "value": "COM11",
+      "source": "python/settings.json",
+      "class": "B_telemetry_or_D_command",
+      "risk": "high",
+      "decision": "read-only discovery candidate only; no command TX"
+    },
+    {
+      "key": "serial_baudrate",
+      "value": 460800,
+      "source": "python/config.py SerialConfig and serial_comm.py",
+      "class": "B_telemetry",
+      "risk": "medium",
+      "decision": "candidate for read-only telemetry profile, not command mode"
+    },
+    {
+      "key": "pid_settings",
+      "value": {
+        "KP_X": 20.0,
+        "KI_X": 0.01,
+        "KD_X": 0.0,
+        "KP_Y": 20.0,
+        "KI_Y": 0.01,
+        "KD_Y": 1.0
+      },
+      "source": "python/pid_settings.json",
+      "class": "C_motor_control_doc_only",
+      "risk": "high",
+      "decision": "do_not_auto_port; future bench-control only"
+    },
+    {
+      "key": "HSV red/pink ranges",
+      "value": {
+        "lower_red1": [
+          0,
+          50,
+          30
+        ],
+        "upper_red1": [
+          20,
+          255,
+          255
+        ],
+        "lower_red2": [
+          160,
+          50,
+          30
+        ],
+        "upper_red2": [
+          180,
+          255,
+          255
+        ]
+      },
+      "source": "python/yolo_detector.py ColorDetector",
+      "class": "A_perception",
+      "risk": "low",
+      "decision": "candidate for OpenCV surrogate presets"
+    },
+    {
+      "key": "color_tuner balanced HSV",
+      "value": {
+        "lower_red1": [
+          0,
+          80,
+          50
+        ],
+        "upper_red1": [
+          10,
+          255,
+          255
+        ],
+        "lower_red2": [
+          170,
+          80,
+          50
+        ],
+        "upper_red2": [
+          180,
+          255,
+          255
+        ],
+        "min_area": 300,
+        "close_iter": 2,
+        "open_iter": 1,
+        "blur_size": 9
+      },
+      "source": "python/color_settings_export.py and color_tuner.py",
+      "class": "A_perception",
+      "risk": "low",
+      "decision": "candidate for Vision tuning UI"
+    },
+    {
+      "key": "dead_zone",
+      "value": {
+        "DEAD_ZONE": 12,
+        "DEAD_ZONE_STOP": 4
+      },
+      "source": "python/config.py DetectionConfig",
+      "class": "A_tracking_metadata_or_C_control",
+      "risk": "medium",
+      "decision": "perception lock metric candidate only; not motor command"
+    },
+    {
+      "key": "kalman_filter",
+      "value": {
+        "state": "x,y,vx,vy",
+        "dt": "1/30",
+        "process_noise": 0.03,
+        "measurement_noise": 1.0
+      },
+      "source": "python/kalman_filter.py",
+      "class": "A_tracking",
+      "risk": "low",
+      "decision": "candidate for advisory tracking metadata"
+    },
+    {
+      "key": "serial_commands",
+      "value": [
+        "SPD,x,y",
+        "LZR,0/1",
+        "STP",
+        "HOM",
+        "PING",
+        "MODE",
+        "TMC_STATUS",
+        "TMC_CURRENT"
+      ],
+      "source": "python/serial_comm.py; pico/; pico_arduino/; arduino/",
+      "class": "D_do_not_auto_port",
+      "risk": "critical",
+      "decision": "do_not_auto_port except PING/status as read-only diagnostic with blocker"
+    },
+    {
+      "key": "TMC2209 optimized settings",
+      "value": {
+        "X_current_mA": 1400,
+        "X_microsteps": 8,
+        "X_spreadcycle": true,
+        "Y_current_mA": 1000,
+        "Y_microsteps": 8,
+        "Y_hybrid": true,
+        "baud": 460800
+      },
+      "source": "pico_arduino/motor_control_v2_optimized/motor_control_v2_optimized.ino",
+      "class": "C_motor_actuator_doc_only",
+      "risk": "high",
+      "decision": "document only; future bench-test with hardware safety gate"
+    }
+  ]
+}

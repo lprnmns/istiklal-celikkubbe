@@ -1,0 +1,413 @@
+{
+  "assetVersion": "phase55",
+  "visualizationOnly": true,
+  "safety": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true
+  },
+  "source": {
+    "cadPath": "work/ktr1.step",
+    "cadSizeBytes": 27237470,
+    "glbPath": "/assets/digital-twin/ktr1_kinematic_world_phase55.glb",
+    "kinematicsPath": "/assets/digital-twin/ktr1_kinematics.json",
+    "unitsSource": "mm",
+    "unitsRuntime": "m"
+  },
+  "phase56Refinement": {
+    "enabled": true,
+    "note": "Phase 56 semantic grouping metadata retained for tests; Phase 55 manual calibration is applied at runtime as visualization-only transform.",
+    "launcher_muzzle_anchor": {
+      "method": "manual runtime anchor",
+      "description": "Primary virtual engagement ray starts from launcher_origin plus the calibrated launcher forward vector. This is visualization-only and does not generate hardware commands."
+    },
+    "selected_target_ray": {
+      "rendering": "Clean and Tactical modes render exactly one primary launcher-muzzle-to-selected-target ray. Camera/FOV helper rays are hidden unless Tactical helper overlays or Debug mode are enabled."
+    }
+  },
+  "coordinateSystems": {
+    "sourceCad": {
+      "up": "+Z",
+      "front": "-Y",
+      "right": "+X"
+    },
+    "runtimeWorld": {
+      "up": "+Y",
+      "front": "+Z",
+      "right": "+X"
+    },
+    "rootCorrectionEulerDeg": [
+      -90,
+      0,
+      0
+    ],
+    "conversionNote": "The GLB positions are already converted as X=CAD X, Y=CAD Z, Z=-CAD Y; runtime front is +Z and root correction is documented but not reapplied at runtime."
+  },
+  "nodes": {
+    "root": "ktr1_root",
+    "staticRoot": "static_root",
+    "yawPivot": "yaw_pivot",
+    "yawGroup": "yaw_group",
+    "pitchPivot": "pitch_pivot",
+    "pitchGroup": "pitch_group",
+    "cameraOrigin": "camera_origin",
+    "cameraAxis": "camera_axis",
+    "launcherOrigin": "launcher_origin",
+    "launcherAxis": "launcher_axis",
+    "launcherMuzzleAnchor": "launcher_muzzle_anchor",
+    "targetProjectionAnchor": "target_projection_anchor",
+    "noGoZoneAnchor": "no_go_zone_anchor"
+  },
+  "groups": {
+    "static_root": [
+      "alt gövde",
+      "tabla",
+      "yan gövde1",
+      "yan gövde 3"
+    ],
+    "yaw_group": [
+      "608zz rulman v1",
+      "608zz rulman v001",
+      "608zz rulman v002",
+      "608zz rulman v003",
+      "608zz rulman v004",
+      "608zz rulman v005",
+      "608zz rulman v006",
+      "608zz rulman v007",
+      "608zz rulman v008",
+      "608zz rulman v010",
+      "608zz rulman v011",
+      "608zz rulman v012",
+      "608zz rulman v013",
+      "608zz rulman v014",
+      "608zz rulman v015",
+      "608zz rulman v016",
+      "608zz rulman v017",
+      "608zz rulman v018",
+      "608zz rulman v020",
+      "608zz rulman v021",
+      "608zz rulman v022",
+      "608zz rulman v023",
+      "608zz rulman v024",
+      "608zz rulman v025",
+      "608zz rulman v026",
+      "608zz rulman v027",
+      "608zz rulman v028",
+      "608zz rulman v030",
+      "608zz rulman v031",
+      "608zz rulman v032",
+      "608zz rulman v033",
+      "608zz rulman v034",
+      "608zz rulman v035",
+      "608zz rulman v036",
+      "608zz rulman v037",
+      "608zz rulman v038",
+      "608zz rulman v040",
+      "608zz rulman v041",
+      "608zz rulman v042",
+      "608zz rulman v043",
+      "608zz rulman v044",
+      "608zz rulman v045",
+      "608zz rulman v046",
+      "608zz rulman v047",
+      "608zz rulman v048",
+      "608zz rulman v050",
+      "608zz rulman v051",
+      "608zz rulman v052",
+      "608zz rulman v053",
+      "608zz rulman v054",
+      "608zz rulman v055",
+      "608zz rulman v056",
+      "608zz rulman v057",
+      "608zz rulman v058",
+      "608zz rulman v060",
+      "608zz rulman v061",
+      "608zz rulman v062",
+      "608zz rulman v063",
+      "608zz rulman v064",
+      "608zz rulman v065",
+      "608zz rulman v066",
+      "608zz rulman v067",
+      "608zz rulman v068",
+      "608zz rulman v070",
+      "608zz rulman v071",
+      "608zz rulman v072",
+      "608zz rulman v073",
+      "608zz rulman v074",
+      "608zz rulman v075",
+      "608zz rulman v076",
+      "608zz rulman v077",
+      "608zz rulman v078",
+      "608zz rulman v080",
+      "608zz rulman v081",
+      "608zz rulman v082",
+      "608zz rulman v083",
+      "608zz rulman v084",
+      "608zz rulman v085",
+      "608zz rulman v086",
+      "608zz rulman v087",
+      "608zz rulman v088",
+      "Bileşen14",
+      "Bileşen18",
+      "Bileşen19",
+      "Bileşen20",
+      "SOLID",
+      "Grand Fulffy (1)",
+      "Axel",
+      "SOLID001",
+      "Wires",
+      "Wires001",
+      "Wires002",
+      "Wires003",
+      "Bileşen5(Ayna)",
+      "COMPOUND",
+      "COMPOUND001",
+      "COMPOUND002",
+      "COMPOUND003",
+      "COMPOUND006",
+      "COMPOUND007",
+      "COMPOUND008",
+      "COMPOUND010",
+      "COMPOUND011"
+    ],
+    "pitch_group": [
+      "üst sol",
+      "üst dişli kutusu",
+      "üst sonsuz dişl",
+      "üst dişli 20",
+      "608zz rulman v090",
+      "608zz rulman v091",
+      "608zz rulman v092",
+      "608zz rulman v093",
+      "608zz rulman v094",
+      "608zz rulman v095",
+      "608zz rulman v096",
+      "608zz rulman v097",
+      "608zz rulman v098",
+      "608zz rulman v100",
+      "608zz rulman v101",
+      "608zz rulman v102",
+      "608zz rulman v103",
+      "608zz rulman v104",
+      "608zz rulman v105",
+      "608zz rulman v106",
+      "608zz rulman v107",
+      "608zz rulman v108",
+      "üst nema17",
+      "sağ üst",
+      "sağ üst kapak",
+      "kamera v3",
+      "Bileşen13",
+      "COMPOUND005",
+      "COMPOUND009"
+    ],
+    "camera_group": [
+      "kamera v3"
+    ],
+    "launcher_group": [
+      "Bileşen13"
+    ],
+    "decorative_static_covers": []
+  },
+  "manualOverrideMap": {
+    "notes": "Exact STEP revolute assembly hierarchy is not exposed by the installed FreeCAD import. These aliases are heuristically curated from labels and bounding boxes and must be revised after mechanical validation.",
+    "cameraKeywords": [
+      "kamera",
+      "camera"
+    ],
+    "launcherKeywords": [
+      "namlu",
+      "launcher",
+      "barrel",
+      "bileşen13",
+      "bilesen13"
+    ],
+    "staticKeywords": [
+      "tabla",
+      "base",
+      "alt gövde",
+      "alt govde",
+      "leg",
+      "ayak"
+    ]
+  },
+  "pivots": {
+    "yaw_pivot": {
+      "position": [
+        0.0,
+        1.20311,
+        0.52561
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "source": "base/table part heuristic; phase55 manual calibration retained"
+    },
+    "pitch_pivot": {
+      "position": [
+        0.01526,
+        0.90761,
+        -0.01325
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "source": "candidate shaft/axis part heuristic; phase55 manual calibration retained"
+    }
+  },
+  "anchors": {
+    "camera_origin": {
+      "position": [
+        0.49905,
+        0.73257,
+        1.03336
+      ],
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "source": "camera label or manual fallback"
+    },
+    "camera_axis": {
+      "originNode": "camera_origin",
+      "direction": [
+        0,
+        0,
+        1
+      ]
+    },
+    "launcher_origin": {
+      "position": [
+        -0.30522,
+        0.68434,
+        1.26404
+      ],
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "source": "launcher label/long-forward geometry or manual fallback"
+    },
+    "launcher_axis": {
+      "originNode": "launcher_origin",
+      "direction": [
+        0,
+        0,
+        1
+      ]
+    },
+    "target_projection_anchor": {
+      "position": [
+        0.49905,
+        0.73257,
+        0.03336
+      ],
+      "source": "camera origin forward projection"
+    },
+    "no_go_zone_anchor": {
+      "position": [
+        1.62,
+        0.18,
+        -3.75
+      ],
+      "source": "existing visualization no-go volume anchor"
+    }
+  },
+  "joints": {
+    "yaw_joint": {
+      "type": "revolute",
+      "pivotNode": "yaw_pivot",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "limitsDeg": [
+        -180,
+        180
+      ],
+      "defaultDeg": 0,
+      "previewRangeDeg": [
+        -45,
+        45
+      ],
+      "visualizationOnly": true
+    },
+    "pitch_joint": {
+      "type": "revolute",
+      "pivotNode": "pitch_pivot",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limitsDeg": [
+        -10,
+        75
+      ],
+      "defaultDeg": 0,
+      "previewRangeDeg": [
+        -10,
+        45
+      ],
+      "visualizationOnly": true
+    }
+  },
+  "offsets": {
+    "camera_to_launcher_mm": [
+      30,
+      0,
+      0
+    ],
+    "source": "Phase 35-55 cockpit projection contract; visualization-only annotation"
+  },
+  "viewPresets": {
+    "freecadMatch": {
+      "view": "freecad",
+      "description": "Orthographic CAD-like full silhouette"
+    },
+    "operator": {
+      "view": "operator",
+      "description": "3/4 operator view"
+    },
+    "frontWeaponCloseup": {
+      "view": "weaponCloseup",
+      "description": "Front launcher/camera closeup"
+    },
+    "side": {
+      "view": "side"
+    },
+    "topDown": {
+      "view": "top"
+    },
+    "cameraPOV": {
+      "view": "camera"
+    },
+    "launcherAxisPOV": {
+      "view": "chase"
+    },
+    "targetPOV": {
+      "view": "target"
+    },
+    "reset": {
+      "view": "freecad"
+    }
+  },
+  "validation": {
+    "exact_step_hierarchy_preserved": false,
+    "hierarchy_preservation_note": "FreeCAD provided stable Part::Feature labels but no validated joint hierarchy.",
+    "yaw_preview_available": true,
+    "pitch_preview_available": true,
+    "front_weapon_inspection_presets": [
+      "weapon",
+      "weaponCloseup"
+    ],
+    "visualization_only_preview_controls": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "default_conf": 0.20,
+  "default_iou": 0.45,
+  "max_det": 20,
+  "per_class_thresholds": {
+    "balloon": 0.20
+  },
+  "recommended_runtime_preset": "balanced"
+}

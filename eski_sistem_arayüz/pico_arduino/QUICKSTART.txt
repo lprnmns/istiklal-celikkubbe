@@ -1,0 +1,65 @@
+# Arduino IDE Kurulum Özeti
+
+## 🚀 5 Dakikada Kurulum
+
+### 1. Arduino IDE Yükle
+```
+https://www.arduino.cc/en/software
+→ Arduino IDE 2.x indir ve kur
+```
+
+### 2. Pico Desteği Ekle
+```
+File → Preferences → Additional Boards Manager URLs:
+https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+
+Tools → Board → Boards Manager → "Raspberry Pi Pico" ara ve yükle
+```
+
+### 3. Kodu Yükle
+```
+Tools → Board → Raspberry Pi Pico 2
+Tools → Port → COMx
+File → Open → motor_control_pico.ino
+Sketch → Upload
+```
+
+### 4. Test
+```
+Tools → Serial Monitor (115200 baud)
+→ "PING" yaz
+→ "OK,PONG" dönmeli
+```
+
+## 📁 Hazır Sketch'ler
+
+### ✅ motor_control_pico.ino
+- Temel motor kontrolü
+- Kütüphane gerektirmez
+- Hızlı başlangıç
+
+### 🚀 tmc2209_uart_test.ino  
+- TMC2209 UART kontrolü
+- TMCStepper kütüphanesi gerekli
+- Gelişmiş özellikler
+
+## 🔧 TMCStepper Kütüphanesi (UART için)
+
+```
+Sketch → Include Library → Manage Libraries
+→ "TMCStepper" ara ve yükle
+```
+
+## 📌 Pin Bağlantıları
+
+```
+GPIO2,3   → X Motor (STEP, DIR)
+GPIO4,5   → X Motor (MS1, MS2) veya TMC UART
+GPIO6,7   → Y Motor (STEP, DIR)
+GPIO8,9   → Y Motor (MS1, MS2)
+GPIO10    → ENABLE
+GPIO11    → LASER
+GPIO12    → E-STOP
+```
+
+Detaylar için: [ARDUINO_IDE_SETUP.md](ARDUINO_IDE_SETUP.md)

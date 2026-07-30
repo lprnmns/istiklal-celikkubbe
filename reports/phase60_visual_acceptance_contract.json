@@ -1,0 +1,33 @@
+{
+  "phase": "60",
+  "operator_mode": {
+    "route": "/cockpit?ui=operator",
+    "debug_controls_hidden": true,
+    "pid_hidden": true,
+    "threshold_hidden": true,
+    "asset_selector_hidden": true,
+    "yaw_pitch_slider_hidden": true,
+    "backend_offline_compact": true,
+    "system_health_simplified": true,
+    "operator_copy_simplified": true
+  },
+  "engineer_mode": {
+    "route": "/cockpit?ui=engineer",
+    "technical_tabs_enabled": true,
+    "detection_feedback_visible": true,
+    "pid_feedback_visible": true,
+    "debug_tools_available_in_tabs": true
+  },
+  "digital_twin_operator_view": {
+    "developer_toolbar_hidden": true,
+    "single_clean_toolbar": true,
+    "selected_target_marker_only": true,
+    "engagement_ray_requires_selected_target": true
+  },
+  "safety": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true,
+    "physical_command_path_added": false
+  }
+}

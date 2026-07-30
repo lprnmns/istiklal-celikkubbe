@@ -1,0 +1,26 @@
+{
+  "model_id": "fixture-opencv-test-adapter",
+  "model_name": "OpenCV Test Adapter Package Fixture",
+  "version": "0.1.0",
+  "created_by": "interface_team_fixture",
+  "created_at": "2026-05-10T00:00:00Z",
+  "model_format": "onnx",
+  "task_type": "detection",
+  "input_size": 640,
+  "expected_classes": ["f16", "helicopter", "ballistic_missile", "mini_micro_uav", "balloon"],
+  "class_id_to_name": {
+    "0": "f16",
+    "1": "helicopter",
+    "2": "ballistic_missile",
+    "3": "mini_micro_uav",
+    "4": "balloon"
+  },
+  "recommended_conf": 0.25,
+  "recommended_iou": 0.45,
+  "recommended_imgsz": 640,
+  "recommended_device": "cpu",
+  "notes": "Fixture/test package for validating handoff flow. This is not a production competition model.",
+  "safety_note": "advisory_only",
+  "provided_by": "test_fixture",
+  "production_ready": false
+}

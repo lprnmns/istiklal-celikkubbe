@@ -1,0 +1,32 @@
+{
+  "phase": 57,
+  "system_name": "İSTİKLAL C2 Command Cockpit",
+  "screen_redesign": "Mission Startup / Pre-Flight Check Panel",
+  "layout_conformance": {
+    "grid_columns": 12,
+    "checklist_span": 7,
+    "details_span": 5,
+    "background_asset": "ilk_acilis_ekrani.png",
+    "theme": "Dark Cinematic / Glassmorphism"
+  },
+  "diagnostics_coverage": [
+    "pico_connection",
+    "pico_command_acceptance",
+    "pico_response_telemetry",
+    "step_motor_driver_status",
+    "camera_system_inventory",
+    "ai_balloon_model",
+    "3d_digital_twin_kinematics"
+  ],
+  "safety_gates": {
+    "no_fire_ready": true,
+    "dry_run_active_default": true,
+    "active_engagement_lockout": true
+  },
+  "user_experience": {
+    "interactive_rows_expandable": true,
+    "suggested_fixes_provided": true,
+    "clock_date_widget": true,
+    "mode_selectors": 3
+  }
+}

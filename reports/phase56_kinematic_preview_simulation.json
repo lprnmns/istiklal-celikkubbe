@@ -1,0 +1,126 @@
+{
+  "schema": "phase56_kinematic_preview_simulation",
+  "kinematicsPath": "/assets/digital-twin/ktr1_kinematics.json",
+  "yawPivot": [
+    0.02299,
+    0.0,
+    0.02735
+  ],
+  "pitchPivot": [
+    0.0,
+    0.52293,
+    0.63688
+  ],
+  "baselineCameraLauncherDistance": 0.838087,
+  "maxCameraLauncherDistanceError": 0.0,
+  "cameraLauncherRigid": true,
+  "poses": [
+    {
+      "name": "neutral",
+      "yawDeg": 0,
+      "pitchDeg": 0,
+      "camera": [
+        0.49905,
+        0.73257,
+        1.03336
+      ],
+      "launcher": [
+        -0.30522,
+        0.68434,
+        1.26404
+      ],
+      "cameraLauncherDistance": 0.838087,
+      "distanceError": 0.0
+    },
+    {
+      "name": "yaw_left",
+      "yawDeg": -30,
+      "pitchDeg": 0,
+      "camera": [
+        -0.06773,
+        0.73257,
+        1.13661
+      ],
+      "launcher": [
+        -0.87959,
+        0.68434,
+        0.93425
+      ],
+      "cameraLauncherDistance": 0.838087,
+      "distanceError": 0.0
+    },
+    {
+      "name": "yaw_right",
+      "yawDeg": 30,
+      "pitchDeg": 0,
+      "camera": [
+        0.93828,
+        0.73257,
+        0.66055
+      ],
+      "launcher": [
+        0.3571,
+        0.68434,
+        1.26246
+      ],
+      "cameraLauncherDistance": 0.838087,
+      "distanceError": 0.0
+    },
+    {
+      "name": "pitch_down",
+      "yawDeg": 0,
+      "pitchDeg": -10,
+      "camera": [
+        0.49905,
+        0.79823,
+        0.99093
+      ],
+      "launcher": [
+        -0.30522,
+        0.79079,
+        1.22648
+      ],
+      "cameraLauncherDistance": 0.838087,
+      "distanceError": 0.0
+    },
+    {
+      "name": "pitch_up",
+      "yawDeg": 0,
+      "pitchDeg": 35,
+      "camera": [
+        0.49905,
+        0.46725,
+        1.0819
+      ],
+      "launcher": [
+        -0.30522,
+        0.29543,
+        1.2432
+      ],
+      "cameraLauncherDistance": 0.838087,
+      "distanceError": 0.0
+    },
+    {
+      "name": "combined",
+      "yawDeg": 25,
+      "pitchDeg": 25,
+      "camera": [
+        0.90135,
+        0.54537,
+        0.78454
+      ],
+      "launcher": [
+        0.25217,
+        0.40417,
+        1.29545
+      ],
+      "cameraLauncherDistance": 0.838087,
+      "distanceError": 0.0
+    }
+  ],
+  "safety": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true
+  }
+}

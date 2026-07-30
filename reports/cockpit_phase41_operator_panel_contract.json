@@ -1,0 +1,13 @@
+{
+  "phase": 41,
+  "operator_cards": {
+    "cihaz_yoneticisi": ["camera_source", "usb_camera_status", "pico_status", "model_asset_status", "physical_command_status"],
+    "model_runtime": ["active_detector", "classes", "tracker", "confidence_threshold", "source_mode"],
+    "hedef_angajman": ["selected_target_id", "class", "confidence", "direction", "depth_estimate", "fire_gate_result"],
+    "scene_plan": ["fov_visualization", "launcher_axis", "camera_launcher_offset", "no_go_zone", "digital_twin_sync"],
+    "replay_evidence": ["ktr_demo_mode", "screenshot_folder", "asset_manifest", "camera_truth_contract", "no_physical_command_generated"],
+    "operator_log": ["camera_decision", "asset_decision", "pico_offline_expected", "usb_offline_expected", "person_safety", "no_tx_generated"]
+  },
+  "no_repeated_placeholder_rows": true,
+  "no_physical_command_generated": true
+}

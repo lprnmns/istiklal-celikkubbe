@@ -1,0 +1,23 @@
+{
+  "model_id": "legacy-balloon-yolo",
+  "model_name": "Legacy Balloon YOLO",
+  "version": "0.1.0",
+  "created_by": "legacy_tracker_audit",
+  "created_at": "2026-05-15T00:00:00Z",
+  "model_format": "pt",
+  "task_type": "detection",
+  "input_size": 640,
+  "expected_classes": ["f16", "helicopter", "ballistic_missile", "mini_micro_uav", "balloon"],
+  "class_id_to_name": {
+    "0": "balloon",
+    "1": "balloon"
+  },
+  "recommended_conf": 0.25,
+  "recommended_iou": 0.45,
+  "recommended_imgsz": 640,
+  "recommended_device": "cpu",
+  "notes": "Legacy balloon YOLO model imported from eski_sistem_arayüz/models/yolo2/best.pt for live camera inference. Advisory detection metadata only; no hardware command path.",
+  "safety_note": "advisory_only",
+  "provided_by": "vision_team",
+  "production_ready": true
+}

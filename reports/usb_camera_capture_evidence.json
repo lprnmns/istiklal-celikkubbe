@@ -1,0 +1,31 @@
+{
+  "evidence_id": "real_camera_evidence_20260515_133811_7bd8b0",
+  "status": "recorded",
+  "created_at": 1778841491.8716471,
+  "camera_source": "external_usb_camera",
+  "camera_device_path": "/dev/video2",
+  "frame_origin": "real_capture",
+  "detector": "legacy_opencv_perception_evidence",
+  "preset_id": "legacy_hsv_red_pink_balanced",
+  "frame_width": 1280,
+  "frame_height": 720,
+  "fps_estimate": null,
+  "detections_count": 0,
+  "target_center_metadata": {
+    "frame_hash": "0ac3c8f7b86903388ed27d8cbee755e4798b16f7b4cdd83173d24a3f2e260c3e",
+    "frame_sha256": "0ac3c8f7b86903388ed27d8cbee755e4798b16f7b4cdd83173d24a3f2e260c3e",
+    "frame_path": "/home/alperen/teknofest/exports/camera_host/camera_frame_20260515_133810_8621de.jpg",
+    "capture_method": "ffmpeg",
+    "selected_camera_device": "/dev/video2",
+    "selected_camera_name": "HD USB Camera",
+    "camera_kind": "external_usb_camera",
+    "camera_acceptance_status": "passed",
+    "blocker_reason": "none",
+    "advisory_only": true,
+    "no_physical_command_generated": true
+  },
+  "warnings": [],
+  "advisory_only": true,
+  "no_physical_command_generated": true,
+  "physical_command_enabled": false
+}

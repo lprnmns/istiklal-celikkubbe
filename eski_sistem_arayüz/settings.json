@@ -1,0 +1,13 @@
+{
+    "model_type": "OPENCV",
+    "model_path": "/home/alperen/teknofest/eski_sistem_arayüz/models/yolo2/best.pt",
+    "camera_index": "/dev/video2",
+    "resolution": "1280x720",
+    "fps": 30,
+    "port": "/dev/ttyACM0",
+    "motor_speed": "Fast",
+    "startup_mode": "IDLE",
+    "enable_serial_tx": false,
+    "safe_dry_run": true,
+    "no_physical_command_generated": true
+}

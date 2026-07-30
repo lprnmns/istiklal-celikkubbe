@@ -1,0 +1,20 @@
+{
+  "phase": 38,
+  "name": "Digital Twin Asset Contract",
+  "preferred_asset_order": [".glb", ".gltf", ".obj", ".stl", ".step", ".stp"],
+  "browser_friendly_assets": [".glb", ".gltf"],
+  "pose_source_hierarchy": ["telemetry", "tracker_estimate", "replay_fixture", "static_demo_pose"],
+  "offline_mode": {
+    "pico_required": false,
+    "telemetry_missing_is_failure": false,
+    "fallback_model": "procedural_threejs_turret",
+    "camera_to_launcher_offset_z_mm": 30
+  },
+  "safety": {
+    "digital_twin_read_only": true,
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true
+  }
+}
+

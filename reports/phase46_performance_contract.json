@@ -1,0 +1,17 @@
+{
+  "phase": 46,
+  "rendering": {
+    "ktr_demo_fps_cap": 10,
+    "balanced_fps_cap": 15,
+    "hidden_tab_throttle": true,
+    "postprocessing": false,
+    "dynamic_shadows": false,
+    "primary_3d_geometry": "tactical_simplified_geometry"
+  },
+  "polling": {
+    "digital_twin_metadata_hz": 2,
+    "runtime_refresh_ms": 3000,
+    "video_frame_driven_full_ui_rerender": false
+  },
+  "no_physical_command_generated": true
+}

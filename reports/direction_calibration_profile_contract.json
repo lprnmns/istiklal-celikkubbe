@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-05-14T19:36:53",
+  "source_commit": "d178c84",
+  "profile_fields": [
+    "profile_id",
+    "created_at",
+    "updated_at",
+    "source",
+    "image_x_positive",
+    "image_y_positive",
+    "camera_mirror_x",
+    "camera_mirror_y",
+    "axis_swap",
+    "pan_positive_label",
+    "tilt_positive_label",
+    "x_axis_multiplier",
+    "y_axis_multiplier",
+    "target_error_convention",
+    "expected_pan_response",
+    "expected_tilt_response",
+    "advisory_only",
+    "physical_command_enabled",
+    "no_physical_command_generated",
+    "notes"
+  ],
+  "allowed_multiplier_values": {
+    "x_axis_multiplier": [
+      1,
+      -1
+    ],
+    "y_axis_multiplier": [
+      1,
+      -1
+    ]
+  },
+  "safety_contract": {
+    "advisory_only": true,
+    "physical_command_enabled": false,
+    "no_physical_command_generated": true
+  },
+  "forbidden_runtime_actions": [
+    "motor jog",
+    "step pulse",
+    "DIR pin change",
+    "PWM/GPIO output",
+    "serial TX/write",
+    "Pico/Arduino command",
+    "fire/trigger/shoot",
+    "hardware enable"
+  ]
+}

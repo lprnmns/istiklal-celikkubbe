@@ -1,0 +1,20 @@
+@echo off
+setlocal
+set "HERE=%~dp0"
+set "PYTHON="
+set "PYTHON_ARGS="
+if exist "%HERE%..\..\..\backend\.venv\Scripts\python.exe" set "PYTHON=%HERE%..\..\..\backend\.venv\Scripts\python.exe"
+if not defined PYTHON (
+  where py >nul 2>nul
+  if not errorlevel 1 (
+    set "PYTHON=py"
+    set "PYTHON_ARGS=-3"
+  )
+)
+if not defined PYTHON (
+  where python >nul 2>nul
+  if not errorlevel 1 set "PYTHON=python"
+)
+if not defined PYTHON exit /b 1
+"%PYTHON%" %PYTHON_ARGS% "%HERE%docker_toggle.py" --gui
+endlocal

@@ -1,0 +1,27 @@
+{
+  "schema_version": "phase34.1",
+  "title": "Person Safety Gate Contract",
+  "no_physical_command_generated": true,
+  "physical_command_enabled": false,
+  "purpose": "Additional software fire-block gate for person/human/insan detections.",
+  "config": {
+    "person_safety.enabled": true,
+    "person_safety.confidence_threshold": 0.55,
+    "person_safety.hold_ms": 800,
+    "person_safety.clear_after_ms": 1200
+  },
+  "input": "VisionEvent.body_detections",
+  "classes": ["person", "human", "insan"],
+  "active_output": {
+    "person_detected": true,
+    "fire_gate_blocked_reason": "PERSON_DETECTED",
+    "recommended_state": "SAFE_HOLD or FIRE_BLOCKED"
+  },
+  "clear_output": {
+    "person_detected": false,
+    "fire_gate_blocked_reason": null,
+    "recommended_state": "CLEAR"
+  },
+  "canonical_fire_message": "FIRE_BLOCKED: PERSON_DETECTED; no_physical_command_generated=true",
+  "boundary": "Additional software layer only; not a replacement for emergency stop or operator supervision."
+}

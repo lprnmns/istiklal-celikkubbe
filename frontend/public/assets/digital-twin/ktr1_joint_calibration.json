@@ -1,0 +1,103 @@
+{
+  "schema": "phase56_joint_calibration",
+  "sourceCadPath": "work/ktr1.step",
+  "status": "draft_requires_manual_pick_or_physical_measurement",
+  "visualizationOnly": true,
+  "joints": {
+    "yaw": {
+      "physicalMotor": "X/azimuth step motor",
+      "pivot": [
+        0.02299,
+        0.0,
+        0.02735
+      ],
+      "axisRuntime": [
+        0,
+        1,
+        0
+      ],
+      "limitsDeg": [
+        -180,
+        180
+      ],
+      "stepToDegree": null,
+      "source": "base/table part `tabla` X/Z center with Y normalized to yaw axis"
+    },
+    "pitch": {
+      "physicalMotor": "Y/elevation step motor",
+      "pivot": [
+        0.0,
+        0.52293,
+        0.63688
+      ],
+      "axisRuntime": [
+        1,
+        0,
+        0
+      ],
+      "limitsDeg": [
+        -10,
+        75
+      ],
+      "stepToDegree": null,
+      "source": "candidate shaft/axis part `Axel` bbox Y/Z with X normalized to centerline"
+    }
+  },
+  "anchors": {
+    "camera_origin": {
+      "position": [
+        0.49905,
+        0.73257,
+        1.03336
+      ],
+      "axisRuntime": [
+        0,
+        0,
+        1
+      ],
+      "source": "camera part bbox center draft"
+    },
+    "launcher_origin": {
+      "position": [
+        -0.30522,
+        0.68434,
+        1.26404
+      ],
+      "axisRuntime": [
+        0,
+        0,
+        1
+      ],
+      "source": "launcher part bbox center draft"
+    },
+    "target_projection_anchor": {
+      "position": [
+        0.49905,
+        0.73257,
+        2.03336
+      ],
+      "source": "front-axis camera ray draft"
+    },
+    "no_go_zone_anchor": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "source": "not calibrated"
+    }
+  },
+  "offsets": {
+    "camera_to_launcher_mm": [
+      30,
+      0,
+      0
+    ],
+    "status": "contract value; must be verified against CAD/physical measurement"
+  },
+  "safety": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true
+  }
+}

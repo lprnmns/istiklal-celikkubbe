@@ -1,0 +1,107 @@
+{
+  "schema_version": "phase31.1",
+  "title": "ISTIKLAL C2 Digital Twin Read-Only State Contract",
+  "no_physical_command_generated": true,
+  "digital_twin_read_only": true,
+  "digital_twin_command_authority": false,
+  "physical_command_enabled_required": false,
+  "purpose": "Report-ready contract for a read-only telemetry mirror used by Phase 31 and Phase 32.",
+  "required_invariants": [
+    "no_physical_command_generated=true",
+    "digital_twin_read_only=true",
+    "digital_twin_command_authority=false",
+    "Digital twin endpoints must not open serial, GPIO, PWM, STEP/DIR, servo, fire, or hardware enable paths.",
+    "Digital twin UI must be optional and must not replace live tracker, camera, Pico, safety, logs, or reports behavior."
+  ],
+  "fields": {
+    "timestamp_ms": "integer epoch milliseconds",
+    "mode": "fixture | live_read_only | degraded",
+    "feature_enabled": "boolean feature flag state",
+    "source": "fixture_deterministic_mock | runtime_read_only_adapter",
+    "device_pose": {
+      "pan_deg": "float degrees, read-only mirror or fixture",
+      "tilt_deg": "float degrees, read-only mirror or fixture",
+      "servo_angle_deg": "float visual-only angle",
+      "pose_quality": "fixture | estimated | runtime | unavailable",
+      "pan_steps": "integer read-only mirrored steps",
+      "tilt_steps": "integer read-only mirrored steps",
+      "source": "string"
+    },
+    "camera": {
+      "selected_camera": "string",
+      "device_path": "string|null",
+      "source_type": "laptop | usb | video_file | replay | mock | unknown",
+      "running": "boolean",
+      "real_camera_stream": "boolean",
+      "width": "integer",
+      "height": "integer",
+      "fps": "float",
+      "frame_age_ms": "float|null"
+    },
+    "target": {
+      "detected": "boolean",
+      "track_id": "integer|null",
+      "class_id": "string",
+      "class_label": "string",
+      "confidence": "float 0..1",
+      "bbox": "pixel bbox|null",
+      "center_px": "x/y/z vector|null",
+      "estimated_scene_position_m": "x/y/z vector|null",
+      "source": "string"
+    },
+    "tracker": {
+      "tracking_enabled": "boolean",
+      "state": "string",
+      "error_x_px": "float",
+      "error_y_px": "float",
+      "latency_ms": "float|null",
+      "command_rate_hz": "float",
+      "max_speed": "integer",
+      "source": "runtime_read_only | fixture"
+    },
+    "engagement": {
+      "fire_allowed": "false for digital twin layer",
+      "fire_blocked_reason": "digital_twin_read_only",
+      "last_event": "string",
+      "target_loss_after_engagement": "boolean",
+      "magazine_remaining": "integer|null"
+    },
+    "safety": {
+      "e_stop": "string",
+      "fire_policy": "string",
+      "hardware_enabled": "boolean runtime mirror",
+      "physical_command_enabled": "boolean runtime mirror, must remain false during safe development",
+      "digital_twin_read_only": true,
+      "digital_twin_command_authority": false,
+      "hardware_acceptance_required": true,
+      "no_physical_command_generated": true,
+      "forbidden_actions": [
+        "motor",
+        "fire",
+        "servo",
+        "gpio",
+        "pwm",
+        "step_dir",
+        "serial_tx",
+        "hardware_enable"
+      ]
+    },
+    "scene_nodes": [
+      "base_static",
+      "yaw_root",
+      "pitch_root",
+      "camera_mount",
+      "launcher_visual",
+      "trigger_visual",
+      "target_visual",
+      "safety_zone"
+    ]
+  },
+  "api_endpoints": [
+    "GET /api/digital-twin/state",
+    "GET /api/digital-twin/assets",
+    "GET /api/digital-twin/replay/latest",
+    "POST /api/digital-twin/replay/generate"
+  ],
+  "phase_stop": "Stop before Phase 33 target projection and class asset binding."
+}

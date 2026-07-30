@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=ISTIKLAL Tek Tik Ac/Kapat
+Comment=Kapaliysa baslatir, calisiyorsa guvenli bicimde durdurur
+Exec=sh -c 'd=$(dirname "$1"); exec "$d/ISTIKLAL_TEK_TIK.sh"' sh %k
+Icon=system-run
+Terminal=false
+Categories=Utility;

@@ -1,0 +1,33 @@
+{
+  "phase": 47,
+  "mapping_function": "frontend/src/utils/engagementGeometry.ts::mapDetectionToEngagementGeometry",
+  "inputs": [
+    "x_norm",
+    "y_norm",
+    "bbox_area_relative",
+    "fov_horizontal_deg",
+    "fov_vertical_deg",
+    "camera_to_launcher_offset_z_mm"
+  ],
+  "outputs": [
+    "target_scene_x",
+    "target_scene_y",
+    "target_scene_depth",
+    "target_inside_fov",
+    "launcher_axis_error_x",
+    "launcher_axis_error_y",
+    "engagement_status"
+  ],
+  "fixture_example": {
+    "x_norm": 0.76,
+    "y_norm": 0.54,
+    "bbox_area_relative": 0.031,
+    "expected_bearing": "RIGHT",
+    "expected_elevation": "MID",
+    "expected_depth": "mid"
+  },
+  "depth_rule": "larger bbox area appears closer; smaller bbox area appears farther",
+  "projection_is_calibrated": false,
+  "no_physical_command_generated": true
+}
+

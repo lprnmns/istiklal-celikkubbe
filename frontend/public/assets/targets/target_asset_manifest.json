@@ -1,0 +1,87 @@
+{
+  "schema_version": "competition_target_assets.v1",
+  "source_archive": "/home/alperen/teknofest/work/competition_target_sources/Modeller_Kil6t.zip",
+  "source_archive_sha256": "9b9dab8c68cc4a5962db6c5787dd3b8c7846f5609182780b71dad418101ec7bc",
+  "source_3mf": "Modeller.3mf",
+  "source_units": "millimeter",
+  "targets": [
+    {
+      "class_name": "ballistic_missile",
+      "label": "Balistik Füze",
+      "asset_path": "/assets/targets/ballistic_missile.glb",
+      "source_object": "object_18.model",
+      "source_object_sha256": "5a87deb8025dc0124e24c73937edb1b261087bf78846574288d07ceef4730a08",
+      "reference_span_mm": 500.0,
+      "dimensions_mm": [
+        102.942,
+        216.842,
+        500.0
+      ],
+      "raw_triangle_count": 20626,
+      "lod_triangle_count": 3480,
+      "lod_vertex_count": 1719,
+      "lod_grid_resolution": 85,
+      "asset_size_bytes": 63744,
+      "no_physical_command_generated": true
+    },
+    {
+      "class_name": "helicopter",
+      "label": "Helikopter",
+      "asset_path": "/assets/targets/helicopter.glb",
+      "source_object": "object_19.model",
+      "source_object_sha256": "fc1567c61bfdd49f5900f07abf327f9f45276a63dcffacd375627e9d98ea802e",
+      "reference_span_mm": 583.0,
+      "dimensions_mm": [
+        392.41,
+        582.645,
+        176.997
+      ],
+      "raw_triangle_count": 607680,
+      "lod_triangle_count": 6350,
+      "lod_vertex_count": 2851,
+      "lod_grid_resolution": 85,
+      "asset_size_bytes": 108124,
+      "no_physical_command_generated": true
+    },
+    {
+      "class_name": "f16",
+      "label": "F-16",
+      "asset_path": "/assets/targets/f16.glb",
+      "source_object": "object_20.model",
+      "source_object_sha256": "20d7e7ac343e448a95db32cb886f460584539cb789860aa60986c0dc599dc9bf",
+      "reference_span_mm": 500.0,
+      "dimensions_mm": [
+        299.865,
+        499.53,
+        137.777
+      ],
+      "raw_triangle_count": 687994,
+      "lod_triangle_count": 14780,
+      "lod_vertex_count": 7081,
+      "lod_grid_resolution": 85,
+      "asset_size_bytes": 260224,
+      "no_physical_command_generated": true
+    },
+    {
+      "class_name": "mini_micro_uav",
+      "label": "Mini/Micro İHA",
+      "asset_path": "/assets/targets/mini_micro_uav.glb",
+      "source_object": "object_21.model",
+      "source_object_sha256": "2ddfac214687971b236b516aa99850970d3dce2613c0ea1c734be807e8e45f0b",
+      "reference_span_mm": 375.0,
+      "dimensions_mm": [
+        285.506,
+        374.518,
+        194.759
+      ],
+      "raw_triangle_count": 715412,
+      "lod_triangle_count": 17894,
+      "lod_vertex_count": 8464,
+      "lod_grid_resolution": 85,
+      "asset_size_bytes": 312128,
+      "no_physical_command_generated": true
+    }
+  ],
+  "no_physical_command_generated": true,
+  "physical_command_enabled": false
+}

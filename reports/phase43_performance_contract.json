@@ -1,0 +1,30 @@
+{
+  "phase": 43,
+  "contract_name": "frontend_performance_contract",
+  "scope": "frontend_rendering_and_polling_only",
+  "render_loop": {
+    "balanced_fps_cap": 15,
+    "low_performance_fps_cap": 10,
+    "ktr_demo_fps_cap": 10,
+    "hidden_tab_behavior": "skip active Three.js rendering work while document.hidden is true",
+    "pixel_ratio_cap": {
+      "balanced": 1.5,
+      "low": 1.25
+    }
+  },
+  "polling": {
+    "digital_twin_metadata_hz": 2,
+    "main_runtime_refresh_ms": 3000,
+    "note": "Camera frame rendering is separate from metadata polling; detection/tracking pipeline is untouched."
+  },
+  "performance_mode": {
+    "query_param": "perf=low",
+    "label": "PERFORMANCE_MODE=LOW",
+    "effect": "caps Three.js render loop at 10 FPS and reduces pixel ratio"
+  },
+  "safety_boundary": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true
+  }
+}

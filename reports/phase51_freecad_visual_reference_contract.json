@@ -1,0 +1,12 @@
+{
+  "phase": 51,
+  "source_asset": "work/ktr1.step",
+  "reference_folder": "reports/screenshots/phase51_freecad_fidelity_reference",
+  "reference_images": [
+    "freecad_reference_operator.png",
+    "freecad_reference_front.png",
+    "freecad_reference_top.png"
+  ],
+  "freecad_geometry_used": true,
+  "no_physical_command_generated": true
+}

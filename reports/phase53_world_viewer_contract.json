@@ -1,0 +1,14 @@
+{
+  "phase": 53,
+  "primary_world_route": "/cockpit/world",
+  "world_viewer_height": "90vh",
+  "default_world_mode": "FreeCAD Match",
+  "routes": [
+    "/cockpit/world?quality=ultra&mode=freecad",
+    "/cockpit/world?quality=ultra&mode=showcase",
+    "/cockpit/world?quality=ultra&mode=tactical"
+  ],
+  "browser_fullscreen_button": true,
+  "camera_panel_in_world_mode": false,
+  "no_physical_command_generated": true
+}

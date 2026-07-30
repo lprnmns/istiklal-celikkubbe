@@ -1,0 +1,38 @@
+{
+  "phase": 37,
+  "name": "ISTIKLAL C2 Professional Cockpit Visual Layout",
+  "route": "/cockpit",
+  "layout": {
+    "top_bar": ["title", "system_mode", "safety", "camera", "model", "pico", "latency", "fps", "readiness", "clock"],
+    "primary_panels": ["live_camera_hud", "threejs_digital_twin"],
+    "bottom_panels": [
+      "device_manager",
+      "model_runtime_settings",
+      "target_engagement",
+      "scene_plan_view",
+      "replay_evidence",
+      "operator_log"
+    ],
+    "persistent_strip": ["sync", "digital_twin_sync", "data_path", "system_load", "temperature_placeholder", "voltage_placeholder", "dry_run_safety_banner"]
+  },
+  "component_structure": [
+    "CockpitTopBar",
+    "LiveCameraPanel",
+    "DigitalTwinPanel",
+    "DeviceManagerPanel",
+    "RuntimeSettingsPanel",
+    "EngagementPanel",
+    "ScenePlanPanel",
+    "EvidenceReplayPanel",
+    "OperatorLogPanel",
+    "SafetyModeBanner"
+  ],
+  "safety_boundary": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "fire_enabled": false,
+    "no_physical_command_generated": true,
+    "new_physical_command_path_added": false
+  }
+}
+

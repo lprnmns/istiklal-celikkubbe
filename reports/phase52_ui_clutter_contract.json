@@ -1,0 +1,11 @@
+{
+  "phase": 52,
+  "labels_default": "clean",
+  "freecad_match_overlays_default": "hidden",
+  "geometry_panel_in_freecad_match": "hidden",
+  "bottom_metrics_in_world_route": "hidden",
+  "toolbar_location": "outside primary model area",
+  "labels_cover_model": false,
+  "no_physical_command_generated": true
+}
+

@@ -1,0 +1,27 @@
+name: istiklal-test
+
+services:
+  istiklal:
+    build:
+      context: ../../..
+      dockerfile: release/one_click/docker/Dockerfile
+    restart: "no"
+    ports:
+      - "127.0.0.1::8000"
+    volumes:
+      - istiklal_logs:/app/logs
+      - istiklal_exports:/app/exports
+      - istiklal_reports:/app/reports
+      - istiklal_data:/app/data
+      - istiklal_runtime_config:/app/config/runtime
+    environment:
+      ISTIKLAL_CONTAINER_PROFILE: TEST_ONLY_NO_PHYSICAL_HARDWARE
+    security_opt:
+      - no-new-privileges:true
+
+volumes:
+  istiklal_logs:
+  istiklal_exports:
+  istiklal_reports:
+  istiklal_data:
+  istiklal_runtime_config:

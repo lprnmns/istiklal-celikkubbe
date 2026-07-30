@@ -1,0 +1,67 @@
+{
+  "phase": "28.1",
+  "status": "paused_waiting_for_hardware",
+  "reason": "Real Pico/Arduino and real camera hardware are not available, so hardware-dependent acceptance cannot be completed.",
+  "next_gate": "read_only_pico_and_real_camera_acceptance",
+  "required_hardware": [
+    {
+      "id": "pico_or_arduino_controller",
+      "required_for": "serial discovery and RX-only telemetry evidence",
+      "acceptance_endpoints": [
+        "GET /api/pico/discovery/ports",
+        "GET /api/pico/read-only/status",
+        "GET /api/pico/read-only/latest-telemetry",
+        "POST /api/pico/read-only/capture-evidence"
+      ],
+      "allowed_mode": "read_only_rx_only",
+      "forbidden": [
+        "serial write",
+        "Pico command TX",
+        "motor jog",
+        "STEP/DIR/PWM/GPIO output",
+        "TMC current write",
+        "hardware enable",
+        "fire/trigger/shoot"
+      ]
+    },
+    {
+      "id": "real_laptop_or_usb_camera",
+      "required_for": "real camera evidence and mock-vs-real evidence separation",
+      "acceptance_endpoints": [
+        "GET /api/vision/real-camera/status",
+        "POST /api/vision/real-camera/capture-evidence",
+        "GET /api/vision/real-camera/latest"
+      ],
+      "allowed_mode": "camera_frame_evidence_only",
+      "forbidden": [
+        "production YOLO claim without validated model",
+        "mock frame presented as real camera evidence",
+        "physical command generation"
+      ]
+    },
+    {
+      "id": "future_bench_safety_setup",
+      "required_for": "any future motor micro-jog gate",
+      "preconditions": [
+        "direction calibration profile saved",
+        "x_axis_multiplier verified",
+        "y_axis_multiplier verified",
+        "axis_swap resolved",
+        "E-stop ready",
+        "physical safety area ready",
+        "separate bench micro-jog safety gate approved"
+      ],
+      "current_phase_allowed": false
+    }
+  ],
+  "current_safety_invariant": {
+    "mode": "DISARMED",
+    "fire_policy": "NO_FIRE",
+    "dry_run": true,
+    "hardware_enabled": false,
+    "physical_command_enabled": false
+  },
+  "canonical_proof": {
+    "no_physical_command_generated": true
+  }
+}

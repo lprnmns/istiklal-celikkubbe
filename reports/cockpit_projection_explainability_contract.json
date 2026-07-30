@@ -1,0 +1,29 @@
+{
+  "phase": 42,
+  "contract_name": "cockpit_projection_explainability_contract",
+  "panel_title": "2D Detection -> 3D Digital Twin Mapping",
+  "inputs": {
+    "bbox_center": ["x_norm", "y_norm"],
+    "bbox_area_ratio": "relative image area",
+    "pose_source": "telemetry | tracker_estimate | replay_fixture | ktr_demo_fixture | static_demo_pose",
+    "camera_to_launcher_offset_z_mm": 30
+  },
+  "display_outputs": {
+    "relative_depth": "near | mid | far",
+    "target_marker_position": "left/right/up/down follows normalized bbox center",
+    "target_marker_size": "near is larger, mid is medium, far is smaller",
+    "camera_ray": "read-only projection line",
+    "launcher_reference_ray": "aim reference only / no physical command"
+  },
+  "truth_policy": {
+    "fixture_mode_label": "Fixture visualization for KTR explanation. Real camera path preserved separately.",
+    "metric_precision": "Depth is relative unless calibrated telemetry/range exists.",
+    "not_a_fire_solution": true,
+    "no_physical_command_generated": true
+  },
+  "safety_boundary": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "disabled_paths": ["motor", "fire", "servo", "GPIO", "PWM", "STEP_DIR", "hardware_enable", "serial_tx"]
+  }
+}

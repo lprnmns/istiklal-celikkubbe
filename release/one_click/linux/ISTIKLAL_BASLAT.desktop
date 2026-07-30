@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=ISTIKLAL Baslat
+Comment=Backend ve frontend'i bos bir portta baslatir
+Exec=sh -c 'd=$(dirname "$1"); exec "$d/ISTIKLAL_BASLAT.sh"' sh %k
+Icon=applications-system
+Terminal=false
+Categories=Utility;

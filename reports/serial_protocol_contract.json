@@ -1,0 +1,9 @@
+{
+  "alias_for": "reports/istiklal_serial_protocol_v1_contract.json",
+  "protocol_name": "ISTIKLAL Serial Packet Protocol",
+  "protocol_version": 1,
+  "serial_tx_enabled": false,
+  "physical_command_enabled": false,
+  "no_physical_command_generated": true
+}
+

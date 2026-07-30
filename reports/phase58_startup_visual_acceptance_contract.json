@@ -1,0 +1,19 @@
+{
+  "phase": 58,
+  "title": "Cinematic Startup Screen with Hero Background",
+  "background_image": "/assets/startup/ilk_acilis_ekrani.png",
+  "background_visible": true,
+  "device_centered": true,
+  "panels_glassmorphic": true,
+  "panels_do_not_cover_device_center": true,
+  "diagnostic_rows": ["pico_conn", "pico_cmd", "pico_telem", "camera", "stepper", "ai", "twin"],
+  "safety_gates_visible": true,
+  "start_button_bottom_center": true,
+  "led_semantics": { "green": "OK", "yellow": "DEGRADED/WARNING", "red": "FAIL" },
+  "build_passes": true,
+  "typecheck_passes": true,
+  "responsive_1920x1080": true,
+  "no_hardware_commands": true,
+  "physical_command_enabled": false,
+  "serial_tx_enabled": false
+}

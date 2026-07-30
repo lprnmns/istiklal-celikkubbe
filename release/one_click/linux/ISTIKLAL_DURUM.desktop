@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=ISTIKLAL Durum
+Comment=ISTIKLAL sunucu durumunu ve URL'yi gosterir
+Exec=sh -c 'd=$(dirname "$1"); exec "$d/ISTIKLAL_DURUM.sh"' sh %k
+Icon=dialog-information
+Terminal=false
+Categories=Utility;

@@ -1,0 +1,11 @@
+{
+  "phase": 54,
+  "source_asset": "work/ktr1.step",
+  "output_asset": "/assets/digital-twin/ktr1_step_hifi_phase54.glb",
+  "triangle_count": 1314536,
+  "mesh_count": 136,
+  "decimation_used": false,
+  "material_status": "reconstructed",
+  "weapon_geometry_visible_in_browser": true,
+  "screenshot": "reports/screenshots/phase54_model_fidelity_fix/browser_step_hifi_same_angle.png"
+}

@@ -1,0 +1,7 @@
+{"accepted":false,"reason":"physical_commands_disabled_in_phase12_readonly","command_type":"fire_request","no_physical_command_generated":true}
+{"accepted":false,"reason":"physical_commands_disabled_in_phase12_readonly","command_type":"jog_motor","no_physical_command_generated":true}
+{"accepted":false,"reason":"physical_commands_disabled_in_phase12_readonly","command_type":"set_motor_target","no_physical_command_generated":true}
+{"accepted":false,"reason":"physical_commands_disabled_in_phase12_readonly","command_type":"set_servo_position","no_physical_command_generated":true}
+{"accepted":false,"reason":"physical_commands_disabled_in_phase12_readonly","command_type":"enable_driver","no_physical_command_generated":true}
+{"accepted":false,"reason":"physical_commands_disabled_in_phase12_readonly","command_type":"step_pulse","no_physical_command_generated":true}
+{"accepted":false,"reason":"physical_commands_disabled_in_phase12_readonly","command_type":"pwm_write","no_physical_command_generated":true}

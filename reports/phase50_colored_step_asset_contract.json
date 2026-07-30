@@ -1,0 +1,13 @@
+{
+  "phase": 50,
+  "source_asset": "ktr1.step",
+  "source_asset_policy": "authoritative_colored_step",
+  "default_hero_asset": "/assets/digital-twin/ktr1_colored_step_hero.glb",
+  "stl_is_default": false,
+  "procedural_fallback_is_default": false,
+  "selected_asset_type": "REAL_STEP_GLB",
+  "material_preserved": false,
+  "materials_reconstructed": true,
+  "fallback_used": false,
+  "no_physical_command_generated": true
+}

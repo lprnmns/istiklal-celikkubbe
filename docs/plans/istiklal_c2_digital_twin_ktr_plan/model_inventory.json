@@ -1,0 +1,34 @@
+[
+  {
+    "uploaded_name": "object_18.model",
+    "path": "/mnt/data/object_18.model",
+    "size_bytes": 1593671,
+    "detected_format": "3MF XML model (.model extension)",
+    "sha256": "5a87deb8025dc0124e24c73937edb1b261087bf78846574288d07ceef4730a08",
+    "role": "competition_target_class_asset_candidate_unlabeled"
+  },
+  {
+    "uploaded_name": "object_19.model",
+    "path": "/mnt/data/object_19.model",
+    "size_bytes": 50215966,
+    "detected_format": "3MF XML model (.model extension)",
+    "sha256": "fc1567c61bfdd49f5900f07abf327f9f45276a63dcffacd375627e9d98ea802e",
+    "role": "competition_target_class_asset_candidate_unlabeled"
+  },
+  {
+    "uploaded_name": "object_20.model",
+    "path": "/mnt/data/object_20.model",
+    "size_bytes": 57120249,
+    "detected_format": "3MF XML model (.model extension)",
+    "sha256": "20d7e7ac343e448a95db32cb886f460584539cb789860aa60986c0dc599dc9bf",
+    "role": "competition_target_class_asset_candidate_unlabeled"
+  },
+  {
+    "uploaded_name": "object_21.model",
+    "path": "/mnt/data/object_21.model",
+    "size_bytes": 58943183,
+    "detected_format": "3MF XML model (.model extension)",
+    "sha256": "2ddfac214687971b236b516aa99850970d3dce2613c0ea1c734be807e8e45f0b",
+    "role": "competition_target_class_asset_candidate_unlabeled"
+  }
+]

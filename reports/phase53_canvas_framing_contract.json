@@ -1,0 +1,11 @@
+{
+  "phase": 53,
+  "source_step": "work/ktr1.step",
+  "output_glb": "frontend/public/assets/digital-twin/ktr1_freecad_fidelity.glb",
+  "uses_box3_center": true,
+  "uses_bounding_radius": true,
+  "resize_refits_camera": true,
+  "orthographic_freecad_match": true,
+  "fit_margin_target": 1.25,
+  "model_clipping_expected": false
+}

@@ -1,0 +1,64 @@
+"""
+HARİCİ KAMERA İÇİN PERFORMANS REHBERİ
+======================================
+
+Teknofest Arduino cihazının kamerası yavaş çalışıyorsa:
+
+MEVCUT AYARLAR:
+✅ Threaded Camera: Aktif (2-3x hız artışı)
+✅ Resolution: 320x240 (minimum)
+✅ Detection Interval: 10 (her 10 framede 1 tespit)
+✅ YOLO IMG_SIZE: 320 (minimum)
+✅ Confidence: 0.60 (yüksek)
+
+EĞER HALA 5 FPS İSE:
+
+ÇÖZÜM 1: OpenCV Modu Kullan (ÖNERİLEN)
+---------------------------------------
+OpenCV renk tabanlı tespit YOLO'dan 10x daha hızlı!
+
+settings.json'da değiştir:
+    "model_type": "OPENCV"  (YOLO yerine)
+
+Artıları:
+- 40-50 FPS alabilirsiniz
+- GPU gerektirmez
+- Çok hafif
+
+Eksileri:
+- Sadece renk tespiti (kırmızı/mavi)
+- YOLO kadar akıllı değil
+
+ÇÖZÜM 2: Detection Interval Daha da Artır
+------------------------------------------
+main.py içinde:
+    self.detection_interval = 15  # veya 20
+
+Her 15-20 framede bir tespit yapılır, FPS artar.
+
+ÇÖZÜM 3: Frame Resize (En Son Çare)
+------------------------------------
+Kameradan gelen frame'i daha da küçült:
+
+main.py'de process_step() içinde:
+    if self.current_frame is not None:
+        # Frame'i yarı boyuta küçült
+        self.current_frame = cv2.resize(self.current_frame, (160, 120))
+
+PERFORMANS KONTROLÜ:
+--------------------
+Ekranın sol üstünde göreceksiniz:
+- FPS: Genel frame rate
+- Camera: Kamera okuma süresi (ms)
+- Detect: YOLO çıkarım süresi (ms)
+
+Eğer:
+- Camera > 40ms  → Kamera çok yavaş (threaded zaten aktif)
+- Detect > 50ms  → YOLO yavaş (OpenCV'ye geç)
+
+TEST:
+python python/main.py
+
+Camera timing'e bak. Eğer 40-50ms ise threaded camera çalışıyor demektir.
+FPS hala düşükse OpenCV modunu dene!
+"""

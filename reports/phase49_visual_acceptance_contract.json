@@ -1,0 +1,21 @@
+{
+  "phase": 49,
+  "default_right_panel_mode": "Real Model",
+  "real_ktr_model_default_hero": true,
+  "converted_glb_path": "/assets/digital-twin/ktr1_operator_hero.glb",
+  "overlays": [
+    "camera_axis",
+    "launcher_axis",
+    "fov_volume",
+    "camera_to_launcher_offset_30_mm",
+    "target_projection",
+    "no_go_zone",
+    "range_depth_grid"
+  ],
+  "scene_modes": ["Real Model", "Tactical Overlay", "CAD Debug"],
+  "yolo_toggle_visible": true,
+  "quality_modes": ["HIGH_30_FPS_TARGET", "BALANCED_15_FPS_CAP", "LOW_10_FPS_CAP"],
+  "no_live_target_claim_when_yolo_off": true,
+  "no_physical_command_generated": true
+}
+

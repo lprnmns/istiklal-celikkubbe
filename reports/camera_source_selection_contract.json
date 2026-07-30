@@ -1,0 +1,29 @@
+{
+  "phase": 37,
+  "name": "Camera Source Selection and Fallback Contract",
+  "default_usb_device": "/dev/video2",
+  "preferred_real_camera_profile": {
+    "source_type": "usb",
+    "device_path": "/dev/video2",
+    "input_format": "mjpeg",
+    "resolution": "1280x720",
+    "capture_backend_preference": ["opencv", "ffmpeg", "fallback"]
+  },
+  "diagnostic_fields": [
+    "selected_device",
+    "selected_backend",
+    "input_format",
+    "resolution",
+    "last_frame_age_ms",
+    "last_capture_error",
+    "is_real_camera_evidence"
+  ],
+  "evidence_rules": {
+    "ffmpeg_success_is_real_camera_evidence": true,
+    "opencv_failure_does_not_block_ffmpeg_success": true,
+    "mock_or_surrogate_must_be_labelled": true,
+    "do_not_fake_camera_evidence": true,
+    "no_physical_command_generated": true
+  }
+}
+

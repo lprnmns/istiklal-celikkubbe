@@ -1,0 +1,58 @@
+{
+  "protocol_name": "ISTIKLAL Serial Packet Protocol",
+  "protocol_version": 1,
+  "frame": {
+    "sof_1": "0xA5",
+    "sof_2": "0x5A",
+    "version": "uint8",
+    "msg_type": "uint8",
+    "seq_id": "uint16_le",
+    "timestamp_ms": "uint32_le",
+    "flags": "uint16_le",
+    "payload_len": "uint16_le",
+    "payload": "bytes",
+    "crc32": "uint32_le over version..payload"
+  },
+  "message_types": {
+    "0x01": "HELLO",
+    "0x02": "HEARTBEAT",
+    "0x03": "TELEMETRY",
+    "0x04": "DRIVER_STATE",
+    "0x05": "LIMIT_STATE",
+    "0x06": "FAULT",
+    "0x07": "ACK",
+    "0x08": "NACK",
+    "0x09": "CONFIG_REPORT",
+    "0xFF": "UNKNOWN"
+  },
+  "phase36_enabled_capabilities": [
+    "port_discovery",
+    "heartbeat_parse",
+    "telemetry_parse",
+    "driver_state_parse",
+    "limit_state_parse",
+    "fault_parse",
+    "ack_nack_parse",
+    "config_report_parse",
+    "digital_twin_pose_ingest"
+  ],
+  "explicitly_disabled_commands": [
+    "SPD",
+    "LZR",
+    "STP",
+    "motor movement",
+    "fire",
+    "trigger",
+    "servo actuation",
+    "GPIO output",
+    "PWM output",
+    "STEP/DIR output",
+    "hardware enable",
+    "legacy raw physical command TX"
+  ],
+  "serial_tx_enabled": false,
+  "physical_command_enabled": false,
+  "no_physical_command_generated": true,
+  "safety_boundary": "Phase 36 is telemetry/read-only first. It does not transmit physical control commands."
+}
+

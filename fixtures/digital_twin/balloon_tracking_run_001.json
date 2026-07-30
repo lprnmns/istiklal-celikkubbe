@@ -1,0 +1,33 @@
+{
+  "run_id": "phase32_fixture_balloon_tracking_001",
+  "schema_version": "phase32.1",
+  "source": "fixture_deterministic_mock",
+  "no_physical_command_generated": true,
+  "digital_twin_read_only": true,
+  "events": [
+    {
+      "t_ms": 0,
+      "device_pose": { "pan_deg": -8.0, "tilt_deg": 2.0, "servo_angle_deg": 0.0 },
+      "target": { "class_id": "balloon_fallback", "confidence": 0.72, "estimated_scene_position_m": { "x": -0.4, "y": -0.14, "z": -5.0 } },
+      "tracker": { "state": "TRACKING", "error_x_px": -40.0, "error_y_px": 14.0 }
+    },
+    {
+      "t_ms": 250,
+      "device_pose": { "pan_deg": -4.0, "tilt_deg": 1.0, "servo_angle_deg": 0.0 },
+      "target": { "class_id": "balloon_fallback", "confidence": 0.72, "estimated_scene_position_m": { "x": -0.22, "y": -0.08, "z": -5.0 } },
+      "tracker": { "state": "TRACKING", "error_x_px": -22.0, "error_y_px": 8.0 }
+    },
+    {
+      "t_ms": 500,
+      "device_pose": { "pan_deg": 0.0, "tilt_deg": 0.0, "servo_angle_deg": 0.0 },
+      "target": { "class_id": "balloon_fallback", "confidence": 0.72, "estimated_scene_position_m": { "x": -0.06, "y": -0.02, "z": -5.0 } },
+      "tracker": { "state": "LOCKED", "error_x_px": -6.0, "error_y_px": 2.0 }
+    },
+    {
+      "t_ms": 750,
+      "device_pose": { "pan_deg": 3.5, "tilt_deg": -1.2, "servo_angle_deg": 0.0 },
+      "target": { "class_id": "balloon_fallback", "confidence": 0.72, "estimated_scene_position_m": { "x": 0.12, "y": 0.04, "z": -5.0 } },
+      "tracker": { "state": "TRACKING", "error_x_px": 12.0, "error_y_px": -4.0 }
+    }
+  ]
+}

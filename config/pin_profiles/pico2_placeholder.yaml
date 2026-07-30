@@ -1,0 +1,14 @@
+profile_name: "pico2_placeholder_not_final"
+note: "Placeholder profile from interface spec; not final/approved wiring."
+assignments:
+  pan_step: GP2
+  pan_dir: GP3
+  tilt_step: GP4
+  tilt_dir: GP5
+  driver_enable: GP6
+  trigger_servo_pwm: GP10
+  estop_in: GP14
+  pan_limit_left: GP16
+  pan_limit_right: GP17
+  tilt_limit_up: GP18
+  tilt_limit_down: GP19

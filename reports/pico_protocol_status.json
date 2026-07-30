@@ -1,0 +1,14 @@
+{
+  "protocol_name": "ISTIKLAL Serial Packet Protocol",
+  "protocol_version": 1,
+  "pico_connected": false,
+  "telemetry_fresh": false,
+  "telemetry_missing": true,
+  "packet_parse_status": "no_packet",
+  "crc_status": "not_checked",
+  "serial_tx_enabled": false,
+  "physical_tx_disabled": true,
+  "physical_command_enabled": false,
+  "no_physical_command_generated": true
+}
+

@@ -1,0 +1,30 @@
+{
+  "phase": 40,
+  "scene": "digital_twin_cockpit",
+  "asset": {
+    "selected_asset_type": "REAL_STL",
+    "selected_asset_path": "/assets/digital-twin/ktr1_binary.stl",
+    "fallback": "red_white_procedural_turret_available_if_stl_load_fails"
+  },
+  "visual_layers": [
+    "dark_grid_floor",
+    "stl_or_procedural_turret",
+    "camera_fov_cone",
+    "optical_axis",
+    "launcher_axis_no_physical_command",
+    "bbox_projected_target_marker",
+    "target_label_card",
+    "person_safety_no_go_volume",
+    "camera_to_launcher_offset_30_mm"
+  ],
+  "pose_sources": ["telemetry", "tracker_estimate", "replay_fixture", "static_demo_pose"],
+  "projection": {
+    "depth_source": "bbox_area_relative_estimate",
+    "projection_is_calibrated": false
+  },
+  "safety": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true
+  }
+}

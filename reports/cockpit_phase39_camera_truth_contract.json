@@ -1,0 +1,9 @@
+{
+  "phase": 39,
+  "live_claim_rule": "REAL_LAPTOP_CAMERA_LIVE may be shown as live only when is_real_camera_evidence=true and a real frame is rendered.",
+  "fixture_rule": "Fixture overlays must be labelled FIXTURE TARGET / NOT REAL CAMERA EVIDENCE.",
+  "usb_absent_label": "USB OFFLINE_EXPECTED",
+  "pico_absent_label": "PICO OFFLINE_EXPECTED",
+  "target_label_policy": "Clamp labels inside camera panel and compress long source text.",
+  "no_physical_command_generated": true
+}

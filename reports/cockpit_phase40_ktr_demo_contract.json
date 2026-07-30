@@ -1,0 +1,21 @@
+{
+  "phase": 40,
+  "route": "/cockpit?ktr_demo=1",
+  "purpose": "deterministic visual and KTR evidence mode",
+  "hardware_assumptions": {
+    "external_usb_camera": "OFFLINE_EXPECTED when absent",
+    "pico": "OFFLINE_EXPECTED when absent",
+    "laptop_camera": "allowed for development visual verification only"
+  },
+  "required_badges": [
+    "PHASE 40 KTR DEMO",
+    "DISARMED",
+    "DRY_RUN",
+    "NO-FIRE",
+    "USB OFFLINE_EXPECTED",
+    "PICO OFFLINE_EXPECTED",
+    "NO PHYSICAL COMMAND GENERATED"
+  ],
+  "fixture_truth": "Fixture targets must be labelled as not real camera evidence.",
+  "no_physical_command_generated": true
+}

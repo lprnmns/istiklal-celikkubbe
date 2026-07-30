@@ -1,0 +1,16 @@
+{
+  "phase": 38,
+  "name": "Operator Panel Data Contract",
+  "panels": {
+    "device_manager": ["laptop_camera", "external_usb_camera", "pico", "pan_actuator", "tilt_actuator", "fire_servo", "safety"],
+    "model_runtime": ["active_model", "classes", "confidence", "nms_iou", "tracker", "camera_source_mode"],
+    "engagement": ["selected_target", "class", "confidence", "bbox_center", "direction", "depth_source", "tracking_state", "fire_status"],
+    "scene_plan": ["turret_icon", "fov_cone", "target_marker", "no_go_zone"],
+    "replay_evidence": ["evidence_type", "timestamp", "path", "frame_hash_if_available"],
+    "operator_log": ["camera_source_decision", "pico_offline_expected", "safety_events", "warnings"]
+  },
+  "forbidden_placeholder": "duplicated generic rows",
+  "offline_hardware_state": "controlled_offline_not_failure",
+  "no_physical_command_generated": true
+}
+

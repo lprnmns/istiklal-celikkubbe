@@ -1,0 +1,18 @@
+{
+  "phase": 45,
+  "rendering": {
+    "balanced_render_fps_cap": 15,
+    "low_render_fps_cap": 10,
+    "ktr_demo_render_fps_cap": 10,
+    "hidden_tab_render_throttle": true,
+    "heavy_shadows": false,
+    "postprocessing": false
+  },
+  "polling": {
+    "digital_twin_metadata_hz": 2,
+    "runtime_refresh_ms": 3000,
+    "camera_frame_react_rerender": "not driven by React/Vue state per frame"
+  },
+  "safety_note": "Performance mode changes visualization only and cannot enable physical commands.",
+  "no_physical_command_generated": true
+}

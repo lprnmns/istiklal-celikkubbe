@@ -1,0 +1,719 @@
+{
+  "phase": 54,
+  "asset_inventory_count": 36,
+  "items": [
+    {
+      "path": "frontend/public/assets/digital-twin/ktr1_binary.stl",
+      "extension": ".stl",
+      "size_bytes": 10025684,
+      "modified_time": "2026-05-23T22:27:49.734191+00:00",
+      "loads": true,
+      "stl_format": "binary",
+      "triangle_count": 200512,
+      "bounding_box": {
+        "min": [
+          -186.46624755859375,
+          -2.84985613822937,
+          -102.26240539550781
+        ],
+        "max": [
+          378.5845642089844,
+          309.8827819824219,
+          397.1700439453125
+        ]
+      },
+      "material_color_available": false,
+      "weapon_front_keywords": 0,
+      "weapon_front_assembly_appears_present": true
+    },
+    {
+      "path": "frontend/public/assets/digital-twin/ktr1_colored_step_hero.glb",
+      "extension": ".glb",
+      "size_bytes": 29333316,
+      "modified_time": "2026-05-24T16:47:52.916382+00:00",
+      "loads": true,
+      "mesh_count": 136,
+      "material_count": 6,
+      "triangle_count": 406344,
+      "bounding_box": {
+        "min": [
+          -1.874946045564079,
+          -0.4170797436582326,
+          -1.339139952111462
+        ],
+        "max": [
+          1.8687285723331313,
+          2.8919732908602978,
+          1.3402284518892011
+        ]
+      },
+      "material_color_available": true,
+      "weapon_front_keywords": 6,
+      "weapon_front_assembly_appears_present": true
+    },
+    {
+      "path": "frontend/public/assets/digital-twin/ktr1_colored_step_hero_manifest.json",
+      "extension": ".json",
+      "size_bytes": 4695,
+      "modified_time": "2026-05-24T16:47:52.959919+00:00",
+      "loads": true,
+      "json_keys": [
+        "selected_asset_type",
+        "selected_asset_path",
+        "preferred_browser_asset",
+        "source_asset",
+        "source_asset_absolute",
+        "output_asset",
+        "output_asset_absolute",
+        "source_sha256",
+        "conversion_method",
+        "conversion_status",
+        "material_preserved",
+        "materials_reconstructed"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "frontend/public/assets/digital-twin/ktr1_freecad_fidelity.glb",
+      "extension": ".glb",
+      "size_bytes": 31990320,
+      "modified_time": "2026-05-24T17:38:36.091369+00:00",
+      "loads": true,
+      "mesh_count": 136,
+      "material_count": 6,
+      "triangle_count": 443246,
+      "bounding_box": {
+        "min": [
+          -1.875,
+          -0.41707931292489114,
+          -1.339139952111462
+        ],
+        "max": [
+          1.8687278002943302,
+          2.891977141334728,
+          1.3402284518892011
+        ]
+      },
+      "material_color_available": true,
+      "weapon_front_keywords": 6,
+      "weapon_front_assembly_appears_present": true
+    },
+    {
+      "path": "frontend/public/assets/digital-twin/ktr1_freecad_fidelity_manifest.json",
+      "extension": ".json",
+      "size_bytes": 5795,
+      "modified_time": "2026-05-24T17:38:36.132427+00:00",
+      "loads": true,
+      "json_keys": [
+        "selected_asset_type",
+        "selected_asset_path",
+        "preferred_browser_asset",
+        "source_asset",
+        "source_asset_absolute",
+        "output_asset",
+        "output_asset_absolute",
+        "source_sha256",
+        "conversion_method",
+        "color_extraction_method",
+        "conversion_status",
+        "material_preserved"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "frontend/public/assets/digital-twin/ktr1_hybrid_fidelity_phase54.glb",
+      "extension": ".glb",
+      "size_bytes": 109161316,
+      "modified_time": "2026-05-24T19:29:36.990096+00:00",
+      "loads": true,
+      "mesh_count": 137,
+      "material_count": 7,
+      "triangle_count": 1515048,
+      "bounding_box": {
+        "min": [
+          -1.875,
+          -0.42,
+          -1.339139952111462
+        ],
+        "max": [
+          1.875,
+          2.8945190592141703,
+          1.3402284518892011
+        ]
+      },
+      "material_color_available": true,
+      "weapon_front_keywords": 6,
+      "weapon_front_assembly_appears_present": true
+    },
+    {
+      "path": "frontend/public/assets/digital-twin/ktr1_hybrid_fidelity_phase54_manifest.json",
+      "extension": ".json",
+      "size_bytes": 6370,
+      "modified_time": "2026-05-24T19:29:37.064698+00:00",
+      "loads": true,
+      "json_keys": [
+        "selected_asset_type",
+        "selected_asset_path",
+        "preferred_browser_asset",
+        "source_asset",
+        "source_asset_absolute",
+        "output_asset",
+        "output_asset_absolute",
+        "source_sha256",
+        "conversion_method",
+        "color_extraction_method",
+        "conversion_status",
+        "material_preserved"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "frontend/public/assets/digital-twin/ktr1_operator_hero.glb",
+      "extension": ".glb",
+      "size_bytes": 14438560,
+      "modified_time": "2026-05-24T15:33:04.840126+00:00",
+      "loads": true,
+      "mesh_count": 1,
+      "material_count": 1,
+      "triangle_count": 200512,
+      "bounding_box": {
+        "min": [
+          -1.225,
+          -0.6779876671611207,
+          -1.082742892676629
+        ],
+        "max": [
+          1.225,
+          0.6779876671611207,
+          1.082742892676629
+        ]
+      },
+      "material_color_available": true,
+      "weapon_front_keywords": 0,
+      "weapon_front_assembly_appears_present": true
+    },
+    {
+      "path": "frontend/public/assets/digital-twin/ktr1_operator_hero_manifest.json",
+      "extension": ".json",
+      "size_bytes": 2651,
+      "modified_time": "2026-05-24T15:33:04.851429+00:00",
+      "loads": true,
+      "json_keys": [
+        "schema_version",
+        "selected_asset_type",
+        "selected_asset_path",
+        "preferred_browser_asset",
+        "source_asset",
+        "source_asset_sha256",
+        "source_asset_size_bytes",
+        "converted_asset",
+        "converted_asset_size_bytes",
+        "triangle_count_before",
+        "triangle_count_after",
+        "conversion_method"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "frontend/public/assets/digital-twin/ktr1_step_hifi_phase54.glb",
+      "extension": ".glb",
+      "size_bytes": 94723640,
+      "modified_time": "2026-05-24T19:19:51.348844+00:00",
+      "loads": true,
+      "mesh_count": 136,
+      "material_count": 6,
+      "triangle_count": 1314536,
+      "bounding_box": {
+        "min": [
+          -1.8749967708997506,
+          -0.4170747346229317,
+          -1.339139952111462
+        ],
+        "max": [
+          1.8687294592862758,
+          2.8919769108890248,
+          1.3402284518892011
+        ]
+      },
+      "material_color_available": true,
+      "weapon_front_keywords": 6,
+      "weapon_front_assembly_appears_present": true
+    },
+    {
+      "path": "frontend/public/assets/digital-twin/ktr1_step_hifi_phase54_manifest.json",
+      "extension": ".json",
+      "size_bytes": 5970,
+      "modified_time": "2026-05-24T19:19:51.582681+00:00",
+      "loads": true,
+      "json_keys": [
+        "selected_asset_type",
+        "selected_asset_path",
+        "preferred_browser_asset",
+        "source_asset",
+        "source_asset_absolute",
+        "output_asset",
+        "output_asset_absolute",
+        "source_sha256",
+        "conversion_method",
+        "color_extraction_method",
+        "conversion_status",
+        "material_preserved"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "frontend/public/assets/digital-twin/ktr1_stl_geometry_phase54.glb",
+      "extension": ".glb",
+      "size_bytes": 14437792,
+      "modified_time": "2026-05-24T19:18:14.178102+00:00",
+      "loads": true,
+      "mesh_count": 1,
+      "material_count": 1,
+      "triangle_count": 200512,
+      "bounding_box": {
+        "min": [
+          -1.875,
+          -0.42,
+          -1.0377362252466131
+        ],
+        "max": [
+          1.875,
+          2.8945190592141703,
+          1.0377362252466131
+        ]
+      },
+      "material_color_available": true,
+      "weapon_front_keywords": 0,
+      "weapon_front_assembly_appears_present": true
+    },
+    {
+      "path": "frontend/public/assets/digital-twin/ktr1_stl_geometry_phase54_manifest.json",
+      "extension": ".json",
+      "size_bytes": 1619,
+      "modified_time": "2026-05-24T19:18:14.193537+00:00",
+      "loads": true,
+      "json_keys": [
+        "phase",
+        "selected_asset_type",
+        "selected_asset_path",
+        "preferred_browser_asset",
+        "source_asset",
+        "output_asset",
+        "conversion_method",
+        "stl_format",
+        "material_preserved",
+        "materials_reconstructed",
+        "material_preservation_status",
+        "color_count"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "ktr1.step",
+      "extension": ".step",
+      "size_bytes": 27237470,
+      "modified_time": "2026-05-23T08:54:38.910576+00:00",
+      "loads": true,
+      "step_color_records": 15,
+      "advanced_face_count": 15600,
+      "closed_shell_count": 46,
+      "manifold_solid_brep_count": 46,
+      "material_color_available": true,
+      "weapon_front_keywords": 100,
+      "weapon_front_assembly_appears_present": true
+    },
+    {
+      "path": "ktr1.stl",
+      "extension": ".stl",
+      "size_bytes": 57136553,
+      "modified_time": "2026-05-23T10:03:36.562971+00:00",
+      "loads": true,
+      "stl_format": "ascii",
+      "triangle_count": 200512,
+      "vertex_count": 601536,
+      "bounding_box": {
+        "min": [
+          -186.46624755859375,
+          -2.84985613822937,
+          -102.26240539550781
+        ],
+        "max": [
+          378.5845642089844,
+          309.8827819824219,
+          397.1700439453125
+        ]
+      },
+      "material_color_available": false,
+      "weapon_front_keywords": 0,
+      "weapon_front_assembly_appears_present": true
+    },
+    {
+      "path": "reports/cockpit_phase40_ktr_demo_contract.json",
+      "extension": ".json",
+      "size_bytes": 636,
+      "modified_time": "2026-05-23T22:31:06.052340+00:00",
+      "loads": true,
+      "json_keys": [
+        "phase",
+        "route",
+        "purpose",
+        "hardware_assumptions",
+        "required_badges",
+        "fixture_truth",
+        "no_physical_command_generated"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/cockpit_phase41_operator_panel_contract.json",
+      "extension": ".json",
+      "size_bytes": 878,
+      "modified_time": "2026-05-23T23:00:10.648793+00:00",
+      "loads": true,
+      "json_keys": [
+        "phase",
+        "operator_cards",
+        "no_repeated_placeholder_rows",
+        "no_physical_command_generated"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/digital_twin_asset_contract.json",
+      "extension": ".json",
+      "size_bytes": 643,
+      "modified_time": "2026-05-23T22:01:00.000643+00:00",
+      "loads": true,
+      "json_keys": [
+        "phase",
+        "name",
+        "preferred_asset_order",
+        "browser_friendly_assets",
+        "pose_source_hierarchy",
+        "offline_mode",
+        "safety"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/digital_twin_asset_registry.json",
+      "extension": ".json",
+      "size_bytes": 2536,
+      "modified_time": "2026-05-23T09:45:01.023930+00:00",
+      "loads": true,
+      "json_keys": [
+        "schema_version",
+        "no_physical_command_generated",
+        "digital_twin_read_only",
+        "device_model",
+        "target_assets"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/digital_twin_asset_transform_contract.json",
+      "extension": ".json",
+      "size_bytes": 674,
+      "modified_time": "2026-05-23T23:00:10.648793+00:00",
+      "loads": true,
+      "json_keys": [
+        "phase",
+        "selected_asset_type",
+        "selected_asset_path",
+        "source_cad_path",
+        "transform",
+        "anchor_precision",
+        "no_physical_command_generated"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/digital_twin_ktr_story_contract.json",
+      "extension": ".json",
+      "size_bytes": 1574,
+      "modified_time": "2026-05-24T07:50:37.971789+00:00",
+      "loads": true,
+      "json_keys": [
+        "phase",
+        "contract_name",
+        "purpose",
+        "visible_scene_elements",
+        "truth_labels",
+        "operator_story",
+        "safety_boundary"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/digital_twin_live_state_contract.json",
+      "extension": ".json",
+      "size_bytes": 927,
+      "modified_time": "2026-05-23T10:06:36.331707+00:00",
+      "loads": true,
+      "json_keys": [
+        "schema_version",
+        "title",
+        "no_physical_command_generated",
+        "physical_command_enabled",
+        "digital_twin_command_authority",
+        "pose_sources",
+        "required_fields",
+        "logs",
+        "forbidden_paths"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/digital_twin_phase32_replay_fixture.json",
+      "extension": ".json",
+      "size_bytes": 6196,
+      "modified_time": "2026-05-23T09:51:32.458505+00:00",
+      "loads": true,
+      "json_keys": [
+        "run_id",
+        "source",
+        "duration_ms",
+        "event_count",
+        "events",
+        "no_physical_command_generated",
+        "digital_twin_read_only"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/digital_twin_phase39_asset_manifest.json",
+      "extension": ".json",
+      "size_bytes": 395,
+      "modified_time": "2026-05-23T22:13:01.426770+00:00",
+      "loads": true,
+      "json_keys": [
+        "phase",
+        "selected_asset_kind",
+        "selected_asset_path",
+        "real_model_asset_found",
+        "fallback_reason",
+        "manifest_path",
+        "no_physical_command_generated"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/digital_twin_phase39_scene_contract.json",
+      "extension": ".json",
+      "size_bytes": 451,
+      "modified_time": "2026-05-23T22:13:01.427491+00:00",
+      "loads": true,
+      "json_keys": [
+        "phase",
+        "scene_features",
+        "pose_sources",
+        "missing_pico_telemetry",
+        "no_physical_command_generated"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/digital_twin_phase40_asset_manifest.json",
+      "extension": ".json",
+      "size_bytes": 607,
+      "modified_time": "2026-05-23T22:31:06.052340+00:00",
+      "loads": true,
+      "json_keys": [
+        "phase",
+        "selected_asset_type",
+        "selected_asset_path",
+        "source_cad_path",
+        "source_stl_path",
+        "conversion_status",
+        "scale_units",
+        "coordinate_notes",
+        "camera_mount_reference_available",
+        "launcher_axis_reference_available",
+        "no_physical_command_generated"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/digital_twin_phase40_scene_contract.json",
+      "extension": ".json",
+      "size_bytes": 884,
+      "modified_time": "2026-05-23T22:31:06.052340+00:00",
+      "loads": true,
+      "json_keys": [
+        "phase",
+        "scene",
+        "asset",
+        "visual_layers",
+        "pose_sources",
+        "projection",
+        "safety"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/digital_twin_projection_contract.json",
+      "extension": ".json",
+      "size_bytes": 1680,
+      "modified_time": "2026-05-23T20:46:06.409194+00:00",
+      "loads": true,
+      "json_keys": [
+        "schema_version",
+        "feature",
+        "endpoint",
+        "read_only",
+        "no_physical_command_generated",
+        "physical_command_enabled",
+        "digital_twin_command_authority",
+        "fields_added",
+        "target_projection_estimate_contract",
+        "calibration_defaults",
+        "explicit_non_goals"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/digital_twin_projection_semantics_contract.json",
+      "extension": ".json",
+      "size_bytes": 566,
+      "modified_time": "2026-05-23T23:00:10.648793+00:00",
+      "loads": true,
+      "json_keys": [
+        "phase",
+        "projection_source",
+        "fields_visible_in_ui",
+        "depth_semantics",
+        "fire_solution",
+        "aim_reference_only",
+        "no_physical_command_generated"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/digital_twin_state_contract.json",
+      "extension": ".json",
+      "size_bytes": 3700,
+      "modified_time": "2026-05-23T09:44:12.891901+00:00",
+      "loads": true,
+      "json_keys": [
+        "schema_version",
+        "title",
+        "no_physical_command_generated",
+        "digital_twin_read_only",
+        "digital_twin_command_authority",
+        "physical_command_enabled_required",
+        "purpose",
+        "required_invariants",
+        "fields",
+        "api_endpoints",
+        "phase_stop"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/hardware_required_next_steps.json",
+      "extension": ".json",
+      "size_bytes": 2168,
+      "modified_time": "2026-05-14T17:00:57.939636+00:00",
+      "loads": true,
+      "json_keys": [
+        "phase",
+        "status",
+        "reason",
+        "next_gate",
+        "required_hardware",
+        "current_safety_invariant",
+        "canonical_proof"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/operator_panel_data_contract.json",
+      "extension": ".json",
+      "size_bytes": 882,
+      "modified_time": "2026-05-23T22:01:13.928396+00:00",
+      "loads": true,
+      "json_keys": [
+        "phase",
+        "name",
+        "panels",
+        "forbidden_placeholder",
+        "offline_hardware_state",
+        "no_physical_command_generated"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/phase50_colored_step_asset_contract.json",
+      "extension": ".json",
+      "size_bytes": 424,
+      "modified_time": "2026-05-24T16:53:29.784421+00:00",
+      "loads": true,
+      "json_keys": [
+        "phase",
+        "source_asset",
+        "source_asset_policy",
+        "default_hero_asset",
+        "stl_is_default",
+        "procedural_fallback_is_default",
+        "selected_asset_type",
+        "material_preserved",
+        "materials_reconstructed",
+        "fallback_used",
+        "no_physical_command_generated"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/phase50_step_conversion_manifest_contract.json",
+      "extension": ".json",
+      "size_bytes": 511,
+      "modified_time": "2026-05-24T16:53:29.784421+00:00",
+      "loads": true,
+      "json_keys": [
+        "required_manifest",
+        "required_fields",
+        "no_physical_command_generated"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/phase51_freecad_visual_reference_contract.json",
+      "extension": ".json",
+      "size_bytes": 342,
+      "modified_time": "2026-05-24T17:27:29.546210+00:00",
+      "loads": true,
+      "json_keys": [
+        "phase",
+        "source_asset",
+        "reference_folder",
+        "reference_images",
+        "freecad_geometry_used",
+        "no_physical_command_generated"
+      ],
+      "weapon_front_assembly_appears_present": false
+    },
+    {
+      "path": "reports/phase52_freecad_match_contract.json",
+      "extension": ".json",
+      "size_bytes": 384,
+      "modified_time": "2026-05-24T18:11:11.717876+00:00",
+      "loads": true,
+      "json_keys": [
+        "phase",
+        "mode",
+        "source_step",
+        "browser_asset",
+        "camera",
+        "default_world_mode",
+        "model_fit",
+        "model_clipped",
+        "viewport_occupancy_estimate",
+        "no_physical_command_generated"
+      ],
+      "weapon_front_assembly_appears_present": false
+    }
+  ],
+  "physical_command_enabled": false,
+  "serial_tx_enabled": false,
+  "no_physical_command_generated": true
+}

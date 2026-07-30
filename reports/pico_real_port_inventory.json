@@ -1,0 +1,31 @@
+{
+  "ports": [
+    {
+      "port": "/dev/serial/by-id/usb-Raspberry_Pi_Pico_2W_0416D21629149FFB-if00",
+      "description": "/dev/serial/by-id/usb-Raspberry_Pi_Pico_2W_0416D21629149FFB-if00",
+      "hwid": null,
+      "vid": null,
+      "pid": null,
+      "serial_number": null,
+      "manufacturer": null,
+      "is_candidate": true,
+      "physical_command_enabled": false,
+      "no_physical_command_generated": true
+    },
+    {
+      "port": "/dev/ttyACM0",
+      "description": "/dev/ttyACM0",
+      "hwid": null,
+      "vid": null,
+      "pid": null,
+      "serial_number": null,
+      "manufacturer": null,
+      "is_candidate": true,
+      "physical_command_enabled": false,
+      "no_physical_command_generated": true
+    }
+  ],
+  "candidates_count": 2,
+  "physical_command_enabled": false,
+  "no_physical_command_generated": true
+}

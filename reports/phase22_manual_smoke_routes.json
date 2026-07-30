@@ -1,0 +1,57 @@
+[
+  {
+    "route": "/demo",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "route": "/dashboard",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "route": "/data-lab",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "route": "/reports",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "route": "/interfaces",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "route": "/logs",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "route": "/api/demo/readiness",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "route": "/api/demo/run",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "route": "/api/demo/latest",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "route": "/api/release/package/latest",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "route": "/api/release/package/build",
+    "status": 200,
+    "ok": true
+  }
+]

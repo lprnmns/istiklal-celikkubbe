@@ -1,0 +1,36 @@
+{
+  "phase": 46,
+  "scope": "frontend_ui_visualization_only",
+  "actual_routes_changed": ["/cockpit", "/cockpit?ktr_demo=1"],
+  "stl_policy": {
+    "stl_kept_as_engineering_evidence": true,
+    "main_render": "tactical_simplified_digital_twin",
+    "visible_truth_label": "STL-derived tactical twin",
+    "claims_exact_cad_simulation": false
+  },
+  "phase45_to_phase46": [
+    {
+      "phase45_issue": "3D scene still looked toy-like and cluttered.",
+      "phase46_fix": "Raw STL rendering is no longer the primary command visual; tactical simplified geometry is used."
+    },
+    {
+      "phase45_issue": "Camera HUD still exposed raw debug strings.",
+      "phase46_fix": "Visible HUD strip now uses source/truth/age/person-check/no-command labels only."
+    },
+    {
+      "phase45_issue": "Digital twin explanatory boxes cluttered the scene.",
+      "phase46_fix": "Boxes are shorter, lower opacity, and no longer dominate turret/target."
+    },
+    {
+      "phase45_issue": "Mission cards still carried technical raw values.",
+      "phase46_fix": "Cards use tactical CAD-ref, camera header label, Pico header label and truth label summaries."
+    }
+  ],
+  "screenshot_evidence": "reports/screenshots/phase46_hard_cockpit_redesign_v2/",
+  "safety": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true,
+    "physical_command_paths_added": false
+  }
+}

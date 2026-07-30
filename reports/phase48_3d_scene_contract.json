@@ -1,0 +1,22 @@
+{
+  "phase": 48,
+  "renderer": "Three.js dynamic import",
+  "preferred_asset": "/assets/digital-twin/istiklal_operator_twin.glb",
+  "runtime_fallback": "procedural low-poly operator twin",
+  "cad_reference_asset": "/assets/digital-twin/ktr1_binary.stl",
+  "runtime_stl_parsing": false,
+  "scene_elements": [
+    "turret_body",
+    "camera_module",
+    "launcher_barrel",
+    "camera_axis",
+    "launcher_axis",
+    "camera_fov_volume",
+    "target_balloon_marker",
+    "range_bands_5_10_15_m",
+    "no_go_zone",
+    "30_mm_offset"
+  ],
+  "no_physical_command_generated": true
+}
+

@@ -1,0 +1,1964 @@
+{
+  "phase": 55,
+  "glb_path": "frontend/public/assets/digital-twin/ktr1_kinematic_world_phase55.glb",
+  "glb_size_bytes": 94723640,
+  "node_count": 136,
+  "mesh_count": 136,
+  "material_count": 6,
+  "triangle_count": 1314536,
+  "root_scene_node_count": 136,
+  "hierarchy_status": "flat_or_shallow",
+  "materials": [
+    {
+      "index": 0,
+      "name": "freecad_body_warm_white",
+      "color": "#ebf0e6",
+      "roughness": 0.36,
+      "metalness": 0.02
+    },
+    {
+      "index": 1,
+      "name": "freecad_armor_vivid_red",
+      "color": "#c70d0b",
+      "roughness": 0.34,
+      "metalness": 0.08
+    },
+    {
+      "index": 2,
+      "name": "launcher_visible_graphite",
+      "color": "#17181b",
+      "roughness": 0.28,
+      "metalness": 0.24
+    },
+    {
+      "index": 3,
+      "name": "mechanical_bright_metal",
+      "color": "#adb2b8",
+      "roughness": 0.22,
+      "metalness": 0.42
+    },
+    {
+      "index": 4,
+      "name": "sensor_camera_bright_cyan",
+      "color": "#05d1fa",
+      "roughness": 0.24,
+      "metalness": 0.08
+    },
+    {
+      "index": 5,
+      "name": "base_visible_dark_gray",
+      "color": "#1f2126",
+      "roughness": 0.3,
+      "metalness": 0.22
+    }
+  ],
+  "nodes": [
+    {
+      "index": 0,
+      "name": "608zz rulman v1",
+      "mesh": 0,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "608zz rulman v001",
+      "mesh": 1,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "608zz rulman v002",
+      "mesh": 2,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "608zz rulman v003",
+      "mesh": 3,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "608zz rulman v004",
+      "mesh": 4,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "608zz rulman v005",
+      "mesh": 5,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "608zz rulman v006",
+      "mesh": 6,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "608zz rulman v007",
+      "mesh": 7,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 13608,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "608zz rulman v008",
+      "mesh": 8,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 15500,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "üst sol",
+      "mesh": 9,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 23388,
+      "material_ids": [
+        1
+      ],
+      "material_names": [
+        "freecad_armor_vivid_red"
+      ]
+    },
+    {
+      "index": 10,
+      "name": "üst dişli kutusu",
+      "mesh": 10,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 24782,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 11,
+      "name": "üst sonsuz dişl",
+      "mesh": 11,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 9718,
+      "material_ids": [
+        1
+      ],
+      "material_names": [
+        "freecad_armor_vivid_red"
+      ]
+    },
+    {
+      "index": 12,
+      "name": "üst dişli 20",
+      "mesh": 12,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 5392,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 13,
+      "name": "608zz rulman v010",
+      "mesh": 13,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 14,
+      "name": "608zz rulman v011",
+      "mesh": 14,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 15,
+      "name": "608zz rulman v012",
+      "mesh": 15,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 16,
+      "name": "608zz rulman v013",
+      "mesh": 16,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 17,
+      "name": "608zz rulman v014",
+      "mesh": 17,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 18,
+      "name": "608zz rulman v015",
+      "mesh": 18,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 19,
+      "name": "608zz rulman v016",
+      "mesh": 19,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 20,
+      "name": "608zz rulman v017",
+      "mesh": 20,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 13608,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 21,
+      "name": "608zz rulman v018",
+      "mesh": 21,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 15500,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 22,
+      "name": "608zz rulman v020",
+      "mesh": 22,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 23,
+      "name": "608zz rulman v021",
+      "mesh": 23,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 24,
+      "name": "608zz rulman v022",
+      "mesh": 24,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 25,
+      "name": "608zz rulman v023",
+      "mesh": 25,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 26,
+      "name": "608zz rulman v024",
+      "mesh": 26,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 27,
+      "name": "608zz rulman v025",
+      "mesh": 27,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 28,
+      "name": "608zz rulman v026",
+      "mesh": 28,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 29,
+      "name": "608zz rulman v027",
+      "mesh": 29,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 13608,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 30,
+      "name": "608zz rulman v028",
+      "mesh": 30,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 15500,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 31,
+      "name": "608zz rulman v030",
+      "mesh": 31,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 32,
+      "name": "608zz rulman v031",
+      "mesh": 32,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 33,
+      "name": "608zz rulman v032",
+      "mesh": 33,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 34,
+      "name": "608zz rulman v033",
+      "mesh": 34,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 35,
+      "name": "608zz rulman v034",
+      "mesh": 35,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 36,
+      "name": "608zz rulman v035",
+      "mesh": 36,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 37,
+      "name": "608zz rulman v036",
+      "mesh": 37,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 38,
+      "name": "608zz rulman v037",
+      "mesh": 38,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 13608,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 39,
+      "name": "608zz rulman v038",
+      "mesh": 39,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 15500,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 40,
+      "name": "608zz rulman v040",
+      "mesh": 40,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 41,
+      "name": "608zz rulman v041",
+      "mesh": 41,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 42,
+      "name": "608zz rulman v042",
+      "mesh": 42,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 43,
+      "name": "608zz rulman v043",
+      "mesh": 43,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 44,
+      "name": "608zz rulman v044",
+      "mesh": 44,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 45,
+      "name": "608zz rulman v045",
+      "mesh": 45,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 46,
+      "name": "608zz rulman v046",
+      "mesh": 46,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 47,
+      "name": "608zz rulman v047",
+      "mesh": 47,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 13608,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 48,
+      "name": "608zz rulman v048",
+      "mesh": 48,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 15500,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 49,
+      "name": "608zz rulman v050",
+      "mesh": 49,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 50,
+      "name": "608zz rulman v051",
+      "mesh": 50,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 51,
+      "name": "608zz rulman v052",
+      "mesh": 51,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 52,
+      "name": "608zz rulman v053",
+      "mesh": 52,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 53,
+      "name": "608zz rulman v054",
+      "mesh": 53,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 54,
+      "name": "608zz rulman v055",
+      "mesh": 54,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 55,
+      "name": "608zz rulman v056",
+      "mesh": 55,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 56,
+      "name": "608zz rulman v057",
+      "mesh": 56,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 13608,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 57,
+      "name": "608zz rulman v058",
+      "mesh": 57,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 15500,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 58,
+      "name": "608zz rulman v060",
+      "mesh": 58,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 59,
+      "name": "608zz rulman v061",
+      "mesh": 59,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 60,
+      "name": "608zz rulman v062",
+      "mesh": 60,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 61,
+      "name": "608zz rulman v063",
+      "mesh": 61,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 62,
+      "name": "608zz rulman v064",
+      "mesh": 62,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 63,
+      "name": "608zz rulman v065",
+      "mesh": 63,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 64,
+      "name": "608zz rulman v066",
+      "mesh": 64,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 65,
+      "name": "608zz rulman v067",
+      "mesh": 65,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 13608,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 66,
+      "name": "608zz rulman v068",
+      "mesh": 66,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 15500,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 67,
+      "name": "608zz rulman v070",
+      "mesh": 67,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 68,
+      "name": "608zz rulman v071",
+      "mesh": 68,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 69,
+      "name": "608zz rulman v072",
+      "mesh": 69,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 70,
+      "name": "608zz rulman v073",
+      "mesh": 70,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 71,
+      "name": "608zz rulman v074",
+      "mesh": 71,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 72,
+      "name": "608zz rulman v075",
+      "mesh": 72,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 73,
+      "name": "608zz rulman v076",
+      "mesh": 73,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 74,
+      "name": "608zz rulman v077",
+      "mesh": 74,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 13608,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 75,
+      "name": "608zz rulman v078",
+      "mesh": 75,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 15500,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 76,
+      "name": "608zz rulman v080",
+      "mesh": 76,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 77,
+      "name": "608zz rulman v081",
+      "mesh": 77,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 78,
+      "name": "608zz rulman v082",
+      "mesh": 78,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 79,
+      "name": "608zz rulman v083",
+      "mesh": 79,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 80,
+      "name": "608zz rulman v084",
+      "mesh": 80,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 81,
+      "name": "608zz rulman v085",
+      "mesh": 81,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 82,
+      "name": "608zz rulman v086",
+      "mesh": 82,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 83,
+      "name": "608zz rulman v087",
+      "mesh": 83,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 13608,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 84,
+      "name": "608zz rulman v088",
+      "mesh": 84,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 15500,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 85,
+      "name": "608zz rulman v090",
+      "mesh": 85,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 86,
+      "name": "608zz rulman v091",
+      "mesh": 86,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 87,
+      "name": "608zz rulman v092",
+      "mesh": 87,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 88,
+      "name": "608zz rulman v093",
+      "mesh": 88,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 89,
+      "name": "608zz rulman v094",
+      "mesh": 89,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 90,
+      "name": "608zz rulman v095",
+      "mesh": 90,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 91,
+      "name": "608zz rulman v096",
+      "mesh": 91,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 92,
+      "name": "608zz rulman v097",
+      "mesh": 92,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 13608,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 93,
+      "name": "608zz rulman v098",
+      "mesh": 93,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 15500,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 94,
+      "name": "608zz rulman v100",
+      "mesh": 94,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 95,
+      "name": "608zz rulman v101",
+      "mesh": 95,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 96,
+      "name": "608zz rulman v102",
+      "mesh": 96,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 97,
+      "name": "608zz rulman v103",
+      "mesh": 97,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 98,
+      "name": "608zz rulman v104",
+      "mesh": 98,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 99,
+      "name": "608zz rulman v105",
+      "mesh": 99,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 100,
+      "name": "608zz rulman v106",
+      "mesh": 100,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7952,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 101,
+      "name": "608zz rulman v107",
+      "mesh": 101,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 13608,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 102,
+      "name": "608zz rulman v108",
+      "mesh": 102,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 15500,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 103,
+      "name": "üst nema17",
+      "mesh": 103,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 4730,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 104,
+      "name": "sağ üst",
+      "mesh": 104,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 5506,
+      "material_ids": [
+        1
+      ],
+      "material_names": [
+        "freecad_armor_vivid_red"
+      ]
+    },
+    {
+      "index": 105,
+      "name": "Bileşen14",
+      "mesh": 105,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 8280,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 106,
+      "name": "yan gövde1",
+      "mesh": 106,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 9382,
+      "material_ids": [
+        1
+      ],
+      "material_names": [
+        "freecad_armor_vivid_red"
+      ]
+    },
+    {
+      "index": 107,
+      "name": "alt gövde",
+      "mesh": 107,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 106256,
+      "material_ids": [
+        5
+      ],
+      "material_names": [
+        "base_visible_dark_gray"
+      ]
+    },
+    {
+      "index": 108,
+      "name": "tabla",
+      "mesh": 108,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 16720,
+      "material_ids": [
+        5
+      ],
+      "material_names": [
+        "base_visible_dark_gray"
+      ]
+    },
+    {
+      "index": 109,
+      "name": "sağ üst kapak",
+      "mesh": 109,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 3148,
+      "material_ids": [
+        1
+      ],
+      "material_names": [
+        "freecad_armor_vivid_red"
+      ]
+    },
+    {
+      "index": 110,
+      "name": "Bileşen18",
+      "mesh": 110,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 31930,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 111,
+      "name": "Bileşen19",
+      "mesh": 111,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 16232,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 112,
+      "name": "Bileşen20",
+      "mesh": 112,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 5244,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 113,
+      "name": "yan gövde 3",
+      "mesh": 113,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 364,
+      "material_ids": [
+        1
+      ],
+      "material_names": [
+        "freecad_armor_vivid_red"
+      ]
+    },
+    {
+      "index": 114,
+      "name": "SOLID",
+      "mesh": 114,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 10090,
+      "material_ids": [
+        1
+      ],
+      "material_names": [
+        "freecad_armor_vivid_red"
+      ]
+    },
+    {
+      "index": 115,
+      "name": "kamera v3",
+      "mesh": 115,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 16354,
+      "material_ids": [
+        4
+      ],
+      "material_names": [
+        "sensor_camera_bright_cyan"
+      ]
+    },
+    {
+      "index": 116,
+      "name": "Bileşen13",
+      "mesh": 116,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 1600,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 117,
+      "name": "Grand Fulffy (1)",
+      "mesh": 117,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 4046,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 118,
+      "name": "Axel",
+      "mesh": 118,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 2936,
+      "material_ids": [
+        3
+      ],
+      "material_names": [
+        "mechanical_bright_metal"
+      ]
+    },
+    {
+      "index": 119,
+      "name": "SOLID001",
+      "mesh": 119,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 9046,
+      "material_ids": [
+        1
+      ],
+      "material_names": [
+        "freecad_armor_vivid_red"
+      ]
+    },
+    {
+      "index": 120,
+      "name": "Wires",
+      "mesh": 120,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 1456,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 121,
+      "name": "Wires001",
+      "mesh": 121,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 8154,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 122,
+      "name": "Wires002",
+      "mesh": 122,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 8940,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 123,
+      "name": "Wires003",
+      "mesh": 123,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 7842,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 124,
+      "name": "Bileşen5(Ayna)",
+      "mesh": 124,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 9250,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 125,
+      "name": "COMPOUND",
+      "mesh": 125,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 2040,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 126,
+      "name": "COMPOUND001",
+      "mesh": 126,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 726,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 127,
+      "name": "COMPOUND002",
+      "mesh": 127,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 500,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 128,
+      "name": "COMPOUND003",
+      "mesh": 128,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 188,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 129,
+      "name": "COMPOUND005",
+      "mesh": 129,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 2896,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 130,
+      "name": "COMPOUND006",
+      "mesh": 130,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 9448,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 131,
+      "name": "COMPOUND007",
+      "mesh": 131,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 9366,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 132,
+      "name": "COMPOUND008",
+      "mesh": 132,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 364,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 133,
+      "name": "COMPOUND009",
+      "mesh": 133,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 500,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    },
+    {
+      "index": 134,
+      "name": "COMPOUND010",
+      "mesh": 134,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 500,
+      "material_ids": [
+        2
+      ],
+      "material_names": [
+        "launcher_visible_graphite"
+      ]
+    },
+    {
+      "index": 135,
+      "name": "COMPOUND011",
+      "mesh": 135,
+      "children": [],
+      "root_scene_child": true,
+      "triangle_count": 4730,
+      "material_ids": [
+        0
+      ],
+      "material_names": [
+        "freecad_body_warm_white"
+      ]
+    }
+  ],
+  "physical_command_enabled": false,
+  "serial_tx_enabled": false,
+  "no_physical_command_generated": true
+}

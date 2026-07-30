@@ -1,0 +1,9 @@
+{
+  "phase": 39,
+  "selected_asset_kind": "PROCEDURAL_FALLBACK",
+  "selected_asset_path": "/assets/digital-twin/procedural_turret_fallback",
+  "real_model_asset_found": false,
+  "fallback_reason": "No GLB/GLTF/OBJ/STL/STEP/STP/FCStd asset found in repository search paths.",
+  "manifest_path": "frontend/public/assets/digital-twin/asset_manifest.json",
+  "no_physical_command_generated": true
+}

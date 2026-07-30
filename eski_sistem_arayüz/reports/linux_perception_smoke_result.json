@@ -1,0 +1,34 @@
+{
+  "camera_source": "http://127.0.0.1:8005/api/camera/stream.mjpg",
+  "requested_width": 1280,
+  "requested_height": 720,
+  "requested_fps": 30,
+  "frame_read": true,
+  "yolo_available": false,
+  "detector": "legacy_opencv_color_detector",
+  "detections_count": 2,
+  "detections": [
+    {
+      "class_id": 0,
+      "x": 121.5,
+      "y": 677.5,
+      "w": 33.0,
+      "h": 31.0,
+      "confidence": 0.85
+    },
+    {
+      "class_id": 0,
+      "x": 232.5,
+      "y": 13.0,
+      "w": 43.0,
+      "h": 26.0,
+      "confidence": 0.85
+    }
+  ],
+  "advisory_only": true,
+  "physical_command_enabled": false,
+  "serial_tx_enabled": false,
+  "no_physical_command_generated": true,
+  "actual_width": 1280,
+  "actual_height": 720
+}

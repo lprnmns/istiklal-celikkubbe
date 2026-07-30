@@ -1,0 +1,49 @@
+{
+  "phase": 44,
+  "scope": "frontend_ui_ux_layout_performance_only",
+  "actual_routes_changed": ["/cockpit", "/cockpit?ktr_demo=1"],
+  "phase43_to_phase44_comparison": [
+    {
+      "phase43_issue": "Header looked like many small debug badges.",
+      "phase44_fix": "Header converted to compact C2 status cards with grouped system, safety, camera, Pico, model and performance states.",
+      "screenshot_evidence": "reports/screenshots/phase44_hard_cockpit_redesign/cockpit_full.png"
+    },
+    {
+      "phase43_issue": "Main camera and digital twin panels did not dominate the screenshot.",
+      "phase44_fix": "Main route now uses a two-column 50/50 hero layout with equal-height panels.",
+      "screenshot_evidence": "reports/screenshots/phase44_hard_cockpit_redesign/cockpit_ktr_demo.png"
+    },
+    {
+      "phase43_issue": "3D turret was small and FOV cone was visually noisy.",
+      "phase44_fix": "Three.js camera, model scale, FOV opacity and depth context were rebuilt for a stronger operational scene.",
+      "screenshot_evidence": "reports/screenshots/phase44_hard_cockpit_redesign/digital_twin_scene.png"
+    },
+    {
+      "phase43_issue": "Camera HUD still felt like a development fixture grid.",
+      "phase44_fix": "HUD now has optical-sight styling, FOV frame, crosshair, target card, telemetry strip and fixture/live truth labels.",
+      "screenshot_evidence": "reports/screenshots/phase44_hard_cockpit_redesign/camera_hud.png"
+    },
+    {
+      "phase43_issue": "Bottom cards looked like debug containers.",
+      "phase44_fix": "Operator card height, row density and value presentation were constrained for mission summary use.",
+      "screenshot_evidence": "reports/screenshots/phase44_hard_cockpit_redesign/operator_cards.png"
+    }
+  ],
+  "performance": {
+    "render_fps_cap_balanced": 15,
+    "render_fps_cap_low_or_ktr_demo": 10,
+    "api_polling_hz": "2-5",
+    "hidden_tab_render_throttle": true
+  },
+  "truth_modes": {
+    "ktr_demo": "fixture labelled as not live target",
+    "laptop_camera": "real frame only if image evidence is rendered",
+    "usb_absent": "offline_expected"
+  },
+  "safety": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true,
+    "physical_command_paths_added": false
+  }
+}

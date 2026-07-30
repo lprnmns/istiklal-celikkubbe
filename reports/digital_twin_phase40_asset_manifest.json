@@ -1,0 +1,13 @@
+{
+  "phase": 40,
+  "selected_asset_type": "REAL_STL",
+  "selected_asset_path": "/assets/digital-twin/ktr1_binary.stl",
+  "source_cad_path": "ktr1.step",
+  "source_stl_path": "ktr1.stl",
+  "conversion_status": "ASCII_STL_CONVERTED_TO_BINARY_STL_FOR_BROWSER",
+  "scale_units": "millimeters_from_cad_source_scaled_to_scene_meters",
+  "coordinate_notes": "Mesh normalized and centered in the read-only Three.js scene; FOV, launcher axis and offset are visualization overlays.",
+  "camera_mount_reference_available": false,
+  "launcher_axis_reference_available": false,
+  "no_physical_command_generated": true
+}

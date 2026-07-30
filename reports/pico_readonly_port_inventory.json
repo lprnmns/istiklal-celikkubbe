@@ -1,0 +1,12 @@
+{
+  "phase": "28",
+  "source": "GET /api/pico/discovery/ports",
+  "host_dependent": true,
+  "ports": [],
+  "notes": [
+    "Runtime inventory is produced from serial.tools.list_ports and /dev/ttyACM*, /dev/ttyUSB*, /dev/serial/by-id/* discovery.",
+    "If no Pico/Arduino is connected, the system returns an empty list and can still capture not_available evidence safely."
+  ],
+  "physical_command_enabled": false,
+  "no_physical_command_generated": true
+}

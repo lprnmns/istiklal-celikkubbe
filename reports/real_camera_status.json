@@ -1,0 +1,20 @@
+{
+  "status": "not_available",
+  "camera_source": "mock",
+  "camera_device_path": null,
+  "frame_origin": "real_camera_not_available",
+  "detector": "legacy_opencv_perception_evidence",
+  "preset_id": "legacy_camera_profile_primary",
+  "frame_width": 640,
+  "frame_height": 360,
+  "fps_estimate": 15.0,
+  "detections_count": 0,
+  "target_center_metadata": {},
+  "latest_evidence_id": null,
+  "warnings": [
+    "real camera source is not configured; mock/surrogate fallback is not used for this evidence endpoint"
+  ],
+  "advisory_only": true,
+  "no_physical_command_generated": true,
+  "physical_command_enabled": false
+}

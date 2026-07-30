@@ -1,0 +1,15 @@
+{
+  "phase": 49,
+  "quality_modes": {
+    "high": {"label": "QUALITY HIGH / 30 FPS TARGET", "fps": 30},
+    "balanced": {"label": "QUALITY BALANCED / 15 FPS CAP", "fps": 15},
+    "low": {"label": "QUALITY LOW / 10 FPS CAP", "fps": 10}
+  },
+  "metadata_polling_hz": 2,
+  "raw_stl_runtime_parsing": false,
+  "browser_model": "/assets/digital-twin/ktr1_operator_hero.glb",
+  "perception_toggle": "YOLO ON/OFF",
+  "perception_off_behavior": "camera_only_no_live_target_claim",
+  "no_physical_command_generated": true
+}
+

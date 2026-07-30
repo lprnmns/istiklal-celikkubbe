@@ -1,0 +1,17 @@
+{
+  "phase": 49,
+  "contract": "real_ktr_model_asset_pipeline",
+  "source_asset": "frontend/public/assets/digital-twin/ktr1_binary.stl",
+  "converted_asset": "frontend/public/assets/digital-twin/ktr1_operator_hero.glb",
+  "browser_asset_path": "/assets/digital-twin/ktr1_operator_hero.glb",
+  "manifest": "frontend/public/assets/digital-twin/ktr1_operator_hero_manifest.json",
+  "triangle_count_before": 200512,
+  "triangle_count_after": 200512,
+  "conversion_method": "dependency_free_binary_stl_to_glb",
+  "raw_stl_runtime_parsing": false,
+  "procedural_default_hero": false,
+  "physical_command_enabled": false,
+  "serial_tx_enabled": false,
+  "no_physical_command_generated": true
+}
+

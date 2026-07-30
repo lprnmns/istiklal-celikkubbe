@@ -1,0 +1,29 @@
+{
+  "phase": 43,
+  "contract_name": "cockpit_visual_parity_contract",
+  "scope": "frontend_ui_only",
+  "layout": {
+    "header": "compact premium C2 status bar",
+    "main_grid": "two-column camera HUD and 3D digital twin",
+    "bottom_cards": ["Device Manager", "Runtime / Model", "Target / Engagement", "Scene Plan", "Replay & Evidence", "Operator Log"],
+    "safety_strip": "SYSTEM MODE: DRY_RUN | physical_command_enabled=false | serial_tx_enabled=false | NO PHYSICAL COMMAND GENERATED"
+  },
+  "truth_labels": {
+    "ktr_demo": "KTR DEMO FIXTURE - NOT LIVE TARGET",
+    "fixture_truth": "truth=fixture",
+    "live_camera_rule": "Do not claim live USB camera unless real USB evidence exists",
+    "backend_disconnected_banner": "Backend bağlantısı yok — canlı veri güncellenmiyor."
+  },
+  "digital_twin_visuals": {
+    "visible_model": "STL-derived simplified digital twin in KTR demo mode",
+    "real_asset_evidence": "/assets/digital-twin/ktr1_binary.stl",
+    "fov": "low-opacity wire/fill, does not dominate model",
+    "axes": ["camera optical axis", "launcher reference axis"],
+    "offset": "30 mm visualization-only camera-to-launcher offset"
+  },
+  "safety_boundary": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true
+  }
+}

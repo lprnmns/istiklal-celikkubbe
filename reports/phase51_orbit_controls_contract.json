@@ -1,0 +1,11 @@
+{
+  "phase": 51,
+  "orbit_controls": true,
+  "drag_rotate": true,
+  "wheel_zoom": true,
+  "right_drag_pan": true,
+  "double_click_focus": true,
+  "keyboard_shortcuts": ["R", "F", "L", "1", "2", "3", "4", "5", "6"],
+  "presets": ["Operator", "Front", "Side", "Top", "Launcher Axis", "Target POV", "Reset"],
+  "no_physical_command_generated": true
+}

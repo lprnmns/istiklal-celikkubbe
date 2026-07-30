@@ -1,0 +1,199 @@
+{
+  "selected_asset_type": "REAL_STEP_KINEMATIC_GLB",
+  "selected_asset_path": "/assets/digital-twin/ktr1_kinematic_world_phase55.glb",
+  "preferred_browser_asset": "/assets/digital-twin/ktr1_kinematic_world_phase55.glb",
+  "source_asset": "work/ktr1.step",
+  "source_asset_absolute": "/home/alperen/teknofest/ktr1.step",
+  "output_asset": "/assets/digital-twin/ktr1_kinematic_world_phase55.glb",
+  "output_asset_absolute": "/home/alperen/teknofest/frontend/public/assets/digital-twin/ktr1_kinematic_world_phase55.glb",
+  "source_sha256": "a80d6cdcb72127d36d0005f8aaa27f5949390069bb4f7cdaf2f0ed2ca9a2ed0e",
+  "conversion_method": "freecad_headless_step_tessellation_plus_phase55_kinematic_metadata",
+  "color_extraction_method": "STEP COLOUR_RGB records detected; FreeCAD headless did not expose per-object presentation colors, so vivid FreeCAD-reference materials were reconstructed from labels and geometry roles.",
+  "conversion_status": "phase55_kinematic_step_glb_with_runtime_pivots",
+  "material_preserved": false,
+  "materials_reconstructed": true,
+  "material_preservation_status": "reconstructed",
+  "material_reconstruction_reason": "FreeCAD headless STEP import exposed geometry and part labels but did not expose per-face STEP presentation colors through ViewObject.DiffuseColor. STEP COLOUR_RGB presentation records were detected and the browser asset uses a FreeCAD-reference palette by part names and geometry roles.",
+  "step_color_records": 15,
+  "freecad_reference_generated": true,
+  "freecad_visual_match_estimate": "major silhouette and red/white/dark/metal/cyan material classes are represented; exact face-level STEP colors were not available through the installed FreeCAD headless API.",
+  "color_count": 5,
+  "material_count": 5,
+  "part_count": 136,
+  "mesh_count": 136,
+  "triangle_count": 1314536,
+  "triangle_count_before": 1314536,
+  "triangle_count_after": 1314536,
+  "bounding_box": {
+    "min": [
+      -1.8749970353438874,
+      -0.41448706248184564,
+      -1.6453319469171448
+    ],
+    "max": [
+      1.8749464712679218,
+      2.9999348739271094,
+      1.6498344923961814
+    ]
+  },
+  "scale": 0.006082810463070992,
+  "rotation": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "camera_anchor": {
+    "x": -0.13538580075271844,
+    "y": 1.0647327076065747,
+    "z": 0.16691579197643422,
+    "source": "estimated_from_kamera_part_or_manual_anchor"
+  },
+  "launcher_anchor": {
+    "x": -0.3471739674726308,
+    "y": 0.3263290102083934,
+    "z": 0.1949723488689547,
+    "source": "estimated_from_launcher_like_part_or_manual_anchor"
+  },
+  "base_anchor": {
+    "x": 0.0,
+    "y": -0.42,
+    "z": 0.0,
+    "source": "normalized_step_bounds_floor"
+  },
+  "target_projection_anchor": {
+    "x": -0.13538580075271844,
+    "y": 1.0647327076065747,
+    "z": 1.1669157919764341,
+    "source": "camera_anchor_forward_projection"
+  },
+  "asset_transform": {
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "rotation_deg": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "camera_mount_anchor": {
+      "x": -0.13538580075271844,
+      "y": 1.0647327076065747,
+      "z": 0.16691579197643422,
+      "source": "estimated_from_kamera_part_or_manual_anchor"
+    },
+    "launcher_axis_anchor": {
+      "x": -0.3471739674726308,
+      "y": 0.3263290102083934,
+      "z": 0.1949723488689547,
+      "source": "estimated_from_launcher_like_part_or_manual_anchor"
+    },
+    "base_anchor": {
+      "x": 0.0,
+      "y": -0.42,
+      "z": 0.0,
+      "source": "normalized_step_bounds_floor"
+    },
+    "target_projection_anchor": {
+      "x": -0.13538580075271844,
+      "y": 1.0647327076065747,
+      "z": 1.1669157919764341,
+      "source": "camera_anchor_forward_projection"
+    }
+  },
+  "scale_units": "normalized_scene_units_from_step",
+  "coordinate_notes": "Source STEP is imported with FreeCAD; each Part::Feature point is first transformed by getGlobalPlacement() to match FreeCAD GUI assembly placement. Scene X is STEP X, scene Y is STEP Z, scene Z is negative STEP Y. Runtime front is +Z. Anchors are estimated visualization references only.",
+  "camera_mount_reference_available": true,
+  "launcher_axis_reference_available": true,
+  "fallback_used": false,
+  "fallback_reason": null,
+  "source_stl_path": null,
+  "source_cad_path": "work/ktr1.step",
+  "dominant_colors": [
+    "warm white/light gray",
+    "vivid red/dark red",
+    "visible graphite",
+    "bright metallic gray",
+    "cyan sensor",
+    "dark gray base"
+  ],
+  "warnings": [
+    "per-face STEP color attachment unavailable in installed headless FreeCAD API",
+    "materials reconstructed to match FreeCAD visual reference categories",
+    "App::Part child global placements are applied before GLB export"
+  ],
+  "derived_web_asset_size_bytes": 94723424,
+  "glb_size_bytes": 94723424,
+  "sample_part_labels": [
+    "608zz rulman v1",
+    "608zz rulman v001",
+    "608zz rulman v002",
+    "608zz rulman v003",
+    "608zz rulman v004",
+    "608zz rulman v005",
+    "608zz rulman v006",
+    "608zz rulman v007",
+    "608zz rulman v008",
+    "üst sol",
+    "üst dişli kutusu",
+    "üst sonsuz dişl",
+    "üst dişli 20",
+    "608zz rulman v010",
+    "608zz rulman v011",
+    "608zz rulman v012",
+    "608zz rulman v013",
+    "608zz rulman v014",
+    "608zz rulman v015",
+    "608zz rulman v016",
+    "608zz rulman v017",
+    "608zz rulman v018",
+    "608zz rulman v020",
+    "608zz rulman v021",
+    "608zz rulman v022",
+    "608zz rulman v023",
+    "608zz rulman v024",
+    "608zz rulman v025",
+    "608zz rulman v026",
+    "608zz rulman v027",
+    "608zz rulman v028",
+    "608zz rulman v030",
+    "608zz rulman v031",
+    "608zz rulman v032",
+    "608zz rulman v033",
+    "608zz rulman v034",
+    "608zz rulman v035",
+    "608zz rulman v036",
+    "608zz rulman v037",
+    "608zz rulman v038"
+  ],
+  "no_physical_command_generated": true,
+  "physical_command_enabled": false,
+  "serial_tx_enabled": false,
+  "phase": 55,
+  "kinematics_path": "/assets/digital-twin/ktr1_kinematics.json",
+  "kinematic_metadata": "/assets/digital-twin/ktr1_kinematics.json",
+  "blender_used": false,
+  "exact_step_hierarchy_preserved": false,
+  "step_hierarchy_note": "Stable part names preserved; mechanical joint hierarchy inferred and curated in kinematics JSON.",
+  "kinematic_grouping_report": "reports/phase55_kinematic_grouping.md",
+  "asset_audit_report": "reports/phase55_asset_audit.md",
+  "yaw_preview_available": true,
+  "pitch_preview_available": true,
+  "visualizationOnly": true,
+  "source_cad_sha256": "a80d6cdcb72127d36d0005f8aaa27f5949390069bb4f7cdaf2f0ed2ca9a2ed0e",
+  "shape_count": 136,
+  "solid_count": 136,
+  "face_count": 19710,
+  "front_launcher_camera_detail_detected": true
+}

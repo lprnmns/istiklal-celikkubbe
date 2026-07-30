@@ -1,0 +1,17 @@
+{
+  "phase": 51,
+  "source_asset": "work/ktr1.step",
+  "output_asset": "/assets/digital-twin/ktr1_freecad_fidelity.glb",
+  "material_preservation_status": "reconstructed",
+  "step_color_records_detected": 15,
+  "color_extraction_method": "freecad_headless_geometry_plus_step_color_record_detection_plus_label_based_reconstruction",
+  "dominant_colors": [
+    "warm white/light gray",
+    "vivid red/dark red",
+    "visible graphite",
+    "bright metallic gray",
+    "cyan sensor",
+    "dark gray base"
+  ],
+  "no_physical_command_generated": true
+}

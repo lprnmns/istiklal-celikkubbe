@@ -1,0 +1,34 @@
+{
+  "phase": 56,
+  "scope": "3D world environment and tactical overlay visualization only",
+  "accepted_if": {
+    "raised_platform_visible": true,
+    "device_not_directly_on_flat_grid": true,
+    "terrain_sky_horizon_present": true,
+    "showcase_mode_presentation_ready": "implemented in code; browser screenshot still requires manual capture due headless Firefox timeout",
+    "single_primary_engagement_ray": true,
+    "fov_optional_not_overwhelming": true,
+    "distance_scale_more_visible": true,
+    "camera_panel_unchanged": true,
+    "yolo_toggle_preserved": true,
+    "physical_command_path_added": false
+  },
+  "evidence_paths": {
+    "screenshots_folder": "reports/screenshots/phase56_environment_redesign/",
+    "environment_report": "reports/phase56_environment_redesign.md",
+    "platform_report": "reports/phase56_platform_mount.md",
+    "overlay_report": "reports/phase56_tactical_overlay_cleanup.md"
+  },
+  "screenshot_status": {
+    "required": [
+      "showcase_world_platform_view.png",
+      "tactical_overlay_selected_target_ray.png",
+      "clean_mode_no_debug_clutter.png",
+      "full_world_environment_view.png",
+      "safety_no_physical_command.png"
+    ],
+    "automated_capture": "blocked",
+    "blocker": "Firefox headless WebGL screenshot timed out with RenderCompositorSWGL failed mapping default framebuffer"
+  }
+}
+

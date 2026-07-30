@@ -1,0 +1,39 @@
+{
+  "phase": 38,
+  "name": "Cockpit Camera Source Mode Contract",
+  "source_modes": [
+    "REAL_LAPTOP_CAMERA_LIVE",
+    "REAL_LAPTOP_CAMERA_LATEST_FRAME",
+    "REAL_USB_CAMERA_LIVE",
+    "REAL_USB_CAMERA_LATEST_FRAME",
+    "MOCK_OR_FIXTURE",
+    "CAMERA_UNAVAILABLE"
+  ],
+  "development_mode_rules": {
+    "external_usb_camera_required": false,
+    "pico_required": false,
+    "prefer_laptop_camera_when_usb_absent": true,
+    "missing_usb_camera_label": "OFFLINE_EXPECTED / DEVICE_NOT_PRESENT",
+    "missing_pico_label": "OFFLINE_EXPECTED / DEVICE_NOT_PRESENT",
+    "do_not_claim_usb_camera_when_laptop_used": true
+  },
+  "diagnostic_fields": [
+    "source_mode",
+    "selected_device",
+    "selected_backend",
+    "input_format",
+    "resolution",
+    "last_frame_age_ms",
+    "last_capture_error",
+    "is_real_camera_evidence",
+    "is_external_usb_camera",
+    "is_laptop_camera",
+    "hardware_presence_note"
+  ],
+  "safety": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true
+  }
+}
+

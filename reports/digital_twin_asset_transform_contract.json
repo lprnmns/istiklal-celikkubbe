@@ -1,0 +1,18 @@
+{
+  "phase": 41,
+  "selected_asset_type": "REAL_STL",
+  "selected_asset_path": "/assets/digital-twin/ktr1_binary.stl",
+  "source_cad_path": "ktr1.step",
+  "transform": {
+    "scale": 0.82,
+    "rotation_deg": { "x": -90, "y": 0, "z": 180 },
+    "position": { "x": 0, "y": 0.12, "z": -0.35 },
+    "camera_mount_anchor": { "x": 0, "y": 1.18, "z": 0.62 },
+    "launcher_axis_anchor": { "x": 0, "y": 0.98, "z": 0.42 },
+    "launcher_axis_direction": { "x": 0, "y": 0, "z": -1 },
+    "camera_to_launcher_offset_z_mm": 30,
+    "anchor_source": "estimated_from_visual_inspection"
+  },
+  "anchor_precision": "estimated_visualization_only",
+  "no_physical_command_generated": true
+}

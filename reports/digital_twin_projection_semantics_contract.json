@@ -1,0 +1,22 @@
+{
+  "phase": 41,
+  "projection_source": "bbox_projection_estimate",
+  "fields_visible_in_ui": [
+    "normalized_center_x",
+    "normalized_center_y",
+    "bbox_area_ratio",
+    "estimated_range_band",
+    "relative_depth",
+    "camera_to_target_ray",
+    "launcher_aim_reference_ray"
+  ],
+  "depth_semantics": {
+    "near": "larger target marker",
+    "mid": "medium target marker",
+    "far": "smaller target marker",
+    "source": "bbox_area_relative_estimate"
+  },
+  "fire_solution": false,
+  "aim_reference_only": true,
+  "no_physical_command_generated": true
+}

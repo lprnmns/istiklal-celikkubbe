@@ -1,0 +1,17 @@
+{
+  "phase": 51,
+  "title": "REAL KTR DIGITAL TWIN WORLD",
+  "world_route": "/cockpit/world",
+  "default_asset": "/assets/digital-twin/ktr1_freecad_fidelity.glb",
+  "features": [
+    "model_first_canvas",
+    "tactical_floor",
+    "range_grid",
+    "camera_fov",
+    "camera_axis",
+    "launcher_axis",
+    "target_projection",
+    "label_modes"
+  ],
+  "no_physical_command_generated": true
+}

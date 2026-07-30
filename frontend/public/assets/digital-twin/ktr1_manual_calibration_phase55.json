@@ -1,0 +1,33 @@
+{
+  "assetVersion": "phase55_manual_calibration",
+  "visualizationOnly": true,
+  "safety": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true
+  },
+  "source": {
+    "asset": "phase55-raw",
+    "glbPath": "/assets/digital-twin/ktr1_kinematic_world_phase55.glb",
+    "cadPath": "work/ktr1.step"
+  },
+  "runtimeTransform": {
+    "position": [0.13, 1.65, -4.65],
+    "rotationEulerDeg": [90, 0, 0],
+    "scale": 1,
+    "groundY": 0,
+    "note": "Manual visual calibration from /cockpit/model-calibration. Read-only digital twin transform only."
+  },
+  "sourceAxes": {
+    "forward": [0, 1, 0],
+    "right": [1, 0, 0],
+    "up": [0, 0, -1],
+    "yawAxis": [0, 0, -1],
+    "pitchAxis": [1, 0, 0]
+  },
+  "manualGrouping": {
+    "staticRootIncludes": ["alt gövde", "alt govde", "alt_gövde", "alt_govde", "tabla", "yan gövde1", "yan govde1", "yan_gövde1", "yan_govde1", "yan gövde 3", "yan govde 3", "yan_gövde_3", "yan_govde_3", "Bileşen18", "Bileşen19", "Bileşen20", "COMPOUND006", "COMPOUND007", "COMPOUND008", "COMPOUND011"],
+    "pitchGroupIncludes": ["kamera", "camera", "Bileşen13", "Bilesen13", "SOLID", "SOLID001", "Axel", "Wires", "Bileşen5", "Bilesen5", "Ayna", "Grand Fulffy"],
+    "yawGroupDefault": "all non-static upper/body parts"
+  }
+}

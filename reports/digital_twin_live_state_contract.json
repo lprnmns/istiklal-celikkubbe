@@ -1,0 +1,34 @@
+{
+  "schema_version": "phase33.1",
+  "title": "Digital Twin Live-State Read-Only Contract",
+  "no_physical_command_generated": true,
+  "physical_command_enabled": false,
+  "digital_twin_command_authority": false,
+  "pose_sources": ["telemetry", "tracker_estimate", "fixture"],
+  "required_fields": [
+    "device_pose.pose_source",
+    "target.selected_target_id",
+    "target.bbox",
+    "target.normalized_x",
+    "target.normalized_y",
+    "tracker.state",
+    "engagement.fire_gate_state",
+    "runtime.queue_length",
+    "runtime.camera_mode",
+    "runtime.pico_connection_state",
+    "runtime.latency.total_pipeline_ms"
+  ],
+  "logs": [
+    "digital_twin.state_stream_mapped",
+    "digital_twin.replay_loaded",
+    "digital_twin.panel_rendered"
+  ],
+  "forbidden_paths": [
+    "motor movement",
+    "servo trigger",
+    "fire request generation",
+    "GPIO/PWM/STEP/DIR",
+    "hardware enable",
+    "serial TX/write"
+  ]
+}

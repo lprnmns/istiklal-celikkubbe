@@ -1,0 +1,190 @@
+{
+  "schema": "phase56_step_semantic_audit",
+  "sourceCadPath": "work/ktr1.step",
+  "sourceAbsolutePath": "/home/alperen/teknofest/ktr1.step",
+  "createdAt": "2026-05-25T10:46:49.797015+00:00",
+  "freecad": {
+    "documentObjectCount": 316,
+    "partFeatureCount": 136,
+    "runtimeScale": 0.006625390614656359
+  },
+  "step": {
+    "record_counts": {
+      "COLOUR_RGB": 15,
+      "PRESENTATION_STYLE_ASSIGNMENT": 16,
+      "MECHANICAL_DESIGN_GEOMETRIC_PRESENTATION_REPRESENTATION": 1,
+      "NEXT_ASSEMBLY_USAGE_OCCURRENCE": 39,
+      "PRODUCT": 221,
+      "AXIS2_PLACEMENT_3D": 16869,
+      "DIRECTION": 57242
+    },
+    "product_name_count": 30,
+    "sample_product_names": [
+      "608zz rulman",
+      "Axel",
+      "Bile\\X2\\015F\\X0\\en10",
+      "Bile\\X2\\015F\\X0\\en11",
+      "Bile\\X2\\015F\\X0\\en12",
+      "Bile\\X2\\015F\\X0\\en13",
+      "Bile\\X2\\015F\\X0\\en13_1",
+      "Bile\\X2\\015F\\X0\\en14",
+      "Bile\\X2\\015F\\X0\\en15",
+      "Bile\\X2\\015F\\X0\\en16",
+      "Bile\\X2\\015F\\X0\\en17",
+      "Bile\\X2\\015F\\X0\\en18",
+      "Bile\\X2\\015F\\X0\\en18_1",
+      "Bile\\X2\\015F\\X0\\en19",
+      "Bile\\X2\\015F\\X0\\en2",
+      "Bile\\X2\\015F\\X0\\en20",
+      "Bile\\X2\\015F\\X0\\en4",
+      "Bile\\X2\\015F\\X0\\en5(Ayna)",
+      "Bile\\X2\\015F\\X0\\en8",
+      "Bile\\X2\\015F\\X0\\en9",
+      "Body",
+      "Grand Fulffy (1)",
+      "Servo+Motor+Tower+Pro+MG995",
+      "Spur Gear (20 teeth)",
+      "Wires",
+      "Yap\\X2\\0131\\X0\\land\\X2\\0131\\X0\\rma 2",
+      "Yap\\X2\\0131\\X0\\land\\X2\\0131\\X0\\rma 2_1",
+      "\\X\\F6tr1",
+      "kamera v3",
+      "yan g\\X\\F6vde 3"
+    ],
+    "color_records": [
+      {
+        "name": "Pirin\\X\\E7 - Cilalanm\\X2\\0131015F\\X0\\",
+        "rgb": [
+          0.952941176470588,
+          0.796078431372549,
+          0.486274509803922
+        ]
+      },
+      {
+        "name": "Plastik - Parlak (Siyah)",
+        "rgb": [
+          0.0980392156862745,
+          0.0980392156862745,
+          0.0980392156862745
+        ]
+      },
+      {
+        "name": "Opaque(217,211,201)",
+        "rgb": [
+          0.850980392156863,
+          0.827450980392157,
+          0.788235294117647
+        ]
+      },
+      {
+        "name": "\\X\\C7elik - Saten",
+        "rgb": [
+          0.627450980392157,
+          0.627450980392157,
+          0.627450980392157
+        ]
+      },
+      {
+        "name": "Al\\X\\FCminyum nitr\\X\\FCr (AlN)",
+        "rgb": [
+          0.850980392156863,
+          0.827450980392157,
+          0.788235294117647
+        ]
+      },
+      {
+        "name": "Plastik - Mat (Gri)",
+        "rgb": [
+          0.701960784313725,
+          0.701960784313725,
+          0.701960784313725
+        ]
+      },
+      {
+        "name": "Opaque(218,89,89)",
+        "rgb": [
+          0.854901960784314,
+          0.349019607843137,
+          0.349019607843137
+        ]
+      },
+      {
+        "name": "Opaque(246,246,243)",
+        "rgb": [
+          0.964705882352941,
+          0.964705882352941,
+          0.952941176470588
+        ]
+      },
+      {
+        "name": "Opaque(160,160,160)",
+        "rgb": [
+          0.627450980392157,
+          0.627450980392157,
+          0.627450980392157
+        ]
+      },
+      {
+        "name": "Opaque(25,25,25)",
+        "rgb": [
+          0.0980392156862745,
+          0.0980392156862745,
+          0.0980392156862745
+        ]
+      },
+      {
+        "name": "Opaque(251,250,245)",
+        "rgb": [
+          0.984313725490196,
+          0.980392156862745,
+          0.96078431372549
+        ]
+      },
+      {
+        "name": "Opaque(245,245,246)",
+        "rgb": [
+          0.96078431372549,
+          0.96078431372549,
+          0.964705882352941
+        ]
+      },
+      {
+        "name": "Plastik - Parlak (Ye\\X2\\015F\\X0\\il)",
+        "rgb": [
+          0.619607843137255,
+          0.32156862745098,
+          0.0
+        ]
+      },
+      {
+        "name": "Plastik - Parlak (K\\X2\\0131\\X0\\rm\\X2\\0131\\X0\\z\\X2\\0131\\X0\\)",
+        "rgb": [
+          0.749019607843137,
+          0.274509803921569,
+          0.231372549019608
+        ]
+      },
+      {
+        "name": "Plastik - Parlak (Gri)",
+        "rgb": [
+          0.831372549019608,
+          0.580392156862745,
+          0.113725490196078
+        ]
+      }
+    ]
+  },
+  "diagnosis": {
+    "sourceGeometryPresent": true,
+    "browserMismatchPrimaryCause": "CAD assembly/material/joint semantics are not preserved into the GLB/runtime contracts.",
+    "webRendererCapacityIsPrimaryCause": false,
+    "exactAssemblyTreeAvailable": false,
+    "materialsPreserved": false,
+    "kinematicTruthStatus": "draft_not_mechanically_validated"
+  },
+  "safety": {
+    "physical_command_enabled": false,
+    "serial_tx_enabled": false,
+    "no_physical_command_generated": true
+  }
+}

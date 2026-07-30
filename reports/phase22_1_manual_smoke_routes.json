@@ -1,0 +1,38 @@
+[
+  {
+    "route": "/demo",
+    "method": "GET",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "route": "/dashboard",
+    "method": "GET",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "route": "/reports",
+    "method": "GET",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "route": "/logs",
+    "method": "GET",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "route": "/api/release/package/latest",
+    "method": "GET",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "route": "/api/release/package/build",
+    "method": "POST",
+    "status": 200,
+    "ok": true
+  }
+]

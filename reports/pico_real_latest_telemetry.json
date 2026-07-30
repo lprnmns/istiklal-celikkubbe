@@ -1,0 +1,15 @@
+{
+  "raw_line_sample": null,
+  "parsed": {},
+  "heartbeat": false,
+  "firmware_version": null,
+  "estop_state": null,
+  "limit_states": {},
+  "motor_driver_state": {},
+  "warning_fault_state": {},
+  "no_command_generated": true,
+  "serial_write_enabled": false,
+  "command_tx_enabled": false,
+  "physical_command_enabled": false,
+  "no_physical_command_generated": true
+}

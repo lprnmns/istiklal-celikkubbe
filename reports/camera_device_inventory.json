@@ -1,0 +1,66 @@
+{
+  "diagnostic_id": "camera_host_20260515_133810_6bc0c8",
+  "created_at": 1778841490.3135643,
+  "platform": "Linux-6.17.0-23-generic-x86_64-with-glibc2.39",
+  "host_camera_devices_detected": true,
+  "dev_video_entries": [
+    "/dev/video0",
+    "/dev/video1",
+    "/dev/video2",
+    "/dev/video3"
+  ],
+  "camera_groups": [
+    {
+      "camera_kind": "internal_laptop_camera",
+      "name": "HP HD Camera",
+      "paths": [
+        "/dev/video0",
+        "/dev/video1"
+      ],
+      "preferred_capture_path": "/dev/video0",
+      "evidence_status": "not_evaluated",
+      "frame_captured": false,
+      "advisory_only": true,
+      "physical_command_enabled": false,
+      "no_physical_command_generated": true
+    },
+    {
+      "camera_kind": "external_usb_camera",
+      "name": "HD USB Camera",
+      "paths": [
+        "/dev/video2",
+        "/dev/video3"
+      ],
+      "preferred_capture_path": "/dev/video2",
+      "evidence_status": "not_evaluated",
+      "frame_captured": false,
+      "advisory_only": true,
+      "physical_command_enabled": false,
+      "no_physical_command_generated": true
+    }
+  ],
+  "recommended_usb_device_path": "/dev/video2",
+  "selected_camera_device": null,
+  "selected_camera_name": null,
+  "camera_kind": "unknown_camera",
+  "v4l2_available": true,
+  "ffmpeg_available": true,
+  "user_in_video_group": false,
+  "camera_app_not_seen_note": true,
+  "real_camera_capture_attempted": false,
+  "real_camera_frame_captured": false,
+  "camera_acceptance_status": "partial",
+  "blocker_reason": "camera device exists; frame capture not attempted yet",
+  "commands": [],
+  "suggested_actions": [
+    "Check BIOS/privacy camera switch and physical cable.",
+    "Confirm /dev/video* exists outside sandboxed camera applications.",
+    "Install v4l-utils if v4l2-ctl is missing.",
+    "Check user permissions for video group without changing them automatically.",
+    "Review dmesg uvcvideo/v4l2 messages for driver errors.",
+    "If using Snap/Flatpak camera apps, check sandbox camera permissions manually."
+  ],
+  "advisory_only": true,
+  "physical_command_enabled": false,
+  "no_physical_command_generated": true
+}

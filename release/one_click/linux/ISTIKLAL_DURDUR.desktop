@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=ISTIKLAL Durdur
+Comment=ISTIKLAL tek tik sunucusunu durdurur
+Exec=sh -c 'd=$(dirname "$1"); exec "$d/ISTIKLAL_DURDUR.sh"' sh %k
+Icon=process-stop
+Terminal=false
+Categories=Utility;

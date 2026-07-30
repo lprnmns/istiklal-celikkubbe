@@ -1,0 +1,15 @@
+{
+  "phase": 50,
+  "real_step_model_default": true,
+  "source_step_path": "ktr1.step",
+  "converted_glb_path": "/assets/digital-twin/ktr1_colored_step_hero.glb",
+  "stl_default_removed": true,
+  "procedural_default_removed": true,
+  "materials_status": "reconstructed_from_part_labels",
+  "model_visible_large": "validated_by_screenshots",
+  "orbit_controls_visible": true,
+  "yolo_toggle_visible": true,
+  "quality_modes": ["high", "balanced", "low"],
+  "screenshot_folder": "reports/screenshots/phase50_real_colored_step_virtual_world",
+  "no_physical_command_generated": true
+}

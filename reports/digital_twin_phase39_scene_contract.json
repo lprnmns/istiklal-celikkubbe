@@ -1,0 +1,7 @@
+{
+  "phase": 39,
+  "scene_features": ["dark_grid_floor", "horizon_grid", "red_white_turret_fallback", "camera_fov_frustum", "optical_axis", "launcher_axis_no_physical_command", "target_marker", "target_label_card", "person_no_go_volume", "camera_launcher_offset_30mm"],
+  "pose_sources": ["telemetry", "tracker_estimate", "replay_fixture", "static_demo_pose"],
+  "missing_pico_telemetry": "OFFLINE_EXPECTED",
+  "no_physical_command_generated": true
+}

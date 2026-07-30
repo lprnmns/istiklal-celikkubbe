@@ -1,0 +1,18 @@
+{
+  "phase": 48,
+  "title": "Real 3D Digital Twin Rebuild",
+  "default_right_panel_mode": "Tactical 3D",
+  "right_panel_is_real_3d_world": true,
+  "raw_stl_as_hero": false,
+  "operator_twin_exists": true,
+  "camera_axis_visible": true,
+  "launcher_axis_visible": true,
+  "fov_volume_visible": true,
+  "target_inside_fov_visible": true,
+  "camera_launcher_offset_visible": "30 mm",
+  "top_down_minimap_available": true,
+  "cad_reference_mode_available": true,
+  "screenshot_evidence": "reports/screenshots/phase48_real_3d_digital_twin_rebuild/",
+  "no_physical_command_generated": true
+}
+

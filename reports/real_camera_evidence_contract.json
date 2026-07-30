@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-05-14T19:23:56",
+  "endpoint_contracts": {
+    "GET /api/vision/legacy-presets": "Returns advisory legacy perception presets derived from audit reports.",
+    "GET /api/vision/legacy-presets/{preset_id}": "Returns one preset.",
+    "GET /api/vision/real-camera/status": "Reports real camera evidence readiness without mock fallback.",
+    "POST /api/vision/real-camera/capture-evidence": "Attempts evidence metadata capture only; no physical command path.",
+    "GET /api/vision/real-camera/latest": "Returns latest real camera evidence metadata."
+  },
+  "required_fields": [
+    "camera_source",
+    "frame_origin",
+    "detector",
+    "preset_id",
+    "frame_width",
+    "frame_height",
+    "fps_estimate",
+    "detections_count",
+    "target_center_metadata",
+    "advisory_only",
+    "no_physical_command_generated",
+    "physical_command_enabled"
+  ],
+  "safety_contract": {
+    "advisory_only": true,
+    "no_physical_command_generated": true,
+    "physical_command_enabled": false
+  },
+  "mock_fallback_policy": "Real camera evidence endpoint reports not_available when no real camera is configured; it does not convert mock frames into real camera evidence."
+}

@@ -1,0 +1,157 @@
+{
+  "generated_at": "2026-05-14T19:08:35.704744",
+  "analysis_only": true,
+  "no_physical_command_generated": true,
+  "candidates": [
+    {
+      "name": "camera_profile_primary",
+      "source": "python/settings.json",
+      "values": {
+        "camera_index": 1,
+        "resolution": "640x480",
+        "fps": 60,
+        "stabilization": "Normal"
+      },
+      "target_module": "Vision camera runtime / future real_camera profile",
+      "risk": "low"
+    },
+    {
+      "name": "camera_profile_root_variant",
+      "source": "settings.json",
+      "values": {
+        "camera_index": 1,
+        "resolution": "1280x720",
+        "fps": 50
+      },
+      "target_module": "Device profile candidate only",
+      "risk": "low"
+    },
+    {
+      "name": "threaded_camera_low_latency",
+      "source": "python/threaded_camera.py",
+      "values": {
+        "fourcc": "MJPG",
+        "fps": 60,
+        "buffersize": 1,
+        "autofocus": 0,
+        "auto_exposure": 0.25,
+        "exposure": -3,
+        "brightness": 150,
+        "warmup_frames": 10,
+        "warmup_timeout_s": 2.0
+      },
+      "target_module": "Camera Runtime probe/apply profile",
+      "risk": "low"
+    },
+    {
+      "name": "opencv_hsv_red_pink_detector",
+      "source": "python/yolo_detector.py",
+      "values": {
+        "lower_red1": [
+          0,
+          50,
+          30
+        ],
+        "upper_red1": [
+          20,
+          255,
+          255
+        ],
+        "lower_red2": [
+          160,
+          50,
+          30
+        ],
+        "upper_red2": [
+          180,
+          255,
+          255
+        ],
+        "blur_kernel": [
+          11,
+          11
+        ],
+        "morph_kernel": [
+          5,
+          5
+        ],
+        "close_iter": 2,
+        "open_iter": 1,
+        "min_area": 300,
+        "aspect_ratio_range": [
+          0.3,
+          3.0
+        ],
+        "confidence_stub": 0.85
+      },
+      "target_module": "OpenCV surrogate detector settings",
+      "risk": "low"
+    },
+    {
+      "name": "color_tuner_presets",
+      "source": "python/color_settings_export.py",
+      "values": {
+        "strict": {
+          "min_area": 500,
+          "blur_size": 11
+        },
+        "sensitive": {
+          "min_area": 200,
+          "blur_size": 7
+        },
+        "balanced": {
+          "min_area": 300,
+          "blur_size": 9
+        },
+        "bright_light": {
+          "min_area": 400
+        },
+        "dim_light": {
+          "min_area": 200
+        }
+      },
+      "target_module": "Vision Settings preset candidates",
+      "risk": "low"
+    },
+    {
+      "name": "target_selection",
+      "source": "python/yolo_detector.py and python/main.py",
+      "values": {
+        "auto": "closest_to_crosshair",
+        "manual": "largest_blue_target",
+        "lost_target_hold_frames": 10,
+        "kalman_prediction": true
+      },
+      "target_module": "Advisory tracking metadata/Data Lab",
+      "risk": "low_to_medium"
+    },
+    {
+      "name": "latency_metrics",
+      "source": "python/main.py",
+      "values": {
+        "camera_time_ms": "overlay",
+        "detect_time_ms": "overlay",
+        "fps_counter": "1s window",
+        "detection_queue_in_size": 2,
+        "detection_queue_out_size": 1,
+        "detection_interval": 1
+      },
+      "target_module": "Vision FPS/latency UI and Data Lab metadata",
+      "risk": "low"
+    },
+    {
+      "name": "dataset_classes",
+      "source": "python/config.py and REQUIREMENTS.md",
+      "values": {
+        "red_balloon": 0,
+        "blue_balloon": 1,
+        "legacy_label_names": [
+          "red_balloon",
+          "blue_balloon"
+        ]
+      },
+      "target_module": "Data Lab annotation class candidates, not competition model package",
+      "risk": "medium"
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "package": {
+    "package_id": "istiklal_c2_release_20260512_142019",
+    "output_dir": "/home/alperen/teknofest/exports/release/istiklal_c2_release_20260512_142019",
+    "zip_path": "/home/alperen/teknofest/exports/release/istiklal_c2_release_20260512_142019.zip",
+    "files_count": 233,
+    "checksums_path": "/home/alperen/teknofest/exports/release/istiklal_c2_release_20260512_142019/checksums.json",
+    "manifest_path": "/home/alperen/teknofest/exports/release/istiklal_c2_release_20260512_142019/package_manifest.json",
+    "commit_hash": "779ec9f",
+    "source_commit": "b82c434",
+    "package_generated_commit": "779ec9f",
+    "package_workflow_commit": "b82c434",
+    "report_commit": "5c751c1",
+    "checksum_status": "passed",
+    "release_demo_ready": true,
+    "competition_ready": false,
+    "dataset_ready_for_training": false,
+    "no_physical_command_generated": true,
+    "safety_invariant": "DISARMED + NO_FIRE + dry_run=true + hardware_enabled=false + physical_command_enabled=false",
+    "created_at": 1778584820.0159929
+  },
+  "cleanroom": {
+    "run_id": "cleanroom_20260512_142020",
+    "package_id": "istiklal_c2_release_20260512_142019",
+    "zip_path": "/home/alperen/teknofest/exports/release/istiklal_c2_release_20260512_142019.zip",
+    "extract_path": "/tmp/istiklal_c2_cleanroom_20260512_142020/istiklal_c2_release_20260512_142019",
+    "launch_command": "bash release/linux/start_istiklal_c2.sh",
+    "smoke_status": "passed",
+    "endpoints": [
+      {
+        "method": "GET",
+        "path": "/dashboard",
+        "status_code": 200,
+        "ok": true
+      },
+      {
+        "method": "GET",
+        "path": "/demo",
+        "status_code": 200,
+        "ok": true
+      },
+      {
+        "method": "GET",
+        "path": "/reports",
+        "status_code": 200,
+        "ok": true
+      },
+      {
+        "method": "GET",
+        "path": "/interfaces",
+        "status_code": 200,
+        "ok": true
+      },
+      {
+        "method": "GET",
+        "path": "/logs",
+        "status_code": 200,
+        "ok": true
+      },
+      {
+        "method": "GET",
+        "path": "/data-lab",
+        "status_code": 200,
+        "ok": true
+      },
+      {
+        "method": "GET",
+        "path": "/api/demo/readiness",
+        "status_code": 200,
+        "ok": true
+      },
+      {
+        "method": "GET",
+        "path": "/api/demo/latest",
+        "status_code": 200,
+        "ok": true
+      },
+      {
+        "method": "GET",
+        "path": "/api/release/package/latest",
+        "status_code": 200,
+        "ok": true
+      },
+      {
+        "method": "GET",
+        "path": "/api/health",
+        "status_code": 200,
+        "ok": true
+      }
+    ],
+    "endpoints_passed": 10,
+    "endpoints_total": 10,
+    "frontend_dist_present": true,
+    "backend_present": true,
+    "forbidden_entries": [],
+    "secrets_or_tokens": [],
+    "launcher_hardcoded_repo_path": false,
+    "release_demo_ready": true,
+    "competition_ready": false,
+    "no_physical_command_generated": true,
+    "report_paths": {
+      "release_portability_audit.md": "/home/alperen/teknofest/reports/phase23_cleanroom_smoke_summary.md",
+      "cleanroom_smoke_results.json": "/home/alperen/teknofest/reports/phase23_cleanroom_smoke_results.json"
+    },
+    "created_at": 1778584821.5681415
+  },
+  "jury_rehearsal": {
+    "rehearsal_id": "jury_rehearsal_20260512_142021_dec56b",
+    "created_at": 1778584821.7525754,
+    "timeline_id": "demo_timeline_20260512_142021_27aad5",
+    "report_export_id": "ktr_summary-20260512-142021-70be63",
+    "cleanroom_run_id": "cleanroom_20260512_142020",
+    "cleanroom_verified": true,
+    "latest_release_package": "istiklal_c2_release_20260512_142019",
+    "verdict": {
+      "release_demo_ready": true,
+      "release_demo_blockers": [],
+      "release_demo_warnings": [
+        "First-run current status is not passed; demo can run but acceptance should be completed before presentation.",
+        "Mock/surrogate evidence is acceptable for release demo but not competition rehearsal."
+      ],
+      "competition_ready": false,
+      "competition_blockers": [
+        "Competition rehearsal requires production YOLO model.",
+        "Competition rehearsal requires verified Pico telemetry.",
+        "Competition rehearsal requires real camera evidence.",
+        "Competition rehearsal requires completed self-test."
+      ],
+      "dataset_ready_for_training": false,
+      "dataset_blockers": [
+        "Dataset is not ready for training; mock/surrogate or insufficient real data."
+      ],
+      "no_physical_command_generated": true
+    },
+    "safety_invariant": "DISARMED + NO_FIRE + dry_run=true + hardware_enabled=false + physical_command_enabled=false",
+    "no_physical_command_generated": true
+  },
+  "report": {
+    "export_id": "ktr_summary-20260512-142021-12da45",
+    "kind": "ktr_summary",
+    "status": "completed",
+    "created_at": 1778584821.8188002,
+    "output_dir": "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45",
+    "files": [
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/ktr_summary.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/interface_inventory.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/ktr_4_3_interfaces.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/safety_summary.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/self_test_summary.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/model_registry_summary.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/model_package_inventory.json",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/active_model_summary.json",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/vision_runtime_summary.json",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/model_validation_summary.json",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/safety_summary.json",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/cold_start_summary.json",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/cold_start_summary.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/launcher_inspection.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/live_camera_surrogate_summary.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/live_camera_surrogate_summary.json",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/vision_circle_detection_sample.json",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/snapshot_manifest.json",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/data_lab_summary.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/data_lab_sessions.json",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/detection_events_sample.jsonl",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/replay_readiness.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/replay_summary.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/replay_latest.json",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/annotation_candidates.json",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/annotation_review_summary.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/dataset_health_summary.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/demo_timeline.json",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/demo_timeline.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/demo_readiness_summary.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/demo_runbook.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/jury_demo_summary.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/release_demo_verdict.json",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/evidence_index.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/known_limitations.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/demo_operator_script.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/release_package_summary.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/release_package_manifest.json",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/release_zip_check.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/release_portability_audit.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/cleanroom_smoke_results.json",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/cleanroom_launch_notes.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/portable_runtime_requirements.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/jury_rehearsal_summary.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/jury_rehearsal_verdict.json",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/jury_rehearsal_timeline.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/jury_rehearsal_operator_script.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/jury_rehearsal_limitations.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/jury_rehearsal_cleanroom_status.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/dataset_summary.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/operation_checklist.md",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/screenshots_manifest.json",
+      "/home/alperen/teknofest/exports/reports/ktr_summary-20260512-142021-12da45/export_metadata.json"
+    ],
+    "summary": {
+      "no_physical_command_generated": true,
+      "dry_run": true,
+      "hardware_enabled": false,
+      "models": 3,
+      "active_model": {
+        "active_model_id": "fixture-opencv-test-adapter",
+        "package_id": "fixture-opencv-test-adapter-0.1.0",
+        "package_kind": "fixture",
+        "adapter_mode": "fixture_test_adapter",
+        "model_format": "onnx",
+        "active_model_state": "fixture_model_active",
+        "package_schema_validation": "passed",
+        "runtime_validation": "passed",
+        "production_readiness": "test_adapter_only",
+        "competition_readiness": "limited_demo_only",
+        "package_schema_valid": true,
+        "runtime_valid": true,
+        "class_mapping_valid": true,
+        "production_model": false,
+        "production_ready": false,
+        "competition_ready": false,
+        "advisory_only": true,
+        "no_physical_command_generated": true,
+        "warnings": [
+          "fixture_or_non_production_package",
+          "fixture_test_adapter_not_competition_model"
+        ],
+        "blockers": [
+          "production_model_not_loaded"
+        ],
+        "model_name": "OpenCV Test Adapter Package Fixture",
+        "version": "0.1.0",
+        "model_validation_status": "passed",
+        "package_schema_status": "passed",
+        "runtime_status": "passed",
+        "class_mapping_status": "complete",
+        "production_status": "test_adapter_only",
+        "competition_status": "limited_demo_only",
+        "last_test_status": "completed"
+      },
+      "model_validation_status": "passed",
+      "class_mapping_status": "complete",
+      "package_kind": "fixture",
+      "production_model": false,
+      "production_ready": false,
+      "competition_ready": false,
+      "advisory_only": true,
+      "sessions": 19,
+      "data_lab": {
+        "generated_at": 1778584821.8187304,
+        "sessions_count": 19,
+        "latest_session_id": "session-20260512-142019-fd5d07",
+        "latest_detection": {
+          "frame_id": 4,
+          "source": "mock",
+          "camera_source_kind": null,
+          "frame_origin": null,
+          "detector_kind": null,
+          "body_count": 1,
+          "balloon_count": 1,
+          "detections": [
+            {
+              "kind": "body",
+              "id": 1,
+              "class_name": "helicopter",
+              "class_id": 1,
+              "confidence": 0.86,
+              "bbox": {
+                "x": 268,
+                "y": 100,
+                "w": 140,
+                "h": 86,
+                "format": "pixel"
+              },
+              "source": "mock",
+              "color_hint": "enemy_candidate",
+              "stable_frames": 4,
+              "target_team": "enemy",
+              "range_m": 8.7,
+              "color_decision": null
+            },
+            {
+              "kind": "balloon_or_circle",
+              "id": 1,
+              "confidence": 0.91,
+              "bbox": {
+                "x": 333,
+                "y": 192,
+                "w": 32,
+                "h": 32,
+                "format": "pixel"
+              },
+              "center_x": 349,
+              "center_y": 208,
+              "source": "mock"
+            }
+          ],
+          "latency_ms": 12.1,
+          "camera_fps": null,
+          "detector_fps": 15.0,
+          "advisory_only": true,
+          "no_physical_command_generated": true
+        },
+        "export_root": "/home/alperen/teknofest/exports/data_lab",
+        "replay_status": "replay_foundation_ready",
+        "replay_ready": false,
+        "advisory_only": true,
+        "no_physical_command_generated": true,
+        "warnings": []
+      },
+      "annotations": 1,
+      "latest_self_test": null,
+      "latest_demo_timeline": "demo_timeline_20260512_142021_27aad5",
+      "latest_demo_report_export": "ktr_summary-20260512-142021-808d99",
+      "release_demo_ready": true,
+      "dataset_ready_for_training": false,
+      "current_first_run_status": "open",
+      "current_profile_id": "release_candidate_ready",
+      "current_profile_evaluation_status": "not_evaluated",
+      "last_successful_first_run_run_id": null,
+      "last_successful_first_run_profile_id": null,
+      "last_successful_first_run_timestamp": null,
+      "stale_evidence": false
+    },
+    "no_physical_command_generated": true,
+    "error": null
+  },
+  "manual_smoke": [
+    {
+      "route": "/dashboard",
+      "status_code": 200,
+      "passed": true
+    },
+    {
+      "route": "/demo",
+      "status_code": 200,
+      "passed": true
+    },
+    {
+      "route": "/reports",
+      "status_code": 200,
+      "passed": true
+    },
+    {
+      "route": "/interfaces",
+      "status_code": 200,
+      "passed": true
+    },
+    {
+      "route": "/logs",
+      "status_code": 200,
+      "passed": true
+    },
+    {
+      "route": "/data-lab",
+      "status_code": 200,
+      "passed": true
+    },
+    {
+      "route": "/api/demo/readiness",
+      "status_code": 200,
+      "passed": true
+    },
+    {
+      "route": "/api/demo/run",
+      "status_code": 200,
+      "passed": true
+    },
+    {
+      "route": "/api/demo/latest",
+      "status_code": 200,
+      "passed": true
+    },
+    {
+      "route": "/api/release/package/latest",
+      "status_code": 200,
+      "passed": true
+    },
+    {
+      "route": "/api/release/clean-room/latest",
+      "status_code": 200,
+      "passed": true
+    },
+    {
+      "route": "/api/release/clean-room/run",
+      "status_code": 200,
+      "passed": true
+    },
+    {
+      "route": "/api/demo/jury-rehearsal/latest",
+      "status_code": 200,
+      "passed": true
+    },
+    {
+      "route": "/api/demo/jury-rehearsal/run",
+      "status_code": 200,
+      "passed": true
+    }
+  ],
+  "all_manual_smoke_passed": true,
+  "no_physical_command_generated": true
+}

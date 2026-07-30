@@ -1,0 +1,7 @@
+{
+  "phase": 51,
+  "physical_command_enabled": false,
+  "serial_tx_enabled": false,
+  "no_physical_command_generated": true,
+  "motor_fire_servo_gpio_pwm_step_dir_hardware_enable_path_added": false
+}

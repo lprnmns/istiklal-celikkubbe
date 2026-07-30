@@ -1,0 +1,177 @@
+{
+  "generated_at": "2026-05-14T19:23:56",
+  "source_commit": "29e8507",
+  "source_reports": [
+    "reports/legacy_perception_candidates.json",
+    "reports/legacy_tracker_config_inventory.json",
+    "reports/legacy_safety_boundary_review.md"
+  ],
+  "presets": [
+    {
+      "preset_id": "legacy_camera_profile_primary",
+      "source_file": "python/settings.json",
+      "camera_index": 1,
+      "width": 640,
+      "height": 480,
+      "fps": 60,
+      "color_space": "BGR",
+      "risk_class": "low",
+      "target_module": "Vision camera runtime / future real_camera profile",
+      "advisory_only": true,
+      "no_physical_command_generated": true
+    },
+    {
+      "preset_id": "legacy_camera_profile_root_variant",
+      "source_file": "settings.json",
+      "camera_index": 1,
+      "width": 1280,
+      "height": 720,
+      "fps": 50,
+      "color_space": "BGR",
+      "risk_class": "low",
+      "target_module": "Device profile candidate only",
+      "advisory_only": true,
+      "no_physical_command_generated": true
+    },
+    {
+      "preset_id": "legacy_threaded_camera_low_latency",
+      "source_file": "python/threaded_camera.py",
+      "values": {
+        "fourcc": "MJPG",
+        "fps": 60,
+        "buffersize": 1,
+        "autofocus": 0,
+        "auto_exposure": 0.25,
+        "exposure": -3,
+        "brightness": 150,
+        "warmup_frames": 10,
+        "warmup_timeout_s": 2.0
+      },
+      "risk_class": "low",
+      "target_module": "Camera Runtime probe/apply profile",
+      "advisory_only": true,
+      "no_physical_command_generated": true
+    },
+    {
+      "preset_id": "legacy_hsv_red_pink_balanced",
+      "source_file": "python/yolo_detector.py",
+      "hsv_lower": [
+        [
+          0,
+          50,
+          30
+        ],
+        [
+          160,
+          50,
+          30
+        ]
+      ],
+      "hsv_upper": [
+        [
+          20,
+          255,
+          255
+        ],
+        [
+          180,
+          255,
+          255
+        ]
+      ],
+      "blur_kernel": [
+        11,
+        11
+      ],
+      "morphology_kernel": [
+        5,
+        5
+      ],
+      "min_area": 300,
+      "circularity_min": 0.3,
+      "target_selection_rule": "largest_area_then_closest_to_crosshair",
+      "advisory_only": true,
+      "no_physical_command_generated": true
+    },
+    {
+      "preset_id": "legacy_color_tuner_presets",
+      "source_file": "python/color_settings_export.py",
+      "values": {
+        "strict": {
+          "min_area": 500,
+          "blur_size": 11
+        },
+        "sensitive": {
+          "min_area": 200,
+          "blur_size": 7
+        },
+        "balanced": {
+          "min_area": 300,
+          "blur_size": 9
+        },
+        "bright_light": {
+          "min_area": 400
+        },
+        "dim_light": {
+          "min_area": 200
+        }
+      },
+      "risk_class": "low",
+      "target_module": "Vision Settings preset candidates",
+      "advisory_only": true,
+      "no_physical_command_generated": true
+    },
+    {
+      "preset_id": "legacy_target_selection",
+      "source_file": "python/yolo_detector.py and python/main.py",
+      "values": {
+        "auto": "closest_to_crosshair",
+        "manual": "largest_blue_target",
+        "lost_target_hold_frames": 10,
+        "kalman_prediction": true
+      },
+      "risk_class": "low_to_medium",
+      "target_module": "Advisory tracking metadata/Data Lab",
+      "advisory_only": true,
+      "no_physical_command_generated": true
+    },
+    {
+      "preset_id": "legacy_latency_metrics",
+      "source_file": "python/main.py",
+      "values": {
+        "camera_time_ms": "overlay",
+        "detect_time_ms": "overlay",
+        "fps_counter": "1s window",
+        "detection_queue_in_size": 2,
+        "detection_queue_out_size": 1,
+        "detection_interval": 1
+      },
+      "risk_class": "low",
+      "target_module": "Vision FPS/latency UI and Data Lab metadata",
+      "advisory_only": true,
+      "no_physical_command_generated": true
+    },
+    {
+      "preset_id": "legacy_dataset_classes",
+      "source_file": "python/config.py and REQUIREMENTS.md",
+      "values": {
+        "red_balloon": 0,
+        "blue_balloon": 1,
+        "legacy_label_names": [
+          "red_balloon",
+          "blue_balloon"
+        ]
+      },
+      "risk_class": "medium",
+      "target_module": "Data Lab annotation class candidates, not competition model package",
+      "advisory_only": true,
+      "no_physical_command_generated": true
+    }
+  ],
+  "runtime_boundary": {
+    "advisory_only": true,
+    "no_physical_command_generated": true,
+    "physical_command_enabled": false,
+    "motor_servo_fire_gpio_pwm_step_dir_paths_enabled": false
+  }
+}

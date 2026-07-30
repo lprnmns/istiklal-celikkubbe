@@ -1,0 +1,60 @@
+{
+  "schema_version": "phase35.1",
+  "feature": "digital_twin_spatial_projection",
+  "endpoint": "/api/digital-twin/state",
+  "read_only": true,
+  "no_physical_command_generated": true,
+  "physical_command_enabled": false,
+  "digital_twin_command_authority": false,
+  "fields_added": [
+    "camera_fov_horizontal_deg",
+    "camera_fov_vertical_deg",
+    "camera_to_launcher_offset_z_mm",
+    "camera_to_launcher_offset_y_mm",
+    "projection_is_calibrated",
+    "depth_source",
+    "target_projection_estimates"
+  ],
+  "target_projection_estimate_contract": {
+    "mapping_source": "bbox_projection_estimate",
+    "depth_source": "bbox_area_relative_estimate",
+    "projection_is_calibrated": false,
+    "required_visual_fields": [
+      "target_id",
+      "class_name",
+      "confidence",
+      "confidence_label",
+      "bbox",
+      "normalized_center_x",
+      "normalized_center_y",
+      "normalized_screen_x",
+      "normalized_screen_y",
+      "bbox_area_ratio",
+      "azimuth_deg",
+      "elevation_deg",
+      "relative_depth",
+      "estimated_range_band",
+      "scene_position_m",
+      "selected",
+      "no_physical_command_generated"
+    ]
+  },
+  "calibration_defaults": {
+    "camera_fov_horizontal_deg": 62.0,
+    "camera_fov_vertical_deg": 38.0,
+    "camera_to_launcher_offset_z_mm": 30.0,
+    "camera_to_launcher_offset_y_mm": 0.0
+  },
+  "explicit_non_goals": [
+    "no motor command generation",
+    "no fire command generation",
+    "no servo command generation",
+    "no GPIO or PWM path",
+    "no STEP/DIR path",
+    "no serial TX/write path",
+    "no hardware enable path",
+    "not a calibrated range finder",
+    "not a physical fire solution"
+  ]
+}
+
